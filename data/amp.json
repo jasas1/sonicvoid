@@ -1,0 +1,266 @@
+{
+  "id": "wa33-gen2-standard",
+  "maker": "Woo Audio",
+  "model": "WA33",
+  "generation": 2,
+  "edition": "Standard",
+  "topology": "fully balanced push-pull class A, directly heated 2A3 output, 6C45 drivers, tube rectified",
+  "sockets": [
+    {
+      "id": "v1",
+      "family": "6C45",
+      "role": "driver",
+      "label": "V1",
+      "pos": [
+        -0.11,
+        0,
+        0.045
+      ]
+    },
+    {
+      "id": "v2",
+      "family": "6C45",
+      "role": "driver",
+      "label": "V2",
+      "pos": [
+        -0.06,
+        0,
+        0.002
+      ]
+    },
+    {
+      "id": "v3",
+      "family": "6C45",
+      "role": "driver",
+      "label": "V3",
+      "pos": [
+        0.06,
+        0,
+        0.002
+      ]
+    },
+    {
+      "id": "v4",
+      "family": "6C45",
+      "role": "driver",
+      "label": "V4",
+      "pos": [
+        0.11,
+        0,
+        0.045
+      ]
+    },
+    {
+      "id": "v5",
+      "family": "2A3",
+      "role": "power",
+      "label": "V5",
+      "pos": [
+        -0.134,
+        0,
+        -0.017
+      ]
+    },
+    {
+      "id": "v6",
+      "family": "2A3",
+      "role": "power",
+      "label": "V6",
+      "pos": [
+        -0.068,
+        0,
+        -0.063
+      ]
+    },
+    {
+      "id": "v7",
+      "family": "2A3",
+      "role": "power",
+      "label": "V7",
+      "pos": [
+        0.068,
+        0,
+        -0.063
+      ]
+    },
+    {
+      "id": "v8",
+      "family": "2A3",
+      "role": "power",
+      "label": "V8",
+      "pos": [
+        0.134,
+        0,
+        -0.017
+      ]
+    },
+    {
+      "id": "v9",
+      "family": "5U4G",
+      "role": "rectifier",
+      "label": "V9",
+      "pos": [
+        0.0,
+        0,
+        -0.005
+      ],
+      "accepts": [
+        "5U4G",
+        "274B"
+      ]
+    }
+  ],
+  "families": {
+    "2A3": {
+      "count": 4,
+      "role": "power",
+      "matched": "quad",
+      "note": "Directly heated power triode, 2.5 V / 2.5 A filament, 15 W plate. Four in push-pull. 300B does not fit."
+    },
+    "6C45": {
+      "count": 4,
+      "role": "driver",
+      "matched": "quad",
+      "note": "6S45P-E / 6C45Pi single high-transconductance triode, noval base. Drives the 2A3 grids."
+    },
+    "5U4G": {
+      "count": 1,
+      "role": "rectifier",
+      "matched": "single",
+      "note": "Full-wave rectifier, octal base, 5 V filament. 274B is the usual upgrade in this socket; voltage drop and current rating differ."
+    }
+  },
+  "stock_tubes": {
+    "status": "unverified",
+    "note": "Stock brands to be confirmed by the facts-wa33 research lane."
+  },
+  "facts": [
+    {
+      "claim": "Woo's quick-start guide lists four 2A3 power tubes in the WA33 2nd-generation box, so the amp uses a quad of 2A3 power tubes.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "2A3 power tube x 4"
+    },
+    {
+      "claim": "Woo's quick-start guide lists one 5U4G rectifier tube for the WA33 2nd generation, identifying the stock rectifier family and count.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "5U4G rectifier tube x 1"
+    },
+    {
+      "claim": "Woo's quick-start guide lists four 6C45 driver tubes for the WA33 2nd generation, so the driver complement is a matched four-tube set by count.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "6C45 driver tube x 4"
+    },
+    {
+      "claim": "Woo says the Standard and Elite WA33 2nd-generation versions ship with the same default tube set; the maker page lists tube types and counts but does not identify shipped tube brands.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "Default tubes are same for all versions"
+    },
+    {
+      "claim": "Woo's product-page box list names the in-box rectifier as 5U4G with 5U3C in parentheses, so the verified stock rectifier entry is 5U4G/5U3C, one tube.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "5U4G (5U3C) rectifier tube x 1"
+    },
+    {
+      "claim": "Woo's Takatsuki TA-274B page treats the TA-274B as a rectifier tube and lists WA33/WA33 Elite Edition in its compatibility section.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/tubes/takatsuki-ta274b-each",
+      "snippet": "WA33 / WA33 Elite Edition"
+    },
+    {
+      "claim": "Woo sells Electro Harmonix 6C45Pi as the WA33 driver-tube variant and describes it as performing in the WA33, confirming 6C45Pi within the 6C45 driver family.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/tubes/electroharmonix-6c45pi-quad",
+      "snippet": "for exceptional performance in WA33"
+    },
+    {
+      "claim": "Woo's Takatsuki TA-2A3 quad page lists WA33 Standard and Elite Edition compatibility specifically as a quad, matching the WA33's four-2A3 requirement.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/tubes/takatsuki-ta2a3-quad",
+      "snippet": "WA33 Standard and Elite Edition - quad"
+    },
+    {
+      "claim": "Woo's WE300B compatibility list names WA5/WA234MONO/3ES models rather than WA33; together with Woo's WA33 2A3 power-tube listing, this supports treating 300B as not fitting the WA33.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/tubes/western-electric-we300b-select",
+      "snippet": "3ES Standard and Elite Edition"
+    },
+    {
+      "claim": "Woo's current variant data lists the WA33 2nd-generation Standard edition at USD 9,999.00; the sale-price field is present but the variant is marked not on sale.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "\"price\":999900,\"salePrice\":949900,\"priceMoney\":{\"currency\":\"USD\",\"value\":\"9999.00\"}"
+    },
+    {
+      "claim": "Woo's current variant data lists the WA33 2nd-generation Elite Edition at USD 16,999.00; the sale-price field is present but the variant is marked not on sale.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "\"price\":1699900,\"salePrice\":1614900,\"priceMoney\":{\"currency\":\"USD\",\"value\":\"16999.00\"}"
+    },
+    {
+      "claim": "Woo describes the 2nd-generation WA33 as adding direct-drive current output for True Ribbon headphones, a key functional change from the earlier WA33 use case.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "introduce direct-drive current output for True Ribbon headphones"
+    },
+    {
+      "claim": "Woo says the Elite Edition adds upgraded output transformers, single-crystal wiring, upgraded volume control, Mundorf capacitors, premium connectors, and a gold-plated plaque.",
+      "kind": "fit",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "Ultra high-bandwidth, low-loss output transformers custom-made"
+    },
+    {
+      "claim": "Woo states that the WA33 is self-biasing when compatible tubes are used, so tube rolling should stay within compatible tube families rather than requiring manual bias adjustment.",
+      "kind": "warning",
+      "url": "https://wooaudio.com/amplifiers/wa33?format=json",
+      "snippet": "Self-biasing with compatible tubes"
+    },
+    {
+      "claim": "Woo's quick-start tube-installation instructions say to handle tubes with clean hands or gloves, which is a handling precaution before installing or rolling tubes.",
+      "kind": "warning",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "Handle tubes with clean hands or use gloves"
+    },
+    {
+      "claim": "Woo instructs users to allow the WA33 tubes five to ten minutes after power-on to reach operating temperature before judging or using the amp normally.",
+      "kind": "warning",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "minutes for the tubes to reach operating temperature"
+    },
+    {
+      "claim": "Woo's 2A3 installation procedure tells the user to hold the tube base firmly and align both the thick and thin pins before seating the 2A3 tubes.",
+      "kind": "warning",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "Allign both the THICK & thin pins"
+    },
+    {
+      "claim": "Woo's quick-start guide includes a dedicated step for installing the single 5U4G tube and shows its guide-pin orientation for correct rectifier placement.",
+      "kind": "warning",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "Installing 5U4G tube x1"
+    },
+    {
+      "claim": "Woo's quick-start guide includes a dedicated installation step for the four 6C45 tubes and calls attention to tube-pin orientation.",
+      "kind": "warning",
+      "url": "https://wooaudio.com/s/WA33-2nd-Gen-Quick-Start-Guide.pdf",
+      "snippet": "Installing 6C45 tubes x4"
+    }
+  ],
+  "dimensions": {
+    "width_mm": 444.5,
+    "depth_mm": 304.8,
+    "height_mm_no_tubes": 190.5,
+    "height_mm_with_tubes": 330.2,
+    "block_height_mm": 95.25,
+    "layout": "two stacked blocks: amplifier above, power supply below (Internal Coupling Architecture, no umbilical)",
+    "front_panel": "centre volume knob; left to right: 4-pin XLR (ribbon), 6.3 mm TRS, 4.4 mm balanced, 4-pin XLR balanced; toggles for input, impedance, output",
+    "rear_panel": "two balanced XLR input pairs, one RCA pair, one balanced XLR pre-out pair on the upper block; AC inlet and voltage selector on the lower block",
+    "power_w": 150,
+    "source": "summary supplied by Jas 2026-10-12 citing wooaudio.com, audioadvisor.com, mimic-audio.com; verify against Woo's spec sheet"
+  },
+  "layout_note": "Positions measured from Jas's top-down photo of his WA33 Gen 2 (2026-10-12): the five big tubes form an arc (outer 2A3s forward, inner 2A3s back, 5U4G centre-forward); the four 6C45 form a second arc in front (outer pair forward). Chassis: upper amp block on pillars over the power block; five knobs on the upper face; gold port plate + power ring on the lower face."
+}

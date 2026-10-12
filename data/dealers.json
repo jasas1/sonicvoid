@@ -1,0 +1,180 @@
+[
+ {
+  "dealer": "Alex Sound Technology",
+  "region": "US",
+  "families": [
+   "274B",
+   "2A3"
+  ],
+  "listings": 3,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "BTB Elektronik",
+  "region": "EU",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "listings": 51,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Brent Jessee Recording & Supply, Inc.",
+  "region": "US",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G"
+  ],
+  "listings": 33,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "ELROG",
+  "region": "EU",
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "listings": 2,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Hifi Collective",
+  "region": "UK",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "listings": 19,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "JAC Music",
+  "region": "EU",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G"
+  ],
+  "listings": 10,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Langrex",
+  "region": "UK",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G"
+  ],
+  "listings": 10,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Parts ConneXion",
+  "region": "US",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "listings": 6,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Sophia Electric",
+  "region": "US",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G"
+  ],
+  "listings": 6,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Tube Amp Doctor",
+  "region": "EU",
+  "families": [
+   "274B",
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "listings": 23,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Upscale Audio",
+  "region": "US",
+  "families": [],
+  "listings": 0,
+  "checked": "2026-10-12",
+  "status": "none-in-scope",
+  "note": "Public catalogue holds 46 tube products (KT88, EL34, 300B, 5AR4/GZ34, preamp tubes); site search returns '0 results found for \"2A3\"', none for 274B, 5U4G or 6C45. Harvested on the host with tools/fetch_rendered.mjs (rendered pages) because the worker sandbox cannot resolve the host.",
+  "evidence": "research/sources/upscale-search-2A3-2026-10-12.html"
+ },
+ {
+  "dealer": "Vintage Tube Services",
+  "region": "US",
+  "families": [
+   "2A3",
+   "5U4G"
+  ],
+  "listings": 6,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Viva Tubes",
+  "region": "US",
+  "families": [
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "listings": 13,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Watford Valves",
+  "region": "UK",
+  "families": [
+   "5U4G",
+   "6C45"
+  ],
+  "listings": 9,
+  "checked": "2026-10-12",
+  "status": "listed"
+ },
+ {
+  "dealer": "Woo Audio",
+  "region": "US",
+  "families": [
+   "274B",
+   "2A3",
+   "6C45"
+  ],
+  "listings": 14,
+  "checked": "2026-10-12",
+  "status": "listed"
+ }
+]

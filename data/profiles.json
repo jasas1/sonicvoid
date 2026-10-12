@@ -1,0 +1,963 @@
+{
+ "note": "Sonic profiles on eight 0-100 axes. basis 'seed' = orchestrator prior from widely repeated forum lore and construction physics, pending swarm evidence; the merge tool raises n_sources from verified lore claims and nudges values toward the descriptor tallies. These are expectations, not measurements. Each tube keeps its frozen 'seed' values; merges nudge from the seed, so re-running the merge never compounds.",
+ "axes": [
+  {
+   "id": "warmth",
+   "label": "Warmth",
+   "low": "lean",
+   "high": "lush"
+  },
+  {
+   "id": "bass",
+   "label": "Bass weight",
+   "low": "light",
+   "high": "heavy"
+  },
+  {
+   "id": "air",
+   "label": "Treble air",
+   "low": "rolled",
+   "high": "extended"
+  },
+  {
+   "id": "detail",
+   "label": "Detail",
+   "low": "soft focus",
+   "high": "resolving"
+  },
+  {
+   "id": "speed",
+   "label": "Speed",
+   "low": "soft",
+   "high": "fast"
+  },
+  {
+   "id": "dynamics",
+   "label": "Dynamics",
+   "low": "polite",
+   "high": "slam"
+  },
+  {
+   "id": "stage",
+   "label": "Stage",
+   "low": "intimate",
+   "high": "wide"
+  },
+  {
+   "id": "black",
+   "label": "Background",
+   "low": "noisy",
+   "high": "black"
+  }
+ ],
+ "weights": {
+  "power": 0.55,
+  "rectifier": 0.3,
+  "driver": 0.15
+ },
+ "physics": {
+  "mesh plate": {
+   "air": 6,
+   "bass": -4,
+   "speed": -3,
+   "note": "A woven mesh anode runs hotter and more evenly; owners describe the result as airier and softer in the bass."
+  },
+  "thoriated tungsten filament": {
+   "speed": 8,
+   "warmth": -6,
+   "note": "Thoriated tungsten filaments emit harder and faster; the house sound is clean and quick."
+  },
+  "high voltage drop": {
+   "speed": -6,
+   "warmth": 4,
+   "note": "A rectifier with a larger internal drop sags more under load, which listeners hear as softer dynamics and a warmer balance."
+  },
+  "low voltage drop": {
+   "speed": 5,
+   "bass": 4,
+   "note": "A stiffer rectifier (smaller drop) holds B+ under transients: tighter bass, faster attacks."
+  }
+ },
+ "tubes": {
+  "eh-2a3": {
+   "warmth": 50,
+   "bass": 58,
+   "air": 55,
+   "speed": 58,
+   "stage": 52,
+   "black": 55,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 56,
+   "dynamics": 58,
+   "seed": {
+    "warmth": 50,
+    "bass": 58,
+    "air": 55,
+    "detail": 56,
+    "speed": 58,
+    "dynamics": 58,
+    "stage": 52,
+    "black": 55
+   }
+  },
+  "sovtek-2a3": {
+   "warmth": 43,
+   "bass": 70,
+   "air": 56,
+   "speed": 90,
+   "stage": 50,
+   "black": 57,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 55,
+   "dynamics": 62,
+   "seed": {
+    "warmth": 44,
+    "bass": 68,
+    "air": 56,
+    "detail": 52,
+    "speed": 84,
+    "dynamics": 56,
+    "stage": 50,
+    "black": 56
+   }
+  },
+  "takatsuki-ta-2a3": {
+   "warmth": 60,
+   "bass": 66,
+   "air": 76,
+   "speed": 74,
+   "stage": 80,
+   "black": 86,
+   "basis": "seed+lore",
+   "n_sources": 2,
+   "detail": 85,
+   "dynamics": 78,
+   "seed": {
+    "warmth": 60,
+    "bass": 66,
+    "air": 76,
+    "detail": 85,
+    "speed": 74,
+    "dynamics": 78,
+    "stage": 80,
+    "black": 86
+   }
+  },
+  "eml-2a3-mesh": {
+   "warmth": 70,
+   "bass": 54,
+   "air": 82,
+   "speed": 60,
+   "stage": 84,
+   "black": 70,
+   "basis": "seed+lore",
+   "n_sources": 3,
+   "detail": 78,
+   "dynamics": 55,
+   "seed": {
+    "warmth": 70,
+    "bass": 54,
+    "air": 82,
+    "detail": 78,
+    "speed": 60,
+    "dynamics": 55,
+    "stage": 84,
+    "black": 70
+   }
+  },
+  "eml-2a3-mesh-globe": {
+   "warmth": 72,
+   "bass": 52,
+   "air": 84,
+   "speed": 58,
+   "stage": 88,
+   "black": 70,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 80,
+   "dynamics": 52,
+   "seed": {
+    "warmth": 72,
+    "bass": 52,
+    "air": 84,
+    "detail": 80,
+    "speed": 58,
+    "dynamics": 52,
+    "stage": 88,
+    "black": 70
+   }
+  },
+  "eml-2a3-s": {
+   "warmth": 55,
+   "bass": 74,
+   "air": 66,
+   "speed": 72,
+   "stage": 70,
+   "black": 76,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 74,
+   "dynamics": 72,
+   "seed": {
+    "warmth": 55,
+    "bass": 74,
+    "air": 66,
+    "detail": 74,
+    "speed": 72,
+    "dynamics": 72,
+    "stage": 70,
+    "black": 76
+   }
+  },
+  "sophia-2a3-mesh": {
+   "warmth": 95,
+   "bass": 50,
+   "air": 89,
+   "speed": 39,
+   "stage": 95,
+   "black": 64,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 70,
+   "dynamics": 48,
+   "seed": {
+    "warmth": 92,
+    "bass": 50,
+    "air": 86,
+    "detail": 70,
+    "speed": 42,
+    "dynamics": 50,
+    "stage": 95,
+    "black": 64
+   }
+  },
+  "sophia-royal-princess-2a3": {
+   "warmth": 66,
+   "bass": 64,
+   "air": 70,
+   "speed": 64,
+   "stage": 74,
+   "black": 70,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 72,
+   "dynamics": 64,
+   "seed": {
+    "warmth": 66,
+    "bass": 64,
+    "air": 70,
+    "detail": 72,
+    "speed": 64,
+    "dynamics": 64,
+    "stage": 74,
+    "black": 70
+   }
+  },
+  "elrog-er2a3": {
+   "warmth": 36,
+   "bass": 80,
+   "air": 86,
+   "speed": 90,
+   "stage": 76,
+   "black": 86,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 90,
+   "dynamics": 85,
+   "seed": {
+    "warmth": 36,
+    "bass": 80,
+    "air": 86,
+    "detail": 90,
+    "speed": 90,
+    "dynamics": 85,
+    "stage": 76,
+    "black": 86
+   }
+  },
+  "kr-2a3": {
+   "warmth": 46,
+   "bass": 84,
+   "air": 70,
+   "speed": 80,
+   "stage": 72,
+   "black": 80,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 80,
+   "dynamics": 84,
+   "seed": {
+    "warmth": 46,
+    "bass": 84,
+    "air": 70,
+    "detail": 80,
+    "speed": 80,
+    "dynamics": 84,
+    "stage": 72,
+    "black": 80
+   }
+  },
+  "linlai-elite-2a3": {
+   "warmth": 56,
+   "bass": 70,
+   "air": 70,
+   "speed": 70,
+   "stage": 70,
+   "black": 74,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 72,
+   "dynamics": 70,
+   "seed": {
+    "warmth": 56,
+    "bass": 70,
+    "air": 70,
+    "detail": 72,
+    "speed": 70,
+    "dynamics": 70,
+    "stage": 70,
+    "black": 74
+   }
+  },
+  "psvane-2a3": {
+   "warmth": 95,
+   "bass": 60,
+   "air": 59,
+   "speed": 55,
+   "stage": 79,
+   "black": 69,
+   "basis": "seed+lore",
+   "n_sources": 2,
+   "detail": 63,
+   "dynamics": 60,
+   "seed": {
+    "warmth": 95,
+    "bass": 60,
+    "air": 60,
+    "detail": 64,
+    "speed": 56,
+    "dynamics": 60,
+    "stage": 76,
+    "black": 68
+   }
+  },
+  "shuguang-2a3": {
+   "warmth": 58,
+   "bass": 58,
+   "air": 60,
+   "speed": 58,
+   "stage": 60,
+   "black": 60,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 58,
+   "dynamics": 56,
+   "seed": {
+    "warmth": 58,
+    "bass": 58,
+    "air": 60,
+    "detail": 58,
+    "speed": 58,
+    "dynamics": 56,
+    "stage": 60,
+    "black": 60
+   }
+  },
+  "jj-2a3-40": {
+   "warmth": 35,
+   "bass": 95,
+   "air": 77,
+   "speed": 95,
+   "stage": 62,
+   "black": 70,
+   "basis": "seed+lore",
+   "n_sources": 2,
+   "detail": 68,
+   "dynamics": 83,
+   "seed": {
+    "warmth": 38,
+    "bass": 92,
+    "air": 74,
+    "detail": 66,
+    "speed": 95,
+    "dynamics": 78,
+    "stage": 62,
+    "black": 70
+   }
+  },
+  "nos-rca-2a3-single": {
+   "warmth": 95,
+   "bass": 61,
+   "air": 71,
+   "speed": 62,
+   "stage": 71,
+   "black": 62,
+   "basis": "seed+lore",
+   "n_sources": 2,
+   "detail": 83,
+   "dynamics": 58,
+   "seed": {
+    "warmth": 95,
+    "bass": 60,
+    "air": 72,
+    "detail": 82,
+    "speed": 62,
+    "dynamics": 58,
+    "stage": 74,
+    "black": 62
+   }
+  },
+  "nos-rca-2a3-bi": {
+   "warmth": 66,
+   "bass": 64,
+   "air": 66,
+   "speed": 64,
+   "stage": 72,
+   "black": 66,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 72,
+   "dynamics": 64,
+   "seed": {
+    "warmth": 66,
+    "bass": 64,
+    "air": 66,
+    "detail": 72,
+    "speed": 64,
+    "dynamics": 64,
+    "stage": 72,
+    "black": 66
+   }
+  },
+  "nos-sylvania-2a3": {
+   "warmth": 56,
+   "bass": 70,
+   "air": 70,
+   "speed": 70,
+   "stage": 70,
+   "black": 70,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 70,
+   "dynamics": 70,
+   "seed": {
+    "warmth": 56,
+    "bass": 70,
+    "air": 70,
+    "detail": 70,
+    "speed": 70,
+    "dynamics": 70,
+    "stage": 70,
+    "black": 70
+   }
+  },
+  "nos-tungsol-2a3": {
+   "warmth": 62,
+   "bass": 64,
+   "air": 66,
+   "speed": 64,
+   "stage": 70,
+   "black": 66,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 70,
+   "dynamics": 66,
+   "seed": {
+    "warmth": 62,
+    "bass": 64,
+    "air": 66,
+    "detail": 70,
+    "speed": 64,
+    "dynamics": 66,
+    "stage": 70,
+    "black": 66
+   }
+  },
+  "eh-6c45pi": {
+   "warmth": 53,
+   "bass": 61,
+   "air": 73,
+   "speed": 78,
+   "stage": 82,
+   "black": 58,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 62,
+   "dynamics": 61,
+   "seed": {
+    "warmth": 52,
+    "bass": 58,
+    "air": 68,
+    "detail": 58,
+    "speed": 72,
+    "dynamics": 58,
+    "stage": 72,
+    "black": 56
+   }
+  },
+  "sovtek-6c45pi": {
+   "warmth": 50,
+   "bass": 52,
+   "air": 52,
+   "speed": 58,
+   "stage": 50,
+   "black": 50,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 56,
+   "dynamics": 56,
+   "seed": {
+    "warmth": 50,
+    "bass": 52,
+    "air": 52,
+    "detail": 56,
+    "speed": 58,
+    "dynamics": 56,
+    "stage": 50,
+    "black": 50
+   }
+  },
+  "nos-reflektor-6s45p-e": {
+   "warmth": 43,
+   "bass": 58,
+   "air": 72,
+   "speed": 85,
+   "stage": 64,
+   "black": 68,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 79,
+   "dynamics": 71,
+   "seed": {
+    "warmth": 44,
+    "bass": 58,
+    "air": 72,
+    "detail": 76,
+    "speed": 82,
+    "dynamics": 70,
+    "stage": 64,
+    "black": 70
+   }
+  },
+  "nos-svetlana-6s45p-e": {
+   "warmth": 48,
+   "bass": 56,
+   "air": 66,
+   "speed": 72,
+   "stage": 62,
+   "black": 68,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 72,
+   "dynamics": 66,
+   "seed": {
+    "warmth": 48,
+    "bass": 56,
+    "air": 66,
+    "detail": 72,
+    "speed": 72,
+    "dynamics": 66,
+    "stage": 62,
+    "black": 68
+   }
+  },
+  "sovtek-5u4g": {
+   "warmth": 50,
+   "bass": 50,
+   "air": 50,
+   "speed": 50,
+   "stage": 50,
+   "black": 50,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 50,
+   "dynamics": 50,
+   "seed": {
+    "warmth": 50,
+    "bass": 50,
+    "air": 50,
+    "detail": 50,
+    "speed": 50,
+    "dynamics": 50,
+    "stage": 50,
+    "black": 50
+   }
+  },
+  "eh-5u4gb": {
+   "warmth": 48,
+   "bass": 54,
+   "air": 50,
+   "speed": 54,
+   "stage": 50,
+   "black": 52,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 52,
+   "dynamics": 56,
+   "seed": {
+    "warmth": 48,
+    "bass": 54,
+    "air": 50,
+    "detail": 52,
+    "speed": 54,
+    "dynamics": 56,
+    "stage": 50,
+    "black": 52
+   }
+  },
+  "tungsol-5u4g-reissue": {
+   "warmth": 52,
+   "bass": 54,
+   "air": 52,
+   "speed": 52,
+   "stage": 52,
+   "black": 54,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 54,
+   "dynamics": 54,
+   "seed": {
+    "warmth": 52,
+    "bass": 54,
+    "air": 52,
+    "detail": 54,
+    "speed": 52,
+    "dynamics": 54,
+    "stage": 52,
+    "black": 54
+   }
+  },
+  "eml-5u4g-mesh": {
+   "warmth": 84,
+   "bass": 58,
+   "air": 90,
+   "speed": 63,
+   "stage": 77,
+   "black": 90,
+   "basis": "seed+lore",
+   "n_sources": 3,
+   "detail": 72,
+   "dynamics": 59,
+   "seed": {
+    "warmth": 80,
+    "bass": 58,
+    "air": 88,
+    "detail": 70,
+    "speed": 62,
+    "dynamics": 56,
+    "stage": 76,
+    "black": 86
+   }
+  },
+  "kr-5u4g": {
+   "warmth": 46,
+   "bass": 70,
+   "air": 64,
+   "speed": 74,
+   "stage": 64,
+   "black": 76,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 72,
+   "dynamics": 78,
+   "seed": {
+    "warmth": 46,
+    "bass": 70,
+    "air": 64,
+    "detail": 72,
+    "speed": 74,
+    "dynamics": 78,
+    "stage": 64,
+    "black": 76
+   }
+  },
+  "nos-rca-5u4g": {
+   "warmth": 90,
+   "bass": 60,
+   "air": 51,
+   "speed": 56,
+   "stage": 60,
+   "black": 60,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 61,
+   "dynamics": 62,
+   "seed": {
+    "warmth": 84,
+    "bass": 60,
+    "air": 52,
+    "detail": 62,
+    "speed": 56,
+    "dynamics": 62,
+    "stage": 60,
+    "black": 60
+   }
+  },
+  "nos-sylvania-5u4g": {
+   "warmth": 56,
+   "bass": 62,
+   "air": 58,
+   "speed": 60,
+   "stage": 58,
+   "black": 62,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 62,
+   "dynamics": 66,
+   "seed": {
+    "warmth": 56,
+    "bass": 62,
+    "air": 58,
+    "detail": 62,
+    "speed": 60,
+    "dynamics": 66,
+    "stage": 58,
+    "black": 62
+   }
+  },
+  "nos-tungsol-5u4g": {
+   "warmth": 58,
+   "bass": 64,
+   "air": 60,
+   "speed": 62,
+   "stage": 62,
+   "black": 64,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 64,
+   "dynamics": 68,
+   "seed": {
+    "warmth": 58,
+    "bass": 64,
+    "air": 60,
+    "detail": 64,
+    "speed": 62,
+    "dynamics": 68,
+    "stage": 62,
+    "black": 64
+   }
+  },
+  "nos-svetlana-5u4g": {
+   "warmth": 54,
+   "bass": 58,
+   "air": 56,
+   "speed": 58,
+   "stage": 56,
+   "black": 60,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 58,
+   "dynamics": 60,
+   "seed": {
+    "warmth": 54,
+    "bass": 58,
+    "air": 56,
+    "detail": 58,
+    "speed": 58,
+    "dynamics": 60,
+    "stage": 56,
+    "black": 60
+   }
+  },
+  "takatsuki-ta-274b": {
+   "warmth": 46,
+   "bass": 76,
+   "air": 82,
+   "speed": 86,
+   "stage": 84,
+   "black": 92,
+   "basis": "seed+lore",
+   "n_sources": 4,
+   "detail": 88,
+   "dynamics": 86,
+   "seed": {
+    "warmth": 46,
+    "bass": 76,
+    "air": 82,
+    "detail": 88,
+    "speed": 86,
+    "dynamics": 86,
+    "stage": 84,
+    "black": 92
+   }
+  },
+  "sophia-aqua-274b": {
+   "warmth": 95,
+   "bass": 95,
+   "air": 85,
+   "speed": 95,
+   "stage": 95,
+   "black": 95,
+   "basis": "seed+lore",
+   "n_sources": 11,
+   "detail": 87,
+   "dynamics": 87,
+   "seed": {
+    "warmth": 95,
+    "bass": 95,
+    "air": 86,
+    "detail": 74,
+    "speed": 95,
+    "dynamics": 74,
+    "stage": 95,
+    "black": 95
+   }
+  },
+  "sophia-274b-mesh": {
+   "warmth": 70,
+   "bass": 56,
+   "air": 72,
+   "speed": 56,
+   "stage": 76,
+   "black": 66,
+   "basis": "seed+lore",
+   "n_sources": 3,
+   "detail": 68,
+   "dynamics": 56,
+   "seed": {
+    "warmth": 70,
+    "bass": 56,
+    "air": 72,
+    "detail": 68,
+    "speed": 56,
+    "dynamics": 56,
+    "stage": 76,
+    "black": 66
+   }
+  },
+  "eml-274b-mesh": {
+   "warmth": 80,
+   "bass": 64,
+   "air": 79,
+   "speed": 69,
+   "stage": 91,
+   "black": 86,
+   "basis": "seed+lore",
+   "n_sources": 2,
+   "detail": 78,
+   "dynamics": 65,
+   "seed": {
+    "warmth": 76,
+    "bass": 64,
+    "air": 80,
+    "detail": 76,
+    "speed": 68,
+    "dynamics": 62,
+    "stage": 88,
+    "black": 84
+   }
+  },
+  "elrog-er274b": {
+   "warmth": 40,
+   "bass": 80,
+   "air": 82,
+   "speed": 86,
+   "stage": 76,
+   "black": 86,
+   "basis": "seed+lore",
+   "n_sources": 1,
+   "detail": 86,
+   "dynamics": 84,
+   "seed": {
+    "warmth": 40,
+    "bass": 80,
+    "air": 82,
+    "detail": 86,
+    "speed": 86,
+    "dynamics": 84,
+    "stage": 76,
+    "black": 86
+   }
+  },
+  "psvane-we274b": {
+   "warmth": 56,
+   "bass": 66,
+   "air": 66,
+   "speed": 66,
+   "stage": 66,
+   "black": 70,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 68,
+   "dynamics": 68,
+   "seed": {
+    "warmth": 56,
+    "bass": 66,
+    "air": 66,
+    "detail": 68,
+    "speed": 66,
+    "dynamics": 68,
+    "stage": 66,
+    "black": 70
+   }
+  },
+  "linlai-274b": {
+   "warmth": 54,
+   "bass": 66,
+   "air": 66,
+   "speed": 66,
+   "stage": 66,
+   "black": 70,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 68,
+   "dynamics": 68,
+   "seed": {
+    "warmth": 54,
+    "bass": 66,
+    "air": 66,
+    "detail": 68,
+    "speed": 66,
+    "dynamics": 68,
+    "stage": 66,
+    "black": 70
+   }
+  },
+  "shuguang-274b": {
+   "warmth": 58,
+   "bass": 62,
+   "air": 62,
+   "speed": 62,
+   "stage": 62,
+   "black": 64,
+   "basis": "seed",
+   "n_sources": 0,
+   "detail": 62,
+   "dynamics": 62,
+   "seed": {
+    "warmth": 58,
+    "bass": 62,
+    "air": 62,
+    "detail": 62,
+    "speed": 62,
+    "dynamics": 62,
+    "stage": 62,
+    "black": 64
+   }
+  },
+  "we-274b": {
+   "warmth": 95,
+   "bass": 85,
+   "air": 83,
+   "speed": 85,
+   "stage": 95,
+   "black": 95,
+   "basis": "seed+lore",
+   "n_sources": 3,
+   "detail": 90,
+   "dynamics": 83,
+   "seed": {
+    "warmth": 95,
+    "bass": 84,
+    "air": 84,
+    "detail": 86,
+    "speed": 84,
+    "dynamics": 80,
+    "stage": 95,
+    "black": 95
+   }
+  }
+ }
+}

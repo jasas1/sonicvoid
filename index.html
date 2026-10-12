@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Acoustic Vacuum</title>
+<meta name="description" content="Tube rolling reference for the Woo Audio WA33 Gen 2: what fits, what pairs, what it costs today, and where to order.">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="vendor/fonts.css">
+<link rel="stylesheet" href="css/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23070605'/%3E%3Cpath d='M16 4c-5 0-7 5-7 11v9h14v-9c0-6-2-11-7-11z' fill='none' stroke='%239aa3ad' stroke-width='1.5'/%3E%3Cpath d='M16 10v10' stroke='%23ff9a3c' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
+<script type="importmap">
+{ "imports": { "three": "./vendor/three.module.js", "three/addons/controls/OrbitControls.js": "./vendor/OrbitControls.js" } }
+</script>
+</head>
+<body>
+<!--
+THESIS: a dark workbench where the WA33 sits lit by its own tubes; everything else is datasheet engineering drawn on black. Refuses the glowing-card dashboard: amber is light out of tubes, never a border.
+OWN-WORLD: warm near-black ground, warm off-white ink, filament amber as light, chassis steel as the cool neutral, hairline grids. Big Shoulders Display / Hanken Grotesk / Sometype Mono. Datasheet rows, meter arcs, tester tickets, curve canvases.
+STORY: see the amp warm up, read the three sockets, pick a 2A3 and a rectifier, read what it should sound like and why, play with the curves, then find today's price and the order path.
+FIRST VIEWPORT: full-bleed 3D WA33, low front angle, filaments warming over 2.5 s; small title top-left; "scroll to open the sockets" at the bottom edge. Scrolling lifts the camera to a socket map; clicking a tube is the primary action.
+FORM: datasheet-on-black (candidates 1+2+4 of docs/design-direction.md); concept roll declined by Jas, no seed key.
+FINISH: unreviewed and undocumented is unfinished; this build ends with the finish review, the verdict, and DESIGN.md.
+-->
+<a class="skip" href="#sockets">Skip to content</a>
+
+<nav class="rail" aria-label="Sections">
+  <a class="rail-brand" href="#top">Acoustic<br>Vacuum</a>
+  <ul>
+    <li><a href="#top" data-nav="top">Amp</a></li>
+    <li><a href="#sockets" data-nav="sockets">Sockets</a></li>
+    <li><a href="#roll" data-nav="roll">Roll</a></li>
+    <li><a href="#matrix" data-nav="matrix">Matrix</a></li>
+    <li><a href="#bench" data-nav="bench">Bench</a></li>
+    <li><a href="#market" data-nav="market">Market</a></li>
+    <li><a href="#library" data-nav="library">Library</a></li>
+  </ul>
+  <p class="rail-foot mono" id="data-stamp">seed</p>
+</nav>
+
+<main id="top">
+
+  <!-- ===== HERO: the amp, lit ===== -->
+  <section class="hero" id="hero" aria-label="Woo Audio WA33, lit">
+    <div class="hero-sticky">
+      <canvas id="amp-canvas" aria-label="3D model of the Woo Audio WA33 with its nine tubes. Click a tube to roll it."></canvas>
+      <header class="hero-title">
+        <h1>Acoustic Vacuum</h1>
+        <p class="hero-sub">Woo Audio WA33 <span class="tag">Gen 2 · Standard</span> tube rolling reference</p>
+      </header>
+      <p class="hero-hint" id="hero-hint"><span class="hint-line"></span>scroll to open the sockets</p>
+      <div class="hero-readout mono" id="hero-readout" aria-live="polite"></div>
+      <div class="socket-labels" id="socket-labels" aria-hidden="true"></div>
+
+      <!-- Roll panel docks over the top-down view -->
+      <aside class="roll-panel" id="roll" aria-label="Roll a tube">
+        <div class="roll-head">
+          <h2>Roll a tube</h2>
+          <p>Pick a socket, then a tube. The amp redraws and the expected character rewrites itself.</p>
+          <p class="dock-summary" id="dock-summary"></p>
+          <button type="button" class="roll-change" id="roll-change" aria-expanded="false">Change tubes <svg viewBox="0 0 10 10" aria-hidden="true"><path d="M2 3.5L5 6.5L8 3.5" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></button>
+        </div>
+        <div class="roll-sockets" role="tablist" aria-label="Socket family">
+          <button class="socket-tab" role="tab" data-role="power" aria-selected="true">2A3 <span class="mono">×4</span><small>power</small></button>
+          <button class="socket-tab" role="tab" data-role="rectifier" aria-selected="false">5U4G / 274B <span class="mono">×1</span><small>rectifier</small></button>
+          <button class="socket-tab" role="tab" data-role="driver" aria-selected="false">6C45 <span class="mono">×4</span><small>driver</small></button>
+        </div>
+        <p class="pool-count mono" id="pool-count"></p>
+        <div class="roll-pool-wrap"><div class="roll-pool" id="roll-pool" role="listbox" aria-label="Tube pool"></div></div>
+        <div class="roll-result">
+          <div class="view-toggle seg" role="group" aria-label="Chart view">
+            <button type="button" class="seg-btn" data-view="meters" aria-pressed="true">Meters</button>
+            <button type="button" class="seg-btn" data-view="spider" aria-pressed="false">Spider</button>
+          </div>
+          <div class="meters" id="meters" aria-label="Expected character"></div>
+          <div class="spider" id="spider" hidden aria-label="Expected character, spider view"></div>
+          <p class="verdict" id="verdict"></p>
+          <p class="basis mono" id="basis"></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ===== SOCKETS: what fits ===== -->
+  <section class="sheet" id="sockets">
+    <h2 class="sheet-title">What fits</h2>
+    <p class="lede">Nine sockets, three families. The socket decides; a tube that is not on this sheet does not go in the amp.</p>
+    <div class="socket-sheet" id="socket-sheet"></div>
+    <p class="fine" id="amp-facts-note">Stock tube brands and the Gen 2 changes are being confirmed from Woo Audio's own pages by the research run; until then this sheet shows the family facts only.</p>
+  </section>
+
+  <!-- ===== MATRIX: combinations ===== -->
+  <section class="sheet" id="matrix">
+    <h2 class="sheet-title">Combinations</h2>
+    <p class="lede">Every 2A3 against every rectifier. Each cell is the blended profile; warm cells lean lush, cool cells lean lean. Click a cell to load it into the roll panel.</p>
+    <div class="seg view-toggle combo-toggle" role="group" aria-label="Combinations view">
+      <button type="button" class="seg-btn" data-combo="grid" aria-pressed="true">Grid</button>
+      <button type="button" class="seg-btn" data-combo="cube" aria-pressed="false">Cube</button>
+    </div>
+    <p class="matrix-key">Bars, left to right: warmth · bass · air · detail · speed · dynamics · stage · background. Hover or focus a cell to read it.</p>
+    <p class="matrix-readout mono" id="matrix-readout" aria-live="polite">Hover a cell.</p>
+    <div class="matrix-wrap" id="combo-grid">
+      <div class="matrix" id="matrix-grid" role="grid" aria-label="2A3 by rectifier combination matrix"></div>
+    </div>
+    <div class="cube-view" id="combo-cube" hidden>
+      <div class="cube-controls" id="cube-controls"></div>
+      <div class="cube-wrap"><canvas id="cube-canvas" aria-label="Three-dimensional lattice of every driver, 2A3 and rectifier combination; drag to rotate"></canvas></div>
+    </div>
+    <p class="fine">Profiles are expectations blended from construction physics and tallied forum and review descriptors, weighted power 55 %, rectifier 30 %, driver 15 %. They are not measurements. Evidence counts rise as the research run verifies claims.</p>
+  </section>
+
+  <!-- ===== BENCH: physics explorers ===== -->
+  <section class="sheet bench" id="bench">
+    <h2 class="sheet-title">Bench</h2>
+    <p class="lede">The engineering behind the lore. Drag the values; the curves are computed from datasheet models, not drawn.</p>
+
+    <article class="bench-card" id="bench-signal">
+      <header><h3>Signal path</h3><p>One loop, source to headphones. Amber dots are the hot phase, steel dots the cold phase; inside each tube, electrons leave the filament and land on the plate. Watch the two 2A3 plate currents: both stay above zero for the whole cycle. That is class A. The transformer takes their difference, which is what push-pull means. Representative topology, not Woo's schematic.</p></header>
+      <div class="signal-figure" id="signal-figure"></div>
+      <dl class="readout mono signal-key"><dt>AC</dt><dd>wavy wire, dots surge with the signal</dd><dt>pulsating DC</dt><dd>after the rectifier, before the filter</dd><dt>DC</dt><dd>flat wire, steady dots</dd><dt>electrons</dt><dd>pale dots, filament → plate, gated by the grid</dd></dl>
+    </article>
+
+    <article class="bench-card" id="bench-curves">
+      <header><h3>Plate curves and load line</h3><p>2A3 Koren model (μ 4.2). The hyperbola is the 15 W plate limit; the line is the load each tube sees. Push the bias or the load and watch the swing.</p></header>
+      <div class="bench-body">
+        <canvas id="curves-canvas" width="900" height="560" aria-label="2A3 plate characteristic curves with load line"></canvas>
+        <div class="bench-controls">
+          <label>Plate voltage <span class="val"><output id="o-vp">250</output> V</span><input type="range" id="r-vp" min="150" max="320" step="5" value="250"></label>
+          <label>Grid bias <span class="val"><output id="o-vg">-45</output> V</span><input type="range" id="r-vg" min="-80" max="-10" step="1" value="-45"></label>
+          <label>Per-tube load <span class="val"><output id="o-rl">2500</output> Ω</span><input type="range" id="r-rl" min="800" max="6000" step="100" value="2500"></label>
+          <label class="check"><input type="checkbox" id="c-40w"> Show a 40 W variant limit (JJ 2A3-40)</label>
+          <dl class="readout mono" id="curves-readout"></dl>
+        </div>
+      </div>
+    </article>
+
+    <article class="bench-card" id="bench-rect">
+      <header><h3>Rectifier sag</h3><p>A rectifier is a resistor that changes with current. The drop at rated current comes from each datasheet; the curve follows the three-halves law. More drop, more sag, softer dynamics.</p></header>
+      <div class="bench-body">
+        <canvas id="rect-canvas" width="900" height="420" aria-label="B+ voltage versus load current for several rectifier tubes"></canvas>
+        <div class="bench-controls">
+          <label>Transformer peak <span class="val"><output id="o-vpk">420</output> V</span><input type="range" id="r-vpk" min="300" max="500" step="5" value="420"></label>
+          <label>Load current <span class="val"><output id="o-il">160</output> mA</span><input type="range" id="r-il" min="40" max="260" step="5" value="160"></label>
+          <button class="btn" id="b-burst" type="button">Play a transient</button>
+          <dl class="readout mono" id="rect-readout"></dl>
+        </div>
+      </div>
+    </article>
+
+    <article class="bench-card" id="bench-xfmr">
+      <header><h3>Output transformer</h3><p>Turns ratio squared sets the reflected load; primary inductance sets the bass corner; leakage inductance sets the treble corner. Change the headphones and the load line on the curves above moves.</p></header>
+      <div class="bench-body">
+        <canvas id="xfmr-canvas" width="900" height="420" aria-label="Output transformer frequency response model"></canvas>
+        <div class="bench-controls">
+          <label>Headphone impedance
+            <select id="s-zs" class="mono">
+              <option value="32">32 Ω</option><option value="60">60 Ω</option><option value="150">150 Ω</option><option value="300" selected>300 Ω</option><option value="600">600 Ω</option>
+            </select></label>
+          <label>Plate-to-plate load <span class="val"><output id="o-rpp">5000</output> Ω</span><input type="range" id="r-rpp" min="2000" max="10000" step="250" value="5000"></label>
+          <label>Primary inductance <span class="val"><output id="o-lp">20</output> H</span><input type="range" id="r-lp" min="5" max="60" step="1" value="20"></label>
+          <label>Leakage inductance <span class="val"><output id="o-ll">10</output> mH</span><input type="range" id="r-ll" min="1" max="40" step="1" value="10"></label>
+          <dl class="readout mono" id="xfmr-readout"></dl>
+        </div>
+      </div>
+    </article>
+
+    <article class="bench-card" id="bench-anatomy">
+      <header><h3>Inside the bottle</h3><p>Hover the parts. Switch the plate to see what "mesh" actually means.</p></header>
+      <div class="bench-body anatomy">
+        <div id="anatomy-svg" class="anatomy-figure" aria-label="Tube cutaway; hover a part to read it, click to pin"></div>
+        <div class="bench-controls">
+          <div class="seg" role="group" aria-label="Plate construction">
+            <button type="button" class="seg-btn" data-plate="solid" aria-pressed="true">Solid plate</button>
+            <button type="button" class="seg-btn" data-plate="mesh" aria-pressed="false">Mesh plate</button>
+          </div>
+          <p class="anatomy-note" id="anatomy-note">Electrons boil off the heated filament, pass the grid, and land on the plate. The grid voltage gates the flow; that is the whole amplifier.</p>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- ===== MARKET: in stock today ===== -->
+  <section class="sheet" id="market">
+    <h2 class="sheet-title">Market</h2>
+    <p class="lede">Reputable dealers that ship to the USA. Prices are as fetched on the date shown, in the dealer's currency with a USD estimate at ECB reference rates.</p>
+    <div class="filters" id="market-filters" aria-label="Filters"></div>
+    <div class="market-bar"><p class="market-count mono" id="market-count" aria-live="polite"></p>
+      <label class="market-sort-mobile">Sort <select id="market-sort" class="mono"><option value="perTube:1">USD / tube ↑</option><option value="perTube:-1">USD / tube ↓</option><option value="price:1">price ↑</option><option value="price:-1">price ↓</option><option value="model:1">tube A–Z</option><option value="dealer:1">dealer A–Z</option><option value="stock:1">in stock first</option><option value="fetched_at:-1">newest fetch</option></select></label></div>
+    <div class="table-wrap">
+      <table class="market" id="market-table">
+        <thead><tr>
+          <th scope="col"><button type="button" class="sort" data-sort="model">Tube</button></th><th scope="col"><button type="button" class="sort" data-sort="dealer">Dealer</button></th><th scope="col" class="num"><button type="button" class="sort" data-sort="price">Price</button></th><th scope="col" class="num"><button type="button" class="sort" data-sort="perTube">≈ USD / tube</button></th><th scope="col"><button type="button" class="sort" data-sort="stock">Stock</button></th><th scope="col">Order</th><th scope="col"><button type="button" class="sort" data-sort="fetched_at">Fetched</button></th>
+        </tr></thead>
+        <tbody id="market-body"></tbody>
+      </table>
+    </div>
+    <p class="fine" id="market-note"></p>
+  </section>
+
+  <!-- ===== LIBRARY: knowledge base ===== -->
+  <section class="sheet" id="library">
+    <h2 class="sheet-title">Library</h2>
+    <p class="lede">The reference entry for each family: datasheet numbers, makers, NOS, warnings, and what owners say. The full entries live on their own page so this one stays a scroll, not a book.</p>
+    <div class="kb" id="kb"></div>
+    <p class="fine"><a href="library.html">Open the full library</a> — every datasheet number, maker, NOS variant, warning, and verified owner claim, with sources.</p>
+  </section>
+
+  <footer class="colophon">
+    <p>Private reference. Every number carries a source and a fetched date; nothing here is a measurement of your amp. Built on the bench, 2026.</p>
+  </footer>
+</main>
+<div class="roll-dock" id="roll-dock"></div>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

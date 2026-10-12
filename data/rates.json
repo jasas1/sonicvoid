@@ -1,0 +1,12 @@
+{
+  "base": "USD",
+  "date": "2026-10-12",
+  "source": "https://api.frankfurter.app (ECB reference rates)",
+  "usd_per_unit": {
+    "CAD": 0.7012,
+    "CHF": 1.2007,
+    "EUR": 1.1181,
+    "GBP": 1.3235,
+    "USD": 1.0
+  }
+}

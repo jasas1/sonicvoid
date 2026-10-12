@@ -1,0 +1,816 @@
+[
+ {
+  "tubes": [
+   "Sophia Princess 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "A Woo Audio WA6SE owner reports ordering a Sophia Princess 274B rectifier tube as an upgrade alongside the stock amplifier, starting a general Woo Audio amp owner discussion thread.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WA6SE amplifier, 6EW7 tubes",
+  "date": "2026-10-09",
+  "url": "https://www.head-fi.org/threads/woo-audio-amp-owner-unite.428570/",
+  "source_host": "head-fi.org",
+  "snippet": "I ordered a Sophia Princess 274B",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "A dedicated Head-Fi thread exists for 2A3 tube enthusiasts to share and discuss their favorite 2A3 tube options, with activity as recent as June 2024.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2024-06-29",
+  "url": "https://www.head-fi.org/threads/2a3-tubes-lets-hear-your-favorites.712316/",
+  "source_host": "head-fi.org",
+  "snippet": "2a3 tubes lets hear your favorites",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "EML 274B",
+   "Sophia Princess 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "A Head-Fi thread provides pictures and a small review comparing Emission Labs EML 274B rectifier tubes against the Sophia Princess 274B, offering direct comparison of two popular 274B rectifier options.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2011-09-14",
+  "url": "https://www.head-fi.org/threads/emission-labs-eml-274b-pics-and-small-review-vs-sophia-princess-274b.354055/",
+  "source_host": "head-fi.org",
+  "snippet": "emission labs eml 274b pics and small review",
+  "tube_ids": [
+   "eml-274b-mesh",
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "5U4G",
+   "5AR4",
+   "5R4"
+  ],
+  "families": [
+   "5U4G"
+  ],
+  "kind": "impression",
+  "claim": "A comprehensive Head-Fi rectifier tube rolling thread covers 5AR4, 5R4, and 5U4G rectifier types with reviews and comparisons, with activity as recent as September 2026.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2026-09-11",
+  "url": "https://www.head-fi.org/threads/dubstep-girls-massive-5ar4-5r4-5u4g-rectifier-review-comparison-rectifer-tube-rolling-thread.694525/",
+  "source_host": "head-fi.org",
+  "snippet": "dubstep girls massive 5ar4 5r4 5u4g rectifier review",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Princess 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "fit",
+  "claim": "A Head-Fi thread discusses the different variants of the Sophia Electric Princess 274B rectifier tube, addressing compatibility and selection for tube rolling purposes.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2014-04-09",
+  "url": "https://www.head-fi.org/threads/sophia-electric-princess-274b-rectifier-variants.713596/",
+  "source_host": "head-fi.org",
+  "snippet": "sophia electric princess 274b rectifier variants",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "EH5U4GB",
+   "274B"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "fit",
+  "claim": "A Head-Fi thread asks whether the EH5U4GB and 274B rectifier tubes can be interchanged, a compatibility question relevant to amplifiers like the WA33 that use 5U4G or 274B rectifiers.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2023-10-31",
+  "url": "https://www.head-fi.org/threads/tube-help-eh5u4gb-and-274b-do-they-interchange.970328/",
+  "source_host": "head-fi.org",
+  "snippet": "tube help eh5u4gb and 274b do they interchange",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "fit",
+  "claim": "A Head-Fi thread discusses the Eddie Current 2A3X4 amplifier which uses 2A3 power tubes, with activity as recent as September 2023.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Eddie Current 2A3X4",
+  "date": "2023-09-30",
+  "url": "https://www.head-fi.org/threads/the-new-eddie-current-2a3x4.704529/",
+  "source_host": "head-fi.org",
+  "snippet": "the new eddie current 2a3x4",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "KR HP 2A3",
+   "KR HP 274B"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Head-Fi classifieds seller listed a Woo Audio WA33 Elite Edition amplifier alongside KR HP 2A3 x4 power tubes and a KR HP 274B rectifier in consecutive listings, suggesting these tubes form a complete upgrade set for the WA33.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33 Elite Edition",
+  "date": "2023-10-24",
+  "url": "https://www.head-fi.org/classifieds/kr-hp-2a3-x4.55846/",
+  "source_host": "head-fi.org",
+  "snippet": "woo audio wa33 elite edition",
+  "tube_ids": [
+   "kr-2a3"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Elrog 5U4G",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "5U4G",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Head-Fi classified listing offers Elrog 5U4G and Takatsuki 274B tubes together, indicating these rectifier tubes are used as alternatives or upgrades in the same amplifier type.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2023-05-14",
+  "url": "https://www.head-fi.org/classifieds/elrog-5u4g-takatsuki-274b.47098/",
+  "source_host": "head-fi.org",
+  "snippet": "elrog 5u4g takatsuki 274b",
+  "tube_ids": [
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "EML Mesh 5U4G",
+   "Sophia Aqua 274B"
+  ],
+  "families": [
+   "5U4G",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Head-Fi classified listing offers Emission Labs EML Mesh 5U4G or Sophia Aqua 274B rectifier tubes as alternatives, suggesting both are compatible rectifier upgrade options for the same amplifier.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "",
+  "url": "https://www.head-fi.org/classifieds/emission-labs-mesh-5u4g-or-sophia-aqua-274b.44251/",
+  "source_host": "head-fi.org",
+  "snippet": "emission labs mesh 5u4g or sophia aqua 274b",
+  "tube_ids": [
+   "eml-5u4g-mesh",
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Elrog ER5U4G",
+   "Elrog ER274B",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "5U4G",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Head-Fi classified listing offers Elrog ER5U4G, Elrog ER274B, or Takatsuki tubes together, presenting premium rectifier options that are interchangeable for high-end tube amplifiers.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2023-05-16",
+  "url": "https://www.head-fi.org/classifieds/elrog-er5u4g-er274b-or-takatsuki.47812/",
+  "source_host": "head-fi.org",
+  "snippet": "elrog er5u4g er274b or takatsuki",
+  "tube_ids": [
+   "elrog-er274b",
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Electron 274B",
+   "Sylvania 6DE7"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Head-Fi classified listing offers a complete Woo Audio WA6 tube set including an Electron 274B rectifier and a Sylvania 6DE7 matched pair, showing these tubes are used together in a Woo Audio amplifier.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA6",
+  "date": "2023-12-13",
+  "url": "https://www.head-fi.org/classifieds/wa6-tube-set-electron-274b-sylvania-6de7-matched-pair.58667/",
+  "source_host": "head-fi.org",
+  "snippet": "wa6 tube set electron 274b sylvania 6de7 matched pair",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "300B",
+   "6SN7",
+   "274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Head-Fi thread discusses using a 300B, 6SN7, and 274B tube combination together, indicating the 274B is used as a rectifier in a 300B-based amplifier design.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "300B amplifier, 6SN7 driver",
+  "date": "2021-08-09",
+  "url": "https://www.head-fi.org/threads/300b-6sn7-274b-combination.959043/",
+  "source_host": "head-fi.org",
+  "snippet": "300b 6sn7 274b combination",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Sophia Electric 274B Rigid Plate",
+   "Sophia Electric 274B Mesh Plate"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "A Head-Fi thread directly compares the Sophia Electric 274B rigid plate versus the Sophia Electric 274B mesh plate vacuum tube, helping buyers choose between the two plate constructions of the same 274B rectifier.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2019-03-23",
+  "url": "https://www.head-fi.org/threads/sophia-electric-274b-rigid-plate-vs-sophia-electric-274b-mesh-plate-vacuum-tube.819732/",
+  "source_host": "head-fi.org",
+  "snippet": "sophia electric 274b rigid plate vs sophia electric 274b mesh plate",
+  "tube_ids": [
+   "sophia-274b-mesh",
+   "sophia-274b-mesh"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "JJ 2A3-40W"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "warning",
+  "claim": "A Head-Fi thread warns about defective JJ 2A3-40W tubes, reporting that JJ Tubes EU blamed the buyer's amplifier even though other 2A3 tubes worked fine in the same amp.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2014-01-17",
+  "url": "https://www.head-fi.org/threads/beware-of-jjtubes-eu-defective-jj-2a3-40w-is-your-amps-fault-even-if-it-works-fine-with-other-2a3-tubes.700641/",
+  "source_host": "head-fi.org",
+  "snippet": "defective jj 2a3 40w is your amps fault",
+  "tube_ids": [
+   "jj-2a3-40"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Sophia Princess 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "warning",
+  "claim": "A Head-Fi thread reports that the glass of a Sophia Princess 274B rectifier tube is becoming tinted during use, raising a potential reliability concern for this popular 274B upgrade tube.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2014-06-05",
+  "url": "https://www.head-fi.org/threads/sophia-princess-274b-glass-becoming-tinted.721840/",
+  "source_host": "head-fi.org",
+  "snippet": "sophia princess 274b glass becoming tinted",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Sovtek 6C45"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "impression",
+  "claim": "A Head-Fi thread from 2002 discusses the then-new Sovtek 6C45 tube and asks members what they think of it, showing early community interest in 6C45 tubes for amplifier builds.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2002-07-29",
+  "url": "https://www.head-fi.org/threads/sovtek-6c45-new-tube-what-do-you-think.14410/",
+  "source_host": "head-fi.org",
+  "snippet": "sovtek 6c45 new tube what do you think",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "EML 2A3 Solid Plate"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "A Head-Fi classified listing offers Emission Labs EML 2A3 solid plate tubes for sale, indicating these are sought-after 2A3 power tube options in the enthusiast market.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2023-09-08",
+  "url": "https://www.head-fi.org/classifieds/emission-labs-eml-2a3-solid-plates.51934/",
+  "source_host": "head-fi.org",
+  "snippet": "emission labs eml 2a3 solid plates",
+  "tube_ids": [
+   "eml-2a3-mesh"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Takatsuki 2A3A"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "A Head-Fi classified listing offers a brand new and sealed quad of Takatsuki 2A3A tubes, a premium matched set suitable for amplifiers like the WA33 that require four 2A3 power tubes.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2023-11-02",
+  "url": "https://www.head-fi.org/classifieds/takatsuki-2a3a-quad-matched-tubes-brand-new-and-sealed.56821/",
+  "source_host": "head-fi.org",
+  "snippet": "takatsuki 2a3a quad matched tubes brand new and sealed",
+  "tube_ids": [
+   "takatsuki-ta-2a3"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "596",
+   "5U4G"
+  ],
+  "families": [
+   "5U4G"
+  ],
+  "kind": "fit",
+  "claim": "A Head-Fi classified listing offers 596 USAF tubes with a Woo Audio 596-to-5U4G adapter, confirming that the 596 rectifier can be used in Woo Audio amplifiers designed for 5U4G tubes with the appropriate adapter.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio amplifier with 5U4G socket",
+  "date": "2023-04-14",
+  "url": "https://www.head-fi.org/classifieds/596-usaf-tube-with-wooaudio-596-5u4g-adapter.45708/",
+  "source_host": "head-fi.org",
+  "snippet": "596 usaf tube with wooaudio 596 5u4g adapter",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "Psvane Horizon 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "A Head-Fi member reports that the Psvane Horizon 2A3 tube was their gateway to 2A3 tubes and that they are loving it, offering a positive first impression of this newer 2A3 tube brand.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "",
+  "date": "2024-10-01",
+  "url": "https://www.head-fi.org/threads/psvane-horizon-2a3-at-tube-is-my-gateway-to-2a3-tubes-and-i-am-loving-it.973461/",
+  "source_host": "head-fi.org",
+  "snippet": "gateway to 2a3 tubes and i am loving",
+  "tube_ids": [
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "6C45"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "A Head-Fi classified listing for a 6C45 headphone amplifier references designs like the Papa Rusa and Mainline, confirming that 6C45 tubes are used as driver or output tubes in DIY and commercial headphone amplifiers.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Papa Rusa, Mainline headphone amplifier",
+  "date": "2023-07-24",
+  "url": "https://www.head-fi.org/classifieds/6c45-headphone-amplifier-like-papa-rusa-mainline-etc.50773/",
+  "source_host": "head-fi.org",
+  "snippet": "headphone amplifier like papa rusa mainline",
+  "tube_ids": [],
+  "source_task": "lore-headfi"
+ },
+ {
+  "tubes": [
+   "6C45",
+   "2A3",
+   "274B rectifier tube"
+  ],
+  "families": [
+   "6C45",
+   "2A3",
+   "274B"
+  ],
+  "kind": "fit",
+  "claim": "Woo's current WA33 2nd generation page describes the amplifier around 6C45 drivers, four 2A3 power tubes, and a 274B rectifier tube.",
+  "descriptors": [
+   "detailed"
+  ],
+  "source_type": "maker",
+  "poster_context": "Woo Audio WA33 2nd generation product page.",
+  "date": "",
+  "url": "https://wooaudio.com/amplifiers/wa33",
+  "source_host": "wooaudio.com",
+  "snippet": "WA33 employs a true fully-balanced design featuring 6C45 driver tubes",
+  "tube_ids": [],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "6C45",
+   "2A3",
+   "5U4G"
+  ],
+  "families": [
+   "6C45",
+   "2A3",
+   "5U4G"
+  ],
+  "kind": "fit",
+  "claim": "Woo also states that all WA33 versions ship with the same default tube complement: four 6C45 drivers, four 2A3 power tubes, and one 5U4G rectifier.",
+  "descriptors": [],
+  "source_type": "maker",
+  "poster_context": "Woo Audio WA33 2nd generation product page.",
+  "date": "",
+  "url": "https://wooaudio.com/amplifiers/wa33",
+  "source_host": "wooaudio.com",
+  "snippet": "Same default tubes for all versions: 6C45 driver x 4",
+  "tube_ids": [],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "2A3",
+   "6C45",
+   "5U4G"
+  ],
+  "families": [
+   "2A3",
+   "6C45",
+   "5U4G"
+  ],
+  "kind": "warning",
+  "claim": "The 6moons WA33 2nd gen article flags a general DHT caution: direct-heated valves can raise the noise floor through subtle or obvious microphonics, even though Woo claims strong S/N performance.",
+  "descriptors": [
+   "noisy",
+   "microphonic",
+   "black background"
+  ],
+  "source_type": "review",
+  "poster_context": "6moons WA33 2nd gen notice; discussion of WA33 tube complement.",
+  "date": "2026-03-13",
+  "url": "https://6moons.com/audioreview_articles/woo-audio-wa33-2nd-gen/",
+  "source_host": "6moons.com",
+  "snippet": "raise the noise floor with subtle or overt microphonics",
+  "tube_ids": [],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "Takatsuki 2A3",
+   "Tak 274B",
+   "Electro-Harmonix gold-pin 6C45Pi"
+  ],
+  "families": [
+   "2A3",
+   "274B",
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "6moons reports that Woo sells Takatsuki 2A3 quads, a Tak 274B rectifier, and Electro-Harmonix gold-pin 6C45Pi as WA33 tube options.",
+  "descriptors": [],
+  "source_type": "review",
+  "poster_context": "6moons WA33 2nd gen notice; Woo upgrade pricing discussion.",
+  "date": "2026-03-13",
+  "url": "https://6moons.com/audioreview_articles/woo-audio-wa33-2nd-gen/",
+  "source_host": "6moons.com",
+  "snippet": "Woo can sell us a matched quad of Takatsuki 2A3",
+  "tube_ids": [
+   "takatsuki-ta-2a3",
+   "eh-2a3"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "2A3s",
+   "274B"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A WA33 owner replying to a question about upgraded 2A3s and 274B said the amp became more liquid and holographic, with improved stage, bass, midrange, and high frequencies.",
+  "descriptors": [
+   "liquid",
+   "holographic",
+   "wide stage",
+   "deep bass",
+   "smooth"
+  ],
+  "source_type": "forum",
+  "poster_context": "Headphones.com user BondDaBoom discussing WA33 with upgraded 2A3s and 274B.",
+  "date": "2020-05-23",
+  "url": "https://forum.headphones.com/t/whats-in-the-box/1765/1454.json",
+  "source_host": "forum.headphones.com",
+  "snippet": "It sounds very different very liquid and holographic",
+  "tube_ids": [],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "2A3s",
+   "274B",
+   "rectifier tube"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "warning",
+  "claim": "In the same WA33 upgrade exchange, another poster asked specifically about noise floor, transformer matching, rectifier-tube hum, and prior issues with upgraded tubes in Woo amps.",
+  "descriptors": [
+   "noisy"
+  ],
+  "source_type": "forum",
+  "poster_context": "Headphones.com WA33 upgrade discussion after 2A3 and 274B tube changes.",
+  "date": "2020-05-23",
+  "url": "https://forum.headphones.com/t/whats-in-the-box/1765/1454.json",
+  "source_host": "forum.headphones.com",
+  "snippet": "Any audible hum? I read that some people experienced issues",
+  "tube_ids": [],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "Takatsuki TA-274B",
+   "mesh EML 2A3 power tubes"
+  ],
+  "families": [
+   "274B",
+   "2A3"
+  ],
+  "kind": "pairing",
+  "claim": "A Headphones.com WA33 sale listing bundled a Takatsuki TA-274B rectifier with four mesh EML 2A3 power tubes and called the set the best upgraded tubes for the amp.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Headphones.com classified for a modded Woo WA33 with upgraded tube set.",
+  "date": "2022-07-16",
+  "url": "https://forum.headphones.com/t/woo-wa33-modded-all-upgraded-tubes-takatsuki-ta-274b-eml-2a3-we-417a-many-extras/18291.json",
+  "source_host": "forum.headphones.com",
+  "snippet": "1 Takatsuki TA-274B rectifier",
+  "tube_ids": [
+   "takatsuki-ta-274b",
+   "eml-2a3-mesh"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "2A3 m tubes",
+   "EML 2A3 mesh"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "A WA33 owner selling EML 2A3 mesh tubes said the tubes were very good sounding, had been used in his WA33, and later added that they were great tubes for WA33.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Headphones.com classified by BondDaBoom for EML 2A3 mesh tubes used in WA33.",
+  "date": "2020-06-17",
+  "url": "https://forum.headphones.com/t/sold-eml-2a3-mesh-1-pair/7106.json",
+  "source_host": "forum.headphones.com",
+  "snippet": "They are very good sounding tubes",
+  "tube_ids": [
+   "eml-2a3-mesh"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua II 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Positive Feedback found the Sophia Electric Aqua II 274B naturally warm, rich, colorful, nuanced, dynamic, and highly resolving even at early listening stages.",
+  "descriptors": [
+   "warm",
+   "rich",
+   "dynamic",
+   "detailed",
+   "textured"
+  ],
+  "source_type": "review",
+  "poster_context": "Positive Feedback review using the Aqua II 274B in a Triode Lab 45 EVO SET integrated amplifier.",
+  "date": "2023-11-12",
+  "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+  "source_host": "positive-feedback.com",
+  "snippet": "A natural tonal balance, a huge sense of recorded acoustic",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "Western Electric 274B",
+   "Sophia Electric rigid plate and mesh plate 274B's",
+   "5U4G"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "warning",
+  "claim": "Positive Feedback's Sophia 274B history warns that traditional 274B designs have strict first-capacitor limits, while mainstream 5U4-family rectifiers tolerate far larger first capacitors.",
+  "descriptors": [],
+  "source_type": "review",
+  "poster_context": "Positive Feedback article discussing Sophia and Western Electric 274B design limits.",
+  "date": "2023-11-12",
+  "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+  "source_host": "positive-feedback.com",
+  "snippet": "first capacitor in the power supply after the rectifier tube",
+  "tube_ids": [
+   "we-274b",
+   "sophia-274b-mesh"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua 274B",
+   "5U4 rectifier tube"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "fit",
+  "claim": "Sophia's Aqua 274B is reported as able to replace a 5U4 rectifier in compatible Sophia 300B monoblocks, bringing wider and deeper soundstage than the 5U4 in that context.",
+  "descriptors": [
+   "wide stage",
+   "deep stage"
+  ],
+  "source_type": "review",
+  "poster_context": "Positive Feedback article quoting Sophia Electric on Aqua 274B use in Sophia 91-01 amplifiers.",
+  "date": "2023-11-12",
+  "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+  "source_host": "positive-feedback.com",
+  "snippet": "can easily replace the 5U4 rectifier tube and deliver a wider",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "Tak 274B",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "warning",
+  "claim": "A What's Best Forum poster reported a Takatsuki 274B failure after roughly 1000 hours and treated that early failure as a caveat emptor warning, while acknowledging it was otherwise a great tube.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "What's Best Forum thread about a Takatsuki 274B used in a Lampizator TRP.",
+  "date": "2021-04-24",
+  "url": "https://www.whatsbestforum.com/threads/dead-takatsuki-274b.32863/",
+  "source_host": "whatsbestforum.com",
+  "snippet": "failing after 1000 hours makes it a no go",
+  "tube_ids": [
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "EML mesh 5u4g",
+   "Solid plate of the 5u4g",
+   "Elrogs"
+  ],
+  "families": [
+   "5U4G"
+  ],
+  "kind": "pairing",
+  "claim": "In a Lampizator tube-rolling session, the poster said solid-plate 5U4G sounded more dynamic, while EML mesh 5U4G added more air and complemented Elrog vocal presentation.",
+  "descriptors": [
+   "dynamic",
+   "airy"
+  ],
+  "source_type": "forum",
+  "poster_context": "What's Best Forum Lampizator Golden Gate tube-rolling session comparing output tubes and 5U4G rectifiers.",
+  "date": "2016-08-20",
+  "url": "https://www.whatsbestforum.com/threads/kr-242-elrog-300-px4-px25-eml-and-kr-5u4g-and-kr-274b.21261/page-2",
+  "source_host": "whatsbestforum.com",
+  "snippet": "mesh plate of the EML 5u4g gave it more air",
+  "tube_ids": [
+   "eml-5u4g-mesh"
+  ],
+  "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "KR 5u4g",
+   "274b"
+  ],
+  "families": [
+   "5U4G",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "The same What's Best Forum report emphasized system dependence: KR 5U4G beat 274B with one output tube in one system, but the opposite was heard in another setup.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "What's Best Forum Lampizator Golden Gate tube-rolling session across different systems.",
+  "date": "2016-08-20",
+  "url": "https://www.whatsbestforum.com/threads/kr-242-elrog-300-px4-px25-eml-and-kr-5u4g-and-kr-274b.21261/page-2",
+  "source_host": "whatsbestforum.com",
+  "snippet": "KR 5u4g was a better match for 242s than the 274b",
+  "tube_ids": [
+   "kr-5u4g"
+  ],
+  "source_task": "lore-reviews"
+ }
+]

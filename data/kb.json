@@ -1,0 +1,1060 @@
+{
+ "274B": {
+  "family": "274B",
+  "datasheet": {
+   "filament_v": 5,
+   "filament_a": 2,
+   "max_dc_output_ma": 150,
+   "max_piv_v": 1500,
+   "voltage_drop_v": 30,
+   "max_ac_v_per_plate": 550,
+   "max_input_cap_uf": 4,
+   "typical_op": {
+    "va": 350,
+    "vg": 0,
+    "ia_ma": 140,
+    "load_ohm": 3214,
+    "po_w": 63
+   }
+  },
+  "base": "Octal (Int.Octal, IO) K8A",
+  "heating": "directly heated",
+  "variants": [
+   {
+    "name": "274A",
+    "notes": "Electrically equivalent to 274B but with a UX4 (4-pin) base instead of octal; original Western Electric 1936 type"
+   },
+   {
+    "name": "274B",
+    "notes": "Octal-base version, the standard for 5U4G socket replacement; the type used in the Woo Audio WA33"
+   }
+  ],
+  "makers": [
+   {
+    "brand": "Emission Labs (EML)",
+    "models": [
+     "EML 274B mesh"
+    ],
+    "country": "Europe (Czech Republic)",
+    "construction": "mesh",
+    "notes": "Re-introduced the 274 tube in 2001; electrically equivalent to the original Western Electric; max 150 mA cap input / 200 mA choke input; 4 uF first capacitor at high voltage, 20 uF at low voltage; hard metal construction with gold-plated ceramic socket"
+   },
+   {
+    "brand": "Sophia Electric",
+    "models": [
+     "Aqua III 274B",
+     "Aqua II 274B",
+     "Princess 274B mesh",
+     "274A mesh"
+    ],
+    "country": "USA",
+    "construction": "solid plate",
+    "notes": "Aqua III is the current model (blue glass, $299-350); Aqua II (max 220 mA, 2.8 A filament) had compatibility issues with some DACs/amps; Princess 274B rigid plate debuted 2001, mesh plate in 2002; Aqua line lifts the 4 uF capacitor limitation of the WE original"
+   },
+   {
+    "brand": "Elrog (Deutsche Elektronenröhren Manufaktur GmbH)",
+    "models": [
+     "ER274B"
+    ],
+    "country": "Germany",
+    "construction": "solid plate",
+    "notes": "PIV 1500 V; 225 mA choke input / 160 mA cap input; peak current per plate 675 mA; octal base; different maximum ratings from the original 274B (higher current, same PIV)"
+   },
+   {
+    "brand": "Psvane",
+    "models": [
+     "Art 274B",
+     "274B-TII",
+     "Treasure 274B-Z"
+    ],
+    "country": "China",
+    "construction": "solid plate",
+    "notes": "Multiple 274B variants across Art, Treasure, and TII product lines; product pages are image-based with limited text specs"
+   }
+  ],
+  "nos": [
+   {
+    "brand": "Western Electric",
+    "variant": "274B",
+    "era": "1930s-1940s",
+    "notes": "The original full-wave directly heated rectifier; octal base; launched in the 1930s to complement the WE 300B in WE91 cinema amplifiers; max 150 mA cap input; 4 uF first capacitor limit; NOS tubes command $1500-5000+ (2023)"
+   },
+   {
+    "brand": "Western Electric",
+    "variant": "274A",
+    "era": "1936",
+    "notes": "UX4 (4-pin) base version; electrically equivalent to 274B; the original WE datasheet dates from 1936"
+   }
+  ],
+  "wa33_fit": {
+   "socket_count": 1,
+   "notes": "The WA33 (2nd gen) uses a single rectifier tube on an octal socket. Stock tube is 5U4G; 274B is the marketed upgrade and fits the same octal socket. The WA33 product description names the 274B but the default-tube spec sheet lists 5U4G. The 274B draws 2 A filament vs the 5U4G's 3 A, so the filament winding is not stressed. Critical difference: 274B allows only 4 uF first capacitor (vs 40 uF for 5U4G) and 150 mA max DC output (vs 225 mA for 5U4G). 300B does NOT fit this amplifier. 274A (UX4 base) does NOT fit the WA33 octal socket."
+  },
+  "warnings": [
+   "Arcing: the WE 274B long plate sparks when the first power-supply capacitor exceeds 4 uF; this forced Western Electric to limit the design to 4 uF and prevented wide adoption",
+   "First capacitor limit: 4 uF max for NOS WE 274B; 8 uF max for Sophia rigid/mesh plate; modern Sophia Aqua line and EML at low voltage allow higher values; always verify the amplifier's first capacitor before installing a 274B",
+   "Current limit: 274B max DC output is 150 mA (cap input) vs 225 mA for 5U4G; insufficient for high-current amplifiers",
+   "Filament: 5 V / 2 A directly heated; the 5U4G draws 3 A, so a 5U4G-rated transformer winding can power a 274B but not vice versa",
+   "Counterfeit NOS: vintage WE 274B tubes sell for $1500-5000+; counterfeits and relabeled tubes exist in the market",
+   "Socket: 274A uses a UX4 (4-pin) base and will NOT fit the WA33's octal 274B/5U4G socket",
+   "Compatibility: Sophia Aqua II 274B may cause premature failure in some amplifiers and DACs (Decware SE84UFO, some Lampizator DACs); Aqua III is the safer choice",
+   "Mesh plate current limits: mesh plate 274B variants have stricter current and capacitor limits than solid plate versions"
+  ],
+  "sonic_lore": [
+   {
+    "model": "NOS Western Electric 274B",
+    "descriptors": [
+     "warm",
+     "rich",
+     "holographic",
+     "wide stage",
+     "deep stage",
+     "detailed",
+     "smooth",
+     "euphonic",
+     "dynamic",
+     "textured"
+    ],
+    "summary": "Jeff Day (Positive Feedback) calls the 274B his favorite rectifier 'by leaps and bounds,' praising its holographic imaging, natural tonality, and spectacular soundstaging. NOS WE 274B tubes are endangered and command $1500-5000 on the used market.",
+    "source_count": 2
+   },
+   {
+    "model": "Sophia Electric Aqua II 274B",
+    "descriptors": [
+     "warm",
+     "rich",
+     "neutral",
+     "detailed",
+     "dynamic",
+     "wide stage",
+     "deep stage",
+     "holographic",
+     "smooth",
+     "textured",
+     "liquid",
+     "euphonic"
+    ],
+    "summary": "Jeff Day's Positive Feedback review describes the Aqua II as having 'a natural tonal balance, a huge sense of recorded acoustic, clearly articulated tone color, a vivid sense of imaging presence, and excellent dynamics.' It won the 2023 Positive Feedback Writers' Choice Award.",
+    "source_count": 2
+   },
+   {
+    "model": "Sophia Electric Aqua III 274B",
+    "descriptors": [
+     "warm",
+     "rich",
+     "neutral",
+     "dynamic",
+     "detailed",
+     "smooth"
+    ],
+    "summary": "Sophia Electric describes the Aqua III as offering 'nearly identical sonic performance to the Mark II' while being 'virtually foolproof for a wide range of applications.' It is the recommended choice for 300B amplifiers, Decware amplifiers, and Lampizator DACs.",
+    "source_count": 1
+   },
+   {
+    "model": "EML 274B mesh",
+    "descriptors": [
+     "warm",
+     "detailed",
+     "smooth",
+     "dynamic",
+     "holographic"
+    ],
+    "summary": "EML describes the 274B as producing 'improved sound compared to lower impedance rectifier tubes such as 5U4G' with less mechanical hum and better resolution. EML was the first company to re-introduce the 274 tube, in 2001.",
+    "source_count": 1
+   }
+  ],
+  "evidence": [
+   {
+    "claim_ref": "datasheet.filament_v",
+    "url": "http://www.emissionlabs.com/datasheets/EML274.html",
+    "snippet": "5 Volt (AC or DC)"
+   },
+   {
+    "claim_ref": "datasheet.type",
+    "url": "https://www.radiomuseum.org/tubes/tube_274b.html",
+    "snippet": "Full-Wave Vacuum Rectifier, Octal"
+   },
+   {
+    "claim_ref": "datasheet.base",
+    "url": "https://www.radiomuseum.org/tubes/tube_274b.html",
+    "snippet": "Octal (Int.Octal, IO) K8A, USA 1935"
+   },
+   {
+    "claim_ref": "datasheet.equivalence",
+    "url": "http://www.emissionlabs.com/datasheets/EML274.html",
+    "snippet": "electrically equivalent to the original Western Electric"
+   },
+   {
+    "claim_ref": "datasheet.max_dc_output_ma",
+    "url": "https://sophiaelectric.com/products/new-sophia-electric-aqua-ii-274b-rectifier-tube-with-live-like-sonic-performance.json",
+    "snippet": "WE 274B (max 150ma)"
+   },
+   {
+    "claim_ref": "datasheet.max_input_cap_uf",
+    "url": "http://www.emissionlabs.com/datasheets/EML274.html",
+    "snippet": "small size first capacitor of 4uF only"
+   },
+   {
+    "claim_ref": "datasheet.max_piv_v",
+    "url": "https://www.radiomuseum.org/tubes/tube_er274b.html",
+    "snippet": "Peak Inverse Voltage: 1500 V"
+   },
+   {
+    "claim_ref": "makers.Sophia.history",
+    "url": "https://sophiaelectric.com/products/new-sophia-electric-aqua-ii-274b-rectifier-tube-with-live-like-sonic-performance.json",
+    "snippet": "In 2001, Sophia Electric debuted the Princess 274B"
+   },
+   {
+    "claim_ref": "warnings.arcing",
+    "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+    "snippet": "sparks, which forced Western Electric to limit the design"
+   },
+   {
+    "claim_ref": "sonic_lore.NOS Western Electric 274B",
+    "url": "https://positive-feedback.com/audio-discourse/sophia-electric-45-mesh-plate-triodes-aqua-274b-rectifier/",
+    "snippet": "rectifier is my favorite by leaps and bounds"
+   },
+   {
+    "claim_ref": "sonic_lore.Sophia Electric Aqua II 274B",
+    "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+    "snippet": "natural tonal balance, a huge sense of recorded acoustic"
+   },
+   {
+    "claim_ref": "wa33_fit.stock_tube",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "5U4G rectifier x 1"
+   },
+   {
+    "claim_ref": "wa33_fit.upgrade",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "274B rectifier tube, all in direct"
+   },
+   {
+    "claim_ref": "nos.Western Electric 274B",
+    "url": "https://positive-feedback.com/audio-discourse/sophia-electric-45-mesh-plate-triodes-aqua-274b-rectifier/",
+    "snippet": "rectifier tubes go for $1500 to $1700 USD these days"
+   },
+   {
+    "claim_ref": "makers.EML.history",
+    "url": "http://www.emissionlabs.com/datasheets/EML274.html",
+    "snippet": "Emission Labs was the first company to re-introduce the 274 tube"
+   },
+   {
+    "claim_ref": "datasheet.typical_op",
+    "url": "http://www.emissionlabs.com/datasheets/EML274.html",
+    "snippet": "This tube can supply 140mA with a normal C-L-C filter"
+   },
+   {
+    "claim_ref": "datasheet.note",
+    "url": "http://www.emissionlabs.com/datasheets/EML274.html",
+    "snippet": "lower current, it is possible to use a first capacitor of 20uF"
+   }
+  ],
+  "sources_url": "docs/kb/274b.md"
+ },
+ "2A3": {
+  "family": "2A3",
+  "datasheet": {
+   "filament_v": 2.5,
+   "filament_a": 2.5,
+   "max_plate_v": 300,
+   "max_plate_w": 15,
+   "mu": 4.2,
+   "rp_ohm": 800,
+   "gm_ma_v": 5.25,
+   "typical_op": {
+    "va": 250,
+    "vg": -45,
+    "ia_ma": 60,
+    "load_ohm": 2500,
+    "po_w": 3.5,
+    "distortion_pct": 5
+   },
+   "jj_2a3_40_limits": {
+    "max_plate_v": 450,
+    "max_plate_w": 40,
+    "max_plate_current_ma_fixed_bias": 70,
+    "max_plate_current_ma_self_bias": 100
+   }
+  },
+  "base": "UX4 four-pin",
+  "heating": "directly heated",
+  "variants": [
+   {
+    "name": "single-plate 2A3",
+    "notes": "Early RCA/Sylvania-style construction prized by collectors."
+   },
+   {
+    "name": "bi-plate / dual-plate 2A3",
+    "notes": "Two smaller triode structures connected in parallel inside the bulb."
+   },
+   {
+    "name": "mesh plate 2A3",
+    "notes": "Audiophile construction style; check dissipation and filament handling by maker."
+   },
+   {
+    "name": "globe 2A3",
+    "notes": "Vintage or replica globe envelope; fit and height must be checked in WA33."
+   },
+   {
+    "name": "2A3-40 / high-dissipation 2A3",
+    "notes": "Higher rating than classic 2A3; not automatically a universal substitute."
+   },
+   {
+    "name": "VT-95 / CV1831",
+    "notes": "Military or equivalent designations listed as close substitutes by TDSL."
+   }
+  ],
+  "makers": [
+   {
+    "brand": "JJ Electronic",
+    "models": [
+     "2A3-40"
+    ],
+    "country": "Slovakia",
+    "construction": "solid plate | high-dissipation",
+    "notes": "Current high-dissipation 2A3-family production with 40 W anode limit."
+   },
+   {
+    "brand": "Electro-Harmonix",
+    "models": [
+     "2A3EH"
+    ],
+    "country": "Russia / New Sensor distribution",
+    "construction": "solid plate",
+    "notes": "Current/recent New Sensor product listing saved."
+   },
+   {
+    "brand": "Sovtek",
+    "models": [
+     "2A3"
+    ],
+    "country": "Russia / Reflektor",
+    "construction": "solid plate",
+    "notes": "Recent-production Reflektor/Sovtek tube noted in tube-lore source."
+   },
+   {
+    "brand": "Sophia Electric",
+    "models": [
+     "mesh plate globe 2A3"
+    ],
+    "country": "United States / China production",
+    "construction": "mesh | globe",
+    "notes": "Audiophile mesh/globe 2A3 discussed in saved 2A3 comparison source."
+   },
+   {
+    "brand": "Psvane",
+    "models": [
+     "Psvane Audio 2A3"
+    ],
+    "country": "China",
+    "construction": "solid plate | globe",
+    "notes": "Psvane Audio 2A3 appears in saved Valve Museum exhibit index."
+   },
+   {
+    "brand": "Emission Labs",
+    "models": [
+     "2A3",
+     "2A3 Mesh",
+     "2A3-S",
+     "2A3-XLS"
+    ],
+    "country": "Czech Republic",
+    "construction": "solid plate | mesh | high-dissipation",
+    "notes": "Known current 2A3-family maker; direct page fetch failed in this run."
+   },
+   {
+    "brand": "Takatsuki",
+    "models": [
+     "TA-2A3"
+    ],
+    "country": "Japan",
+    "construction": "solid plate | ST bottle",
+    "notes": "Premium Japanese current-production model; official URL tried returned 404."
+   },
+   {
+    "brand": "Elrog",
+    "models": [
+     "ER2A3",
+     "ER2A3-Mo",
+     "ER2A3-TM"
+    ],
+    "country": "Germany",
+    "construction": "solid plate | molybdenum | thoriated tungsten",
+    "notes": "Specialty current-production 2A3 variants; exact page URL tried returned 404."
+   },
+   {
+    "brand": "KR Audio",
+    "models": [
+     "KR 2A3",
+     "KR 2A3 HP"
+    ],
+    "country": "Czech Republic",
+    "construction": "solid plate",
+    "notes": "Current-production maker; attempted product URL hit TLS/SNI error."
+   },
+   {
+    "brand": "Linlai",
+    "models": [
+     "E-2A3",
+     "Elite 2A3"
+    ],
+    "country": "China",
+    "construction": "solid plate | globe",
+    "notes": "Current Chinese production line; attempted page did not resolve in this run."
+   },
+   {
+    "brand": "Shuguang",
+    "models": [
+     "2A3C",
+     "2A3B"
+    ],
+    "country": "China",
+    "construction": "solid plate",
+    "notes": "Recent Chinese production family; availability varies."
+   }
+  ],
+  "nos": [
+   {
+    "brand": "RCA / Cunningham",
+    "variant": "single-plate and dual-plate",
+    "era": "1930s-1940s",
+    "notes": "Core American NOS reference family."
+   },
+   {
+    "brand": "Sylvania",
+    "variant": "single-plate and dual flat plate",
+    "era": "1930s-1950s",
+    "notes": "Known for early single-plate and unusual dual flat plate constructions."
+   },
+   {
+    "brand": "Tung-Sol",
+    "variant": "ST dual-plate",
+    "era": "1930s-1950s",
+    "notes": "Major US NOS manufacturer."
+   },
+   {
+    "brand": "Ken-Rad",
+    "variant": "ST 2A3",
+    "era": "1940s",
+    "notes": "Collector and sonic-lore source notes a 1940s Ken-Rad example."
+   },
+   {
+    "brand": "National Union",
+    "variant": "2A3",
+    "era": "1930s-1950s",
+    "notes": "Common US NOS brand and relabel source."
+   },
+   {
+    "brand": "GE",
+    "variant": "2A3",
+    "era": "1940s-1950s",
+    "notes": "US production/relabel family."
+   },
+   {
+    "brand": "Raytheon",
+    "variant": "2A3",
+    "era": "1940s-1950s",
+    "notes": "US NOS brand encountered in tube markets."
+   },
+   {
+    "brand": "Philco / Westinghouse relabels",
+    "variant": "2A3",
+    "era": "1930s-1950s",
+    "notes": "Brand label may not identify factory; inspect construction and codes."
+   }
+  ],
+  "wa33_fit": {
+   "socket_count": 4,
+   "notes": "The WA33 2nd generation uses four 2A3 output tubes as a matched quad in a fully balanced push-pull class-A amplifier. 300B tubes must not be substituted; use only compatible 2A3-family tubes confirmed for heater current, bias, socket, and clearance."
+  },
+  "warnings": [
+   "Use a matched quad in the WA33.",
+   "Do not substitute 300B tubes for 2A3 tubes.",
+   "Mesh filaments and globe bottles can be mechanically fragile.",
+   "2A3-40 and XLS-style tubes have different limits and may not behave like classic 15 W 2A3s.",
+   "Adapters and different-base relatives such as 6B4G need explicit compatibility checks.",
+   "Watch for counterfeit mesh or relabeled NOS tubes; construction details matter.",
+   "Arcing or gassy tubes can damage amplifier parts.",
+   "Observe maker current and dissipation limits, not just the printed 2A3 name."
+  ],
+  "sonic_lore": [
+   {
+    "model": "RCA / Sylvania NOS 2A3",
+    "descriptors": [
+     "warm",
+     "rich",
+     "smooth",
+     "textured",
+     "intimate"
+    ],
+    "summary": "Classic American NOS 2A3s are treated as the tone benchmark: saturated, midrange-rich, and natural at headphone levels. The appeal is texture and intimacy more than brute force.",
+    "source_count": 2
+   },
+   {
+    "model": "Sovtek Reflektor 2A3",
+    "descriptors": [
+     "neutral",
+     "fast",
+     "dynamic",
+     "detailed",
+     "punchy"
+    ],
+    "summary": "The saved Glow in the Dark Audio comparison singles out an early-2000s Sovtek Reflektor as its preferred example. In WA33 terms it is the pragmatic modern choice to compare against boutique tubes.",
+    "source_count": 1
+   },
+   {
+    "model": "Sophia mesh globe 2A3",
+    "descriptors": [
+     "airy",
+     "romantic",
+     "liquid",
+     "wide stage",
+     "soft"
+    ],
+    "summary": "Sophia-style mesh/globe 2A3 lore emphasizes atmosphere and bloom. Treat it as a delicacy-first tube and verify dissipation and handling before use.",
+    "source_count": 1
+   },
+   {
+    "model": "JJ 2A3-40",
+    "descriptors": [
+     "dynamic",
+     "tight bass",
+     "extended treble",
+     "clinical",
+     "punchy"
+    ],
+    "summary": "JJ 2A3-40 is best understood as a robust high-dissipation variant rather than a strict vintage clone. It can sound controlled and powerful, but compatibility matters more than its headline 40 W rating.",
+    "source_count": 1
+   },
+   {
+    "model": "Psvane Audio 2A3",
+    "descriptors": [
+     "lush",
+     "smooth",
+     "holographic",
+     "euphonic",
+     "romantic"
+    ],
+    "summary": "Psvane-style audiophile 2A3s are usually chosen for polish and image density. They should be purchased from a reliable source because model naming and regional lines vary.",
+    "source_count": 1
+   }
+  ],
+  "evidence": [
+   {
+    "claim_ref": "datasheet.filament_v",
+    "url": "https://www.radiomuseum.org/tubes/tube_2a3.html",
+    "snippet": "Vf 2.5 Volts / If 2.5 Ampere"
+   },
+   {
+    "claim_ref": "datasheet.typical_op",
+    "url": "https://tdsl.duncanamps.com/show.php?des=2A3",
+    "snippet": "2A3 Data sheet links"
+   },
+   {
+    "claim_ref": "datasheet.typical_op.warning",
+    "url": "https://tdsl.duncanamps.com/show.php?des=2A3",
+    "snippet": "Warning: Substitutes are given as a guide only"
+   },
+   {
+    "claim_ref": "construction.push_pull",
+    "url": "http://www.r-type.org/exhib/aaj0171.htm",
+    "snippet": "normally used in a push-pull arrangement"
+   },
+   {
+    "claim_ref": "variants.bi_plate",
+    "url": "http://www.r-type.org/exhib/aaj0171.htm",
+    "snippet": "two triode assemblies within a common anode"
+   },
+   {
+    "claim_ref": "history.first_introduced",
+    "url": "http://www.r-type.org/exhib/aaj0171.htm",
+    "snippet": "References: data-sheet. Type 2A3 was first"
+   },
+   {
+    "claim_ref": "wa33_fit.socket_count",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "6C45 driver tubes, four 2A3 power tubes"
+   },
+   {
+    "claim_ref": "wa33_fit.default_tubes",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "Same default tubes for all versions"
+   },
+   {
+    "claim_ref": "wa33_fit.push_pull",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "Fully balanced design, Push Pull, Class-A"
+   },
+   {
+    "claim_ref": "makers.JJ",
+    "url": "https://www.jj-electronic.com/images/stories/product/power_tubes/pdf/2a3-40.pdf",
+    "snippet": "Base: 4-PIN CERAMIC BASE"
+   },
+   {
+    "claim_ref": "datasheet.jj_2a3_40_limits",
+    "url": "https://www.jj-electronic.com/images/stories/product/power_tubes/pdf/2a3-40.pdf",
+    "snippet": "Moderate power, filamentary triodes"
+   },
+   {
+    "claim_ref": "sonic_lore.RCA",
+    "url": "http://glowinthedarkaudio.com/2A3tube.html",
+    "snippet": "the very definition of hifi"
+   },
+   {
+    "claim_ref": "sonic_lore.Sovtek Reflektor 2A3",
+    "url": "http://glowinthedarkaudio.com/2A3tube.html",
+    "snippet": "early 2000’s Sovtek Reflektor 2A3"
+   },
+   {
+    "claim_ref": "makers.Sophia Electric",
+    "url": "http://glowinthedarkaudio.com/2A3tube.html",
+    "snippet": "Sophia’s mesh plate globe"
+   },
+   {
+    "claim_ref": "makers.Electro-Harmonix",
+    "url": "https://shop.ehx.com/item/2a3eh/electro-harmonix-tubes-2a3-eh/",
+    "snippet": "Copyright © 2026 New Sensor Corp."
+   },
+   {
+    "claim_ref": "makers.JJ.page",
+    "url": "https://www.jj-electronic.com/en/2a3-40",
+    "snippet": "JJ Electronic -  2A3 - 40"
+   }
+  ],
+  "sources_url": "docs/kb/2a3.md"
+ },
+ "5U4G": {
+  "family": "5U4G",
+  "datasheet": {
+   "filament_v": 5,
+   "filament_a": 3,
+   "max_dc_output_ma": 225,
+   "max_piv_v": 1550,
+   "voltage_drop_v": 44,
+   "max_ac_v_per_plate": 550,
+   "max_input_cap_uf": 40,
+   "ac_peak_current_ma": 800,
+   "max_dc_output_choke_ma": 265
+  },
+  "base": "Octal (IO K8A), 5 pins used",
+  "heating": "directly heated",
+  "variants": [
+   {
+    "name": "5U4G",
+    "notes": "Original directly heated full-wave rectifier, octal base, ST/straight-sided glass. The stock WA33 rectifier."
+   },
+   {
+    "name": "5U4GA",
+    "notes": "Later variant with different envelope shape; normally replaceable with 5U4G but slightly different."
+   },
+   {
+    "name": "5U4GB",
+    "notes": "Electrically different: lower internal resistance, higher peak current. Not a direct substitute for 5U4G. Replacing 5U4G with 5U4GB raises rectified voltage; replacing 5U4GB with 5U4G can damage the tube."
+   },
+   {
+    "name": "5Z3",
+    "notes": "Electrically identical to 5U4G but uses 4-pin UX4 socket instead of octal."
+   },
+   {
+    "name": "274B",
+    "notes": "Western Electric design rectifier, 5 V / 2 A filament (lower than 5U4G's 3 A). Common WA33 upgrade. Not a direct 5U4G drop-in; amplifier must be designed for it."
+   },
+   {
+    "name": "5T4",
+    "notes": "Related rectifier sometimes equated with 5U4G; some spec differences noted."
+   },
+   {
+    "name": "GZ37",
+    "notes": "Mullard indirectly heated rectifier. Not a 5U4G and not a drop-in substitute."
+   }
+  ],
+  "makers": [
+   {
+    "brand": "Emission Labs (EML)",
+    "models": [
+     "5U4G-Mesh",
+     "5Z3-Mesh",
+     "274B-Mesh"
+    ],
+    "country": "Europe",
+    "construction": "mesh",
+    "notes": "Mesh-plate construction, octal 5-pin socket, slow-start (2 s first function, 7 s full current). Electrically identical 5U4G and 5Z3 versions. Larger than historical NOS tubes. Filament 5 V / 3 A."
+   },
+   {
+    "brand": "Sophia Electric",
+    "models": [
+     "274B Aqua III"
+    ],
+    "country": "Japan/USA",
+    "construction": "solid plate",
+    "notes": "274B rectifier sold by Woo Audio as a WA33 upgrade."
+   },
+   {
+    "brand": "Psvane",
+    "models": [
+     "WE274B"
+    ],
+    "country": "China",
+    "construction": "solid plate",
+    "notes": "WE274B rectifier sold by Woo Audio as a WA33 upgrade."
+   },
+   {
+    "brand": "Takatsuki",
+    "models": [
+     "TA-274B"
+    ],
+    "country": "Japan",
+    "construction": "solid plate",
+    "notes": "Premium 274B rectifier sold by Woo Audio as a WA33 upgrade."
+   }
+  ],
+  "nos": [
+   {
+    "brand": "RCA",
+    "variant": "5U4G / 5U4GB",
+    "era": "1935-1960s",
+    "notes": "Original US manufacturer; RCA datasheets are the reference for the 5U4G family. Most sought-after NOS for audio."
+   },
+   {
+    "brand": "Sylvania",
+    "variant": "5U4G",
+    "era": "1940s-1960s",
+    "notes": "NOS Sylvania 5U4G with brown base sold by Woo Audio. Datasheet listed in Frank Philipse archive."
+   },
+   {
+    "brand": "Tung-Sol",
+    "variant": "5U4G / 5U4GB",
+    "era": "1940s-1960s",
+    "notes": "Datasheet listed in Frank Philipse archive."
+   },
+   {
+    "brand": "GE (General Electric)",
+    "variant": "5U4GB",
+    "era": "1950s-1970s",
+    "notes": "Listed in GE Essential Characteristics 1973. Datasheet in Frank Philipse archive."
+   },
+   {
+    "brand": "Brimar (STC)",
+    "variant": "5U4G",
+    "era": "1940s-1950s",
+    "notes": "UK manufacturer (STC subsidiary). Datasheet listed in Frank Philipse archive; manufacturer listed on radiomuseum.org."
+   },
+   {
+    "brand": "Svetlana",
+    "variant": "5U4G (Winged-C)",
+    "era": "1990s-2000s",
+    "notes": "Russian production; popular before current New Sensor production."
+   }
+  ],
+  "wa33_fit": {
+   "socket_count": 1,
+   "notes": "The Woo Audio WA33 (2nd gen) Standard Edition uses one 5U4G as the stock rectifier. The 274B is the common upgrade path (Takatsuki TA-274B, Sophia Aqua III 274B, Psvane WE274B sold by Woo Audio). The 5U4G and 274B are NOT interchangeable without the amplifier being designed for both (different filament current: 3 A vs 2 A). The 5U4GB is NOT a safe substitute for the 5U4G (different internal resistance, higher output voltage). 300B does not fit this amplifier."
+  },
+  "warnings": [
+   "Filament fragility: the directly heated filament draws 3 A at 5 V; over-voltage or physical shock can break it.",
+   "Do not substitute 5U4GB for 5U4G: the GB has lower internal resistance and produces higher rectified voltage; the G can be damaged if substituted for a GB.",
+   "Input capacitor must not exceed 40 µF; exceeding this causes high charge-current peaks, tube damage, and hum radiation.",
+   "Minimum transformer winding resistance ~170-230 Ω required for capacitor-input filter; add series resistors if too low.",
+   "Arcing: operating beyond PIV (1550 V) or with excessive input capacitance can cause internal arcing (white spark at switch-on).",
+   "274B filament current (2 A) differs from 5U4G (3 A); the amplifier must be designed for the correct current.",
+   "Counterfeit mesh-plate 5U4G tubes exist; buy from reputable dealers.",
+   "300B does not fit the WA33; only 2A3, 6C45, 5U4G, and 274B families apply."
+  ],
+  "sonic_lore": [
+   {
+    "model": "EML 5U4G-Mesh",
+    "descriptors": [
+     "smooth",
+     "black background",
+     "warm",
+     "detailed"
+    ],
+    "summary": "The EML mesh-plate 5U4G is a slow-start tube that enables ultra-low-ripple operation when used with a choke-input filter, producing a quiet, smooth power supply. Its mesh construction and protective heater stabilization are designed for long life and low hum-field radiation.",
+    "source_count": 1
+   },
+   {
+    "model": "NOS RCA 5U4G",
+    "descriptors": [
+     "warm",
+     "smooth",
+     "neutral",
+     "euphonic"
+    ],
+    "summary": "NOS RCA 5U4G tubes are the classic stock rectifier in many vintage and modern tube amplifiers, valued for their warm, smooth character. They are directly heated and provide gradual B+ rise due to the filament warm-up time.",
+    "source_count": 1
+   },
+   {
+    "model": "274B upgrade (Takatsuki TA-274B / Sophia Aqua III / Psvane WE274B)",
+    "descriptors": [
+     "black background",
+     "detailed",
+     "dynamic",
+     "holographic",
+     "fast"
+    ],
+    "summary": "The 274B is the most common WA33 rectifier upgrade, sold by Woo Audio in Takatsuki, Sophia Electric, and Psvane variants. Upgrading from the stock 5U4G to a 274B is generally reported to lower noise floor and improve detail and dynamics.",
+    "source_count": 1
+   }
+  ],
+  "evidence": [
+   {
+    "claim_ref": "datasheet.filament_v",
+    "url": "https://www.radiomuseum.org/tubes/tube_5u4g.html",
+    "snippet": "Vf 5 Volts / If 3 Ampere"
+   },
+   {
+    "claim_ref": "datasheet.max_piv_v",
+    "url": "https://www.radiomuseum.org/tubes/tube_5u4g.html",
+    "snippet": "1550V PIV, 225mA max DC"
+   },
+   {
+    "claim_ref": "datasheet.voltage_drop_v",
+    "url": "https://www.radiomuseum.org/tubes/tube_5u4g.html",
+    "snippet": "44V max drop at 225mA"
+   },
+   {
+    "claim_ref": "datasheet.max_input_cap_uf",
+    "url": "http://www.emissionlabs.com/datasheets/EML-5U4G.html",
+    "snippet": "the first capacitor (C1) should NOT be larger than 40uF"
+   },
+   {
+    "claim_ref": "variants.5U4GB",
+    "url": "http://www.emissionlabs.com/datasheets/EML-5U4G.html",
+    "snippet": "5U4GB is a version, with lower internal resistance"
+   },
+   {
+    "claim_ref": "variants.5Z3",
+    "url": "http://www.emissionlabs.com/datasheets/EML-5U4G.html",
+    "snippet": "5Z3-Mesh and 5U4G-Mesh, which are electrically identical, apart from the sockets"
+   },
+   {
+    "claim_ref": "makers.EML",
+    "url": "http://www.emissionlabs.com/datasheets/EML-5U4G.html",
+    "snippet": "direct replacements for the historical 5U4G or 5Z3"
+   },
+   {
+    "claim_ref": "makers.EML.slow_start",
+    "url": "http://www.emissionlabs.com/datasheets/EML-5U4G.html",
+    "snippet": "also the EML rectifiers are Slow-Start tubes"
+   },
+   {
+    "claim_ref": "sonic_lore.EML 5U4G-Mesh",
+    "url": "http://www.emissionlabs.com/datasheets/EML-5U4G.html",
+    "snippet": "For ultra low ripple, it is recommended to use"
+   },
+   {
+    "claim_ref": "wa33_fit.274B_upgrade",
+    "url": "https://wooaudio.com/tubes-all",
+    "snippet": "274B Sophia Aqua III Tube (In Each)"
+   },
+   {
+    "claim_ref": "wa33_fit.Psvane",
+    "url": "https://wooaudio.com/tubes-all",
+    "snippet": "Psvane WE274B Tube from $320.00"
+   },
+   {
+    "claim_ref": "nos.Brimar",
+    "url": "https://www.radiomuseum.org/tubes/tube_5u4g.html",
+    "snippet": "Brimar (STC); Foots Cray"
+   },
+   {
+    "claim_ref": "base",
+    "url": "https://www.radiomuseum.org/tubes/tube_5u4g.html",
+    "snippet": "Base Octal (Int.Octal, IO) K8A, USA 1935"
+   }
+  ],
+  "sources_url": "docs/kb/5u4g.md"
+ },
+ "6C45": {
+  "family": "6C45",
+  "datasheet": {
+   "filament_v": 6.3,
+   "filament_a": 0.44,
+   "max_plate_v": 250,
+   "max_plate_w": 6,
+   "mu": 52,
+   "gm_ma_v": 52
+  },
+  "base": "Noval (B9A 9-pin miniature)",
+  "heating": "indirectly heated",
+  "variants": [
+   {
+    "name": "6S45P-E (6С45П-Е)",
+    "notes": "Original Soviet high-transconductance single triode; the “E” suffix denotes the enhanced-reliability variant with tighter tolerances and longer guaranteed life"
+   },
+   {
+    "name": "6C45Pi",
+    "notes": "Western marketing name for the currently-produced variant, made by Electro-Harmonix / New Sensor in Russia with gold-plated pins"
+   }
+  ],
+  "makers": [
+   {
+    "brand": "Electro-Harmonix (New Sensor)",
+    "models": [
+     "6C45Pi"
+    ],
+    "country": "Russia (Saransk)",
+    "construction": "solid plate",
+    "notes": "The gold-pin variant of the 6C45Pi, sold by Woo Audio as a matched pair ($195) or matched quad ($405). The EH-branded gold-pin tube is the one Woo Audio stocks for WA33 driver replacement; described as a 'super triode' with very high transconductance."
+   },
+   {
+    "brand": "Sovtek (New Sensor)",
+    "models": [
+     "6C45PI"
+    ],
+    "country": "Russia",
+    "construction": "solid plate",
+    "notes": "The Sovtek-branded standard (non-gold-pin) variant of the 6C45Pi, sold through the Electro-Harmonix shop (shop.ehx.com) at $99.34 per box. Listed by EHX as a preamp tube of Russian origin; the same New Sensor production line as the EH variant."
+   }
+  ],
+  "nos": [
+   {
+    "brand": "Reflektor",
+    "variant": "6S45P-E",
+    "era": "1970s–1980s",
+    "notes": "Primary Soviet manufacturer of the 6S45P-E, based in Saratov. Radiomuseum.org holds a Reflektor 6S45PE tube photograph. Considered the reference NOS variant for audio use."
+   },
+   {
+    "brand": "Svetlana",
+    "variant": "6S45P-E",
+    "era": "1970s–1980s",
+    "notes": "Soviet manufacturer in St. Petersburg; produced the 6S45P-E alongside Reflektor. Svetlana-branded 6S45P-E are less commonly encountered in audio than Reflektor examples."
+   },
+   {
+    "brand": "Voskhod",
+    "variant": "6S45P-E",
+    "era": "1970s–1980s",
+    "notes": "Soviet manufacturer in Kaluga; another source of NOS 6S45P-E tubes. Less frequently seen in Western audio markets than Reflektor or Svetlana."
+   },
+   {
+    "brand": "Soviet (USSR generic)",
+    "variant": "6S45P-E",
+    "era": "~1977",
+    "notes": "Frank's tube archive and its altanatubes mirror list the 6S45PE as a “Soviet” brand tube dated approximately 1977, classified as a triode (type code “t”)."
+   }
+  ],
+  "wa33_fit": {
+   "socket_count": 4,
+   "notes": "The Woo Audio WA33 (2nd generation) uses four 6C45 tubes as the driver stage in a fully balanced Class-A push-pull configuration, paired with four 2A3 power tubes and one 5U4G rectifier (5U3C is an equivalent designation). The 6C45 is the stock driver for both the Standard and Elite Editions. The Western Electric 417A, Raytheon 5842, and GEC CV3789 can be substituted as driver upgrades but require a custom 31 mm adapter; Woo Audio sells these as factory-matched tube-plus-adapter sets and states the tube and adapter must not be separated. A standard 300B (5 V filament) does NOT fit the WA33; only the EML 300B-2.5 (2.5 V filament) has been confirmed compatible by Jack Woo. The WA33 is self-biasing with compatible tubes; Woo provides a tube-compatibility chart (Google Sheets, login-gated)."
+  },
+  "warnings": [
+   "High microphonics — the very high transconductance and small electrode structure make the 6C45 mechanically sensitive to vibration; socket damping and careful placement matter in audio service",
+   "Heater pins run warm — the 0.44 A heater at 6.3 V dissipates about 2.8 W and can heat the noval pins; ensure good socket contact",
+   "Noise at low signal levels — high-gm triodes tend to be noisier than low-gm types; select low-noise specimens for driver stages",
+   "Burn-in — 50–100 hours of burn-in is commonly recommended before final sonic judgement",
+   "WE 417A / 5842 / CV3789 adapter — these substitutes require a custom 31 mm adapter to fit the 6C45 noval socket; tube and adapter are factory matched and must not be separated",
+   "300B does NOT fit — the standard 300B has a 5 V filament and is electrically incompatible; only the 2.5 V EML 300B-2.5 variant has been confirmed WA33-compatible by Jack Woo",
+   "Datasheet image-only — the primary Russian 6S45P-E datasheet in Frank's archive is a scanned image with no extractable text; secondary sources (radiomuseum.org) provide the filament and base data in HTML"
+  ],
+  "sonic_lore": [
+   {
+    "model": "WA33 Elite Edition with EH 6C45Pi drivers",
+    "descriptors": [
+     "neutral",
+     "punchy",
+     "fast",
+     "smooth",
+     "detailed",
+     "holographic",
+     "wide stage",
+     "deep stage",
+     "airy",
+     "extended treble",
+     "tight bass",
+     "textured"
+    ],
+    "summary": "The WA33 Elite Edition with Electro-Harmonix 6C45Pi drivers is described as neutral and transparent rather than lush or overly warm, combining solid-state-like speed and slam with a smooth, non-harsh top end. Bass is deep and textured, the soundstage is holographic and wide with exceptional depth, and there is generous air around each instrument.",
+    "source_count": 1
+   },
+   {
+    "model": "NOS Reflektor / Soviet 6S45P-E",
+    "descriptors": [
+     "detailed",
+     "fast",
+     "neutral",
+     "microphonic"
+    ],
+    "summary": "NOS Soviet 6S45P-E tubes are generally regarded as more detailed and resolving than the current Electro-Harmonix production, with a cleaner, faster presentation, but they are also more microphonic and harder to match into quiet quads. Direct sonic testimony from a saved source is limited; most owner reports come from head-fi and forum.headphones.com threads that are JavaScript-rendered and could not be fetched as text.",
+    "source_count": 0
+   },
+   {
+    "model": "WE 417A / 5842 / CV3789 driver upgrade",
+    "descriptors": [
+     "detailed",
+     "holographic",
+     "smooth",
+     "fast",
+     "dynamic",
+     "textured",
+     "airy"
+    ],
+    "summary": "Woo Audio positions the Western Electric 417A, Raytheon 5842, and GEC CV3789 as premium NOS driver upgrades that elevate the already exceptional WA33 to jaw-dropping sonic performance via a custom 31 mm 417A-to-6C45 adapter. These are the only documented driver substitutes for the 6C45 in the WA33, sold as factory-matched tube-plus-adapter sets.",
+    "source_count": 1
+   }
+  ],
+  "evidence": [
+   {
+    "claim_ref": "datasheet.filament_v",
+    "url": "https://www.radiomuseum.org/tubes/tube_6s45p.html",
+    "snippet": "Vf 6.3 Volts If 0.44 Ampere"
+   },
+   {
+    "claim_ref": "datasheet.base",
+    "url": "https://www.radiomuseum.org/tubes/tube_6s45p.html",
+    "snippet": "Noval, 9 pin miniature"
+   },
+   {
+    "claim_ref": "wa33_fit.config",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "four 6C45 driver tubes and four 2A3 power tubes"
+   },
+   {
+    "claim_ref": "wa33_fit.default_tubes",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "6C45 driver x 4, 2A3 power x 4, 5U4G rectifier x 1"
+   },
+   {
+    "claim_ref": "wa33_fit.417a_adapter",
+    "url": "https://wooaudio.com/tubes/417a-5842-tube-with-adapter-quad",
+    "snippet": "A rare driver tube that elevates the already exceptional WA33"
+   },
+   {
+    "claim_ref": "makers.EH",
+    "url": "https://wooaudio.com/tubes/electroharmonix-6c45pi",
+    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube"
+   },
+   {
+    "claim_ref": "sonic_lore.WA33_EE",
+    "url": "https://forum.headphones.com/t/woo-audio-wa33-elite-with-jps-alumiloy-internal-wiring/4978",
+    "snippet": "not artificially lush and overly warm"
+   },
+   {
+    "claim_ref": "nos.takatsuki",
+    "url": "https://forum.headphones.com/t/woo-audio-wa33-elite-with-jps-alumiloy-internal-wiring/4978",
+    "snippet": "Takatsuki 274B and 300B"
+   },
+   {
+    "claim_ref": "wa33_fit.rectifier",
+    "url": "https://wooaudio.com/amplifiers/wa33",
+    "snippet": "5U4G (5U3C) rectifier tube x 1"
+   },
+   {
+    "claim_ref": "sonic_lore.EH_drivers",
+    "url": "https://forum.headphones.com/t/woo-audio-wa33-elite-with-jps-alumiloy-internal-wiring/4978",
+    "snippet": "6C45Pi ElectroHarmonix driver tubes"
+   },
+   {
+    "claim_ref": "makers.Sovtek",
+    "url": "https://shop.ehx.com/item/6c45pi/tubes-vacuum-sovtek/",
+    "snippet": "Sovtek 6C45PI Preamp Tube"
+   },
+   {
+    "claim_ref": "sonic_lore.417a_upgrade",
+    "url": "https://wooaudio.com/tubes/417a-5842-tube-with-adapter-quad",
+    "snippet": "Premium 417A to 6C45 adapter"
+   }
+  ],
+  "sources_url": "docs/kb/6c45.md"
+ }
+}
