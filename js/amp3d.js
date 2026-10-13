@@ -122,7 +122,7 @@ export function initAmp(canvas, data, store, { onSocketClick } = {}) {
     glass.position.y = 0.012 * sc; g.add(glass);
     const isNoval = tube.bottle === "noval";
     const baseH = isNoval ? 0.004 : 0.014;
-    const base = new THREE.Mesh(new THREE.CylinderGeometry(pts[0].x, pts[0].x * 0.96, baseH, 32), new THREE.MeshStandardMaterial({ color: /electro|sovtek|tung-sol/i.test(tube.brand) && !isNoval ? 0xe6e1d6 : 0x151210, roughness: 0.6 }));
+    const base = new THREE.Mesh(new THREE.CylinderGeometry(pts[0].x, pts[0].x * 0.96, baseH, 32), new THREE.MeshStandardMaterial({ color: 0x121010, roughness: 0.35, metalness: 0.2 }));
     base.position.y = baseH / 2 + 0.003; g.add(base);
     const isMesh = /mesh/i.test(tube.construction || "");
     const plateH = (isNoval ? 0.022 : 0.05) * sc, plateW = (isNoval ? 0.008 : 0.02) * sc, plateD = (isNoval ? 0.006 : 0.012) * sc;
@@ -176,7 +176,7 @@ export function initAmp(canvas, data, store, { onSocketClick } = {}) {
     const fit = Math.max(1, 1.75 / camera.aspect);
     const narrow = camera.aspect < 1.2; // mobile: no side panel, keep the amp centred
     pathPos.set(THREE.MathUtils.lerp(0.22, 0.0, e) * fit, THREE.MathUtils.lerp(0.14, narrow ? 0.52 : 0.74, e) * fit, THREE.MathUtils.lerp(0.68, narrow ? 0.40 : 0.56, e) * fit);
-    pathTarget.set(THREE.MathUtils.lerp(0, narrow ? 0 : 0.15, Math.max(0, (p - 0.55) / 0.45)), THREE.MathUtils.lerp(-0.04, 0.0, e), THREE.MathUtils.lerp(-0.02, -0.02, e));
+    pathTarget.set(narrow ? 0 : THREE.MathUtils.lerp(0.07, 0.15, e), THREE.MathUtils.lerp(-0.04, 0.0, e), THREE.MathUtils.lerp(-0.02, -0.02, e));
     pathPos.x += mouse.x * 0.03 * (1 - e); pathPos.y += -mouse.y * 0.015 * (1 - e);
     camera.position.copy(pathPos); camera.lookAt(pathTarget);
   }

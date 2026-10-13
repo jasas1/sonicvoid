@@ -45,14 +45,19 @@ function applyView() { $("#meters").hidden = view !== "meters"; $("#spider").hid
 viewBtns.forEach((b) => b.addEventListener("click", () => { view = b.dataset.view; try { localStorage.setItem("av-view", view); } catch {} applyView(); }));
 applyView();
 
-// the roll panel follows the reader: it lives in the hero while the hero is on screen, then moves to a fixed dock
+// the roll panel: on wide screens it lives in a fixed dock from page load and persists; on narrow screens it sits in the hero and becomes a bottom sheet once the hero scrolls away
 const panel = $("#roll"); const heroSticky = panel.parentElement; const dock = $("#roll-dock"); const heroEl = $("#hero"); const changeBtn = $("#roll-change");
 let inDock = false;
+const wide = () => window.matchMedia("(min-width: 1100px)").matches;
+function toDock(persistent) { if (inDock) return; dock.appendChild(panel); inDock = true; dock.classList.add("on"); dock.classList.toggle("persistent", persistent); panel.classList.toggle("compact", !persistent); document.body.classList.add("dock-on"); }
+function toHero() { if (!inDock) return; heroSticky.appendChild(panel); inDock = false; dock.classList.remove("on", "expanded", "persistent"); panel.classList.remove("compact"); changeBtn.setAttribute("aria-expanded", "false"); document.body.classList.remove("dock-on"); }
+if (wide()) toDock(true);
 new IntersectionObserver((entries) => {
+  if (wide()) { toDock(true); return; }
   const heroVisible = entries[0].isIntersecting;
-  if (!heroVisible && !inDock) { dock.appendChild(panel); inDock = true; dock.classList.add("on"); panel.classList.add("compact"); document.body.classList.add("dock-on"); }
-  else if (heroVisible && inDock) { heroSticky.appendChild(panel); inDock = false; dock.classList.remove("on", "expanded"); panel.classList.remove("compact"); changeBtn.setAttribute("aria-expanded", "false"); document.body.classList.remove("dock-on"); }
+  if (!heroVisible) toDock(false); else toHero();
 }, { threshold: 0 }).observe(heroEl);
+window.matchMedia("(min-width: 1100px)").addEventListener("change", (e) => { if (e.matches) toDock(true); else { toHero(); } });
 changeBtn.addEventListener("click", () => { const ex = dock.classList.toggle("expanded"); panel.classList.toggle("compact", !ex); changeBtn.setAttribute("aria-expanded", String(ex)); });
 let pulseTimer = 0;
 function pulseDock() { dock.classList.add("pulse"); clearTimeout(pulseTimer); pulseTimer = setTimeout(() => dock.classList.remove("pulse"), 1200); }

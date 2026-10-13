@@ -406,3 +406,23 @@ table.market th .sort::after { content: attr(data-dir); font-size: 0.6em; }
 .market-sort-mobile { display: none; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); align-items: center; gap: 0.4rem; }
 .market-sort-mobile select { font-size: 0.8rem; }
 @media (max-width: 860px) { .market-sort-mobile { display: inline-flex; } }
+
+/* persistent dock (wide screens): present from load, builds in fast, never snaps */
+@keyframes dockBuild { 0% { opacity: 0; clip-path: inset(0 0 100% 0); filter: contrast(1.6) brightness(1.3); } 60% { opacity: 1; } 100% { opacity: 1; clip-path: inset(0 0 0 0); filter: none; } }
+.roll-dock.persistent { transform: translate(0, -50%); animation: dockBuild 0.42s steps(7, end) both; }
+.roll-dock.persistent .roll-panel { max-height: calc(100vh - 2rem); }
+.roll-dock.persistent .roll-head p:not(.dock-summary) { display: none; }
+.roll-dock.persistent .dock-summary { display: none; }
+.roll-dock.persistent .roll-change { display: none; }
+.roll-dock.persistent .roll-pool-wrap { max-height: 6.6rem; }
+.roll-dock.persistent .meters { gap: 0.2rem 0.45rem; }
+.roll-dock.persistent .verdict { font-size: 0.84rem; }
+body.dock-on .hero-readout { display: none; }
+@media (min-width: 1100px) {
+  .roll-dock.persistent .view-toggle { display: none; }
+  .roll-dock.persistent .meters[hidden] { display: grid !important; }
+  .roll-dock.persistent .spider[hidden] { display: block !important; }
+  .roll-dock.persistent .spider { margin-top: 0.5rem; }
+  .roll-dock.persistent .spider svg { max-width: 15rem; }
+}
+@media (prefers-reduced-motion: reduce) { .roll-dock.persistent { animation: none; } }
