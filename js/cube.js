@@ -44,7 +44,7 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 500); camera.position.copy(HOME);
   const controls = new OrbitControls(camera, canvas); controls.enableDamping = true; controls.dampingFactor = 0.07; controls.enablePan = false; controls.minDistance = 5; controls.maxDistance = 120;
-  const HOME_TARGET = new THREE.Vector3(-4, 0, 0); controls.target.copy(HOME_TARGET); // aim a little left of centre so the box sits right of centre, leaving room for the left-hand labels
+  const HOME_TARGET = new THREE.Vector3(-4, -2.5, 0); controls.target.copy(HOME_TARGET); // aim a little left of centre so the box sits right of centre, leaving room for the left-hand labels
   scene.add(new THREE.HemisphereLight(0xe4e9f0, 0x0b0a08, 1.25));
   const key = new THREE.DirectionalLight(0xffe6c8, 1.3); key.position.set(10, 20, 12); scene.add(key);
   const mesh = new THREE.InstancedMesh(new THREE.BoxGeometry(0.66, 0.66, 0.66), new THREE.MeshStandardMaterial({ roughness: 0.4, metalness: 0.12, transparent: true, opacity: 0.92 }), N);
@@ -127,7 +127,11 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
     noteEl.textContent = `corners are the pool's own extremes on ${ax.label.toLowerCase()}, ${ay.label.toLowerCase()} and ${az.label.toLowerCase()}`;
   }
   buildSpaceLabels();
-  function markSelectedLabels() { const s = store.get(); labels.forEach((L) => L.el.classList.toggle("sel", L.id === s.power || L.id === s.rectifier || L.id === s.driver)); }
+  const selIdx = { x: 0, y: 0, z: 0 }; // thinning is centred on the selected tube of each axis so it always keeps its label
+  function markSelectedLabels() {
+    const s = store.get();
+    labels.forEach((L) => { const on = L.id === s.power || L.id === s.rectifier || L.id === s.driver; L.el.classList.toggle("sel", on); if (on && selIdx[L.axis] !== undefined) selIdx[L.axis] = L.index; });
+  }
   markSelectedLabels();
   const pv = new THREE.Vector3(); const tmp = new THREE.Vector3();
   const toScreen = (x, y, z, w, h) => { pv.set(x, y, z).project(camera); return [(pv.x * 0.5 + 0.5) * w, (-pv.y * 0.5 + 0.5) * h, pv.z]; };
@@ -139,39 +143,108 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
     for (const sx of [-1, 1]) for (const sz of [-1, 1]) { const m = toScreen(sx * ext.x, 0, sz * ext.z, w, h); if (!ye || m[0] < ye.m[0]) ye = { sx, sz, m }; }
     return { xe, ze, ye };
   }
+  const LH = 13; // label line height on screen (px)
+  const deg = (r) => (r * 180) / Math.PI;
   function placeLabels() {
     const w = canvas.clientWidth, h = canvas.clientHeight; const t = state.explode;
     const ext = { x: EXT_L.x, y: EXT_L.y, z: THREE.MathUtils.lerp(EXT_L.z, EXT_E.z, t) };
     const { xe, ze, ye } = chooseEdges(ext, w, h);
     noteEl.style.opacity = t;
     const pad = 0.6;
-    // thinning per axis from the projected gap between neighbours
-    const gapX = Math.hypot(...(() => { const a = toScreen(0, xe.sy * ext.y, xe.sz * ext.z, w, h), b = toScreen(S, xe.sy * ext.y, xe.sz * ext.z, w, h); return [b[0] - a[0], b[1] - a[1]]; })());
-    const gapY = Math.hypot(...(() => { const a = toScreen(ye.sx * ext.x, 0, ye.sz * ext.z, w, h), b = toScreen(ye.sx * ext.x, S, ye.sz * ext.z, w, h); return [b[0] - a[0], b[1] - a[1]]; })());
-    const gapZ = Math.hypot(...(() => { const a = toScreen(ze.sx * ext.x, ze.sy * ext.y, 0, w, h), b = toScreen(ze.sx * ext.x, ze.sy * ext.y, S, w, h); return [b[0] - a[0], b[1] - a[1]]; })());
-    const stride = { x: Math.max(1, Math.ceil(13 / Math.max(1, gapX))), y: Math.max(1, Math.ceil(13 / Math.max(1, gapY))), z: Math.max(1, Math.ceil(13 / Math.max(1, gapZ))) };
+    const centre = toScreen(0, 0, 0, w, h);
+    // each axis: the on-screen direction of its edge and the gap between neighbouring ticks
+    const edge = (a, b) => { const dx = b[0] - a[0], dy = b[1] - a[1]; const g = Math.hypot(dx, dy) || 1; return { ex: dx / g, ey: dy / g, gap: g }; };
+    const E = {
+      x: edge(toScreen(0, xe.sy * ext.y, xe.sz * ext.z, w, h), toScreen(S, xe.sy * ext.y, xe.sz * ext.z, w, h)),
+      y: edge(toScreen(ye.sx * ext.x, 0, ye.sz * ext.z, w, h), toScreen(ye.sx * ext.x, S, ye.sz * ext.z, w, h)),
+      z: edge(toScreen(ze.sx * ext.x, ze.sy * ext.y, 0, w, h), toScreen(ze.sx * ext.x, ze.sy * ext.y, S, w, h)),
+    };
+    // every tick label runs perpendicular to its edge on screen (a vertical edge stacks them, a horizontal edge hangs them, a diagonal fans them),
+    // so each covers one line height of the edge and the thinning stride is the same rule on all three axes
+    const stride = {}; for (const ax of ["x", "y", "z"]) stride[ax] = Math.max(1, Math.ceil((LH + 1) / Math.max(1, E[ax].gap)));
+    const boxes = []; // screen boxes of the shown tick labels, so the axis titles can keep clear of them
+    const titles = []; const ticks = [];
     labels.forEach((L) => {
-      let p, mode = "h"; // h: horizontal anchored away from the box; v: vertical (hanging) text
+      let p;
       const alpha = L.group === "lattice" ? 1 - t : t;
       if (alpha < 0.05) { L.el.style.opacity = 0; return; }
-      if (L.axis === "x") { p = toScreen(L.coord, xe.sy * (ext.y + pad), xe.sz * (ext.z + pad), w, h); mode = "v"; L.up = xe.sy > 0; }
-      else if (L.axis === "y") { p = toScreen(ye.sx * (ext.x + pad * 1.6), L.coord, ye.sz * (ext.z + pad * 1.6), w, h); }
-      else if (L.axis === "z") { p = toScreen(ze.sx * (ext.x + pad * 2.2), ze.sy * (ext.y + pad), L.coord, w, h); } // drivers: horizontal, pushed outward past the x labels
-      else if (L.axis === "tx") { p = toScreen(0, xe.sy * (ext.y + 7.5), xe.sz * (ext.z + 2.5), w, h); }
-      else if (L.axis === "ty") { p = toScreen(ye.sx * (ext.x + 9.5), 0, ye.sz * (ext.z + 5.5), w, h); }
-      else if (L.axis === "tz") { p = toScreen(ze.sx * (ext.x + 7.5), ze.sy * (ext.y + 1.5), 0, w, h); }
+      if (L.axis === "x") p = toScreen(L.coord, xe.sy * (ext.y + pad), xe.sz * (ext.z + pad), w, h);
+      else if (L.axis === "y") p = toScreen(ye.sx * (ext.x + pad * 1.6), L.coord, ye.sz * (ext.z + pad * 1.6), w, h);
+      else if (L.axis === "z") p = toScreen(ze.sx * (ext.x + pad), ze.sy * (ext.y + pad), L.coord, w, h);
+      else if (L.axis === "tx") p = toScreen(0, xe.sy * (ext.y + 7.5), xe.sz * (ext.z + 2.5), w, h);
+      else if (L.axis === "ty") p = toScreen(ye.sx * (ext.x + 9.5), 0, ye.sz * (ext.z + 5.5), w, h);
+      else if (L.axis === "tz") p = toScreen(ze.sx * (ext.x + 7.5), ze.sy * (ext.y + 1.5), 0, w, h);
       else if (L.axis === "corner") { const [cx, cy, cz] = L.corner; p = toScreen(cx * (ext.x + 0.8), cy * (ext.y + 0.8), cz * (ext.z + 0.8), w, h); }
-      const thinned = L.group === "lattice" && ["x", "y", "z"].includes(L.axis) && (L.index % stride[L.axis] !== 0) && !L.el.classList.contains("sel");
+      const tick = L.group === "lattice" && ["x", "y", "z"].includes(L.axis);
+      // thinning keeps every stride-th label counted from the selected one, so the selection never collides with a neighbour
+      const k = tick ? stride[L.axis] : 1;
+      const thinned = tick && (((L.index - selIdx[L.axis]) % k) + k) % k !== 0;
       const show = p[2] < 1 && !thinned && p[0] > -60 && p[0] < w + 60 && p[1] > -30 && p[1] < h + 30;
+      if (["tx", "ty", "tz"].includes(L.axis)) { titles.push({ L, p, alpha, show }); return; }
       L.el.style.opacity = show ? alpha : 0;
       if (!show) return;
-      let left = p[0] < w / 2; const top = p[1] < h / 2;
-      const lw = L.el.offsetWidth || 0; // flip the side when the text would run off the canvas
-      if (L.axis === "corner" || L.axis === "z" || L.axis === "tz") { if (left && p[0] - lw < 4) left = false; else if (!left && p[0] + lw > w - 4) left = true; }
+      const lw = L.el.offsetWidth || 0;
       const x = p[0].toFixed(1), y = p[1].toFixed(1);
-      if (mode === "v") L.el.style.transform = L.up ? `translate(${x}px, ${y}px) rotate(-90deg) translate(0, -50%)` : `translate(${x}px, ${y}px) rotate(-90deg) translate(-100%, -50%)`;
-      else if (L.axis === "corner") L.el.style.transform = `translate(${x}px, ${y}px) translate(${left ? "-100%" : "0"}, ${top ? "-100%" : "0"})`;
+      if (tick) {
+        const e = E[L.axis];
+        let dx = -e.ey, dy = e.ex; // perpendicular to the edge
+        if ((p[0] - centre[0]) * dx + (p[1] - centre[1]) * dy < 0) { dx = -dx; dy = -dy; } // pointing away from the cube
+        const fx = p[0] + dx * lw;
+        if (fx < 4 || fx > w - 4) { dx = -dx; dy = -dy; } // would run off the canvas sideways: run inward instead
+        ticks.push({ L, p, dx, dy, lw, alpha, gap: e.gap, sel: L.el.classList.contains("sel") });
+        return;
+      }
+      let left = p[0] < centre[0]; const top = p[1] < centre[1]; // text runs away from the cube
+      if (left && p[0] - lw < 4) left = false; else if (!left && p[0] + lw > w - 4) left = true; // flip the side when the text would run off the canvas
+      if (L.axis === "corner") L.el.style.transform = `translate(${x}px, ${y}px) translate(${left ? "-100%" : "0"}, ${top ? "-100%" : "0"})`;
       else L.el.style.transform = `translate(${x}px, ${y}px) translate(${left ? "-100%" : "0"}, -50%)`;
+    });
+    // tick labels of different axes can meet at a shared corner: where two cross, the one on the more foreshortened axis gives way
+    const rect = (k) => { const nx = -k.dy * LH / 2, ny = k.dx * LH / 2; const qx = k.p[0] + k.dx * k.lw, qy = k.p[1] + k.dy * k.lw;
+      return { pts: [[k.p[0] + nx, k.p[1] + ny], [k.p[0] - nx, k.p[1] - ny], [qx - nx, qy - ny], [qx + nx, qy + ny]], ax: [[k.dx, k.dy], [-k.dy, k.dx]] }; };
+    const separated = (A, B) => [...A.ax, ...B.ax].some(([ux, uy]) => {
+      const pr = (R) => R.pts.reduce((m, [px, py]) => { const v = px * ux + py * uy; return [Math.min(m[0], v), Math.max(m[1], v)]; }, [Infinity, -Infinity]);
+      const a = pr(A), b = pr(B); return a[1] < b[0] + 1 || b[1] < a[0] + 1;
+    });
+    ticks.forEach((k) => { k.r = rect(k); k.hide = false; k.hits = 0; });
+    const pairs = [];
+    for (let i = 0; i < ticks.length; i++) for (let j = i + 1; j < ticks.length; j++) {
+      const a = ticks[i], b = ticks[j];
+      if (a.L.axis === b.L.axis || separated(a.r, b.r)) continue;
+      pairs.push([a, b]); a.hits++; b.hits++;
+    }
+    // who gives way: a label on an axis squashed to a point, then the unselected one, then the one crossing more labels, then the more foreshortened axis
+    const flat = (k) => k.gap < 6;
+    pairs.forEach(([a, b]) => {
+      if (a.hide || b.hide) return;
+      const loser = flat(a) !== flat(b) ? (flat(a) ? a : b) : a.sel !== b.sel ? (a.sel ? b : a) : a.hits !== b.hits ? (a.hits > b.hits ? a : b) : (a.gap < b.gap ? a : b);
+      loser.hide = true;
+    });
+    ticks.forEach((k) => {
+      if (k.hide) { k.L.el.style.opacity = 0; return; }
+      // the text reads left to right (or upward when vertical); its start or end sits on the tick accordingly
+      const flip = k.dx < 0 || (k.dx === 0 && k.dy > 0);
+      const rx = flip ? -k.dx : k.dx, ry = flip ? -k.dy : k.dy;
+      k.L.el.style.opacity = k.alpha;
+      k.L.el.style.transform = `translate(${k.p[0].toFixed(1)}px, ${k.p[1].toFixed(1)}px) rotate(${deg(Math.atan2(ry, rx)).toFixed(1)}deg) translate(${flip ? "-100%" : "0"}, -50%)`;
+      const xs = k.r.pts.map((q) => q[0]), ys = k.r.pts.map((q) => q[1]);
+      boxes.push([Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)]);
+    });
+    // axis titles: horizontal, pushed outward until they clear the tick labels (hidden when they cannot)
+    const hits = (b) => boxes.some((o) => b[0] < o[2] && o[0] < b[2] && b[1] < o[3] && o[1] < b[3]);
+    titles.forEach(({ L, p, alpha, show }) => {
+      if (!show) { L.el.style.opacity = 0; return; }
+      const lw = L.el.offsetWidth || 0;
+      let [px, py] = p; const ox = px - centre[0], oy = py - centre[1]; const on = Math.hypot(ox, oy) || 1; const ux = ox / on, uy = oy / on;
+      let ok = false;
+      for (let i = 0; i < 5 && !ok; i++) {
+        let left = px < centre[0]; if (left && px - lw < 4) left = false; else if (!left && px + lw > w - 4) left = true;
+        px = left ? Math.min(px, w - 4) : Math.max(px, 4); py = Math.min(Math.max(py, LH), h - LH); // stay on the canvas
+        const b = [left ? px - lw : px, py - LH / 2, left ? px : px + lw, py + LH / 2];
+        if (!hits(b)) { ok = true; L.el.style.transform = `translate(${px.toFixed(1)}px, ${py.toFixed(1)}px) translate(${left ? "-100%" : "0"}, -50%)`; }
+        else { px += ux * 22; py += uy * 22; }
+      }
+      L.el.style.opacity = ok && px > -60 && px < w + 60 && py > -30 && py < h + 30 ? alpha : 0;
     });
   }
 

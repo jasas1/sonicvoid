@@ -471,13 +471,13 @@ export function initAnatomy(host, note, segButtons, data) {
       : `<rect class="part" data-part="plate" x="70" y="78" width="60" height="124" rx="3" fill="#24211d" stroke="#3a3632" stroke-width="1.2"/>`;
     const grid = Array.from({ length: 18 }, (_, i) => `<line x1="86" y1="${86 + i * 6.3}" x2="114" y2="${88 + i * 6.3}" stroke="#9aa3ad" stroke-width="0.9"/>`).join("");
     const fil = `<path class="part" data-part="filament" d="M92 190 L96 96 L100 190 L104 96 L108 190" fill="none" stroke="var(--amber)" stroke-width="1.6" stroke-linejoin="round" filter="url(#glow)"/>`;
-    return `<svg viewBox="0 0 200 300" role="img" aria-label="Cutaway of a 2A3 tube: glass, getter, mica, plate, grid, filament, base">
+    return `<svg viewBox="0 0 200 300" role="img" aria-label="Cutaway of a 2A3 in its ST-16 shoulder bottle: glass, getter, mica, plate, grid, filament, base">
       <defs>${meshPat}<filter id="glow"><feGaussianBlur stdDeviation="2.2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
       <rect class="bg" x="0" y="0" width="200" height="300" fill="transparent"/>
-      <path class="part" data-part="glass" d="M72 262 C72 230 58 226 58 190 L58 120 C58 70 72 40 100 32 C128 40 142 70 142 120 L142 190 C142 226 128 230 128 262 Z" fill="rgba(239,231,220,0.03)" stroke="var(--steel)" stroke-width="1.4"/>
+      <path class="part" data-part="glass" d="M70 262 C64 236 54 200 52 150 C51 125 56 108 64 98 L64 60 C64 42 80 32 100 32 C120 32 136 42 136 60 L136 98 C144 108 149 125 148 150 C146 200 136 236 130 262 Z" fill="rgba(239,231,220,0.03)" stroke="var(--steel)" stroke-width="1.4"/>
       <path class="part" data-part="getter" d="M78 52 C86 40 114 40 122 52 C114 60 86 60 78 52 Z" fill="#1a1d22" stroke="#4a5560" stroke-width="0.8"/>
-      <rect class="part" data-part="mica" x="62" y="70" width="76" height="3" fill="#cfc9bd" opacity="0.7"/>
-      <rect class="part" data-part="mica" x="62" y="206" width="76" height="3" fill="#cfc9bd" opacity="0.7"/>
+      <rect class="part" data-part="mica" x="67" y="70" width="66" height="3" fill="#cfc9bd" opacity="0.7"/>
+      <rect class="part" data-part="mica" x="65" y="206" width="70" height="3" fill="#cfc9bd" opacity="0.7"/>
       ${plate}<g class="part" data-part="grid">${grid}</g>${fil}
       <rect class="part" data-part="base" x="66" y="262" width="68" height="20" rx="2" fill="#151210" stroke="#3a3632"/>
       <g stroke="var(--steel)" stroke-width="3" stroke-linecap="round"><line x1="80" y1="282" x2="80" y2="296"/><line x1="120" y1="282" x2="120" y2="296"/></g>
