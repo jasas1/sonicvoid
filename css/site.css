@@ -426,3 +426,17 @@ body.dock-on .hero-readout { display: none; }
   .roll-dock.persistent .spider svg { max-width: 15rem; }
 }
 @media (prefers-reduced-motion: reduce) { .roll-dock.persistent { animation: none; } }
+
+/* current-tube pills in the roll panel */
+.dock-pills { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-top: 0.6rem; }
+.pill { appearance: none; border: 1px solid var(--hair-2); background: transparent; border-radius: 999px; padding: 0.25rem 0.65rem 0.25rem 0.5rem; font: inherit; font-size: 0.76rem; color: var(--ink-2); display: inline-flex; align-items: center; gap: 0.4rem; cursor: pointer; transition: border-color 0.25s, color 0.25s; }
+.pill small { font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.pill b { color: var(--ink); font-weight: 500; }
+.pill .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--steel-2); }
+.pill .dot.nos { background: var(--amber-2); opacity: 0.6; }
+.pill:hover { border-color: var(--steel); }
+.pill[aria-pressed="true"] { border-color: var(--ink-2); }
+.pill[aria-pressed="true"] .dot { background: var(--amber-2); opacity: 1; box-shadow: 0 0 8px var(--amber), 0 0 2px var(--amber-2); }
+.roll-dock.persistent .dock-pills { margin-top: 0.4rem; }
+.roll-dock .dock-summary { display: none; }
+@media (max-width: 1100px) { .roll-dock:not(.expanded) .dock-pills { display: none; } .roll-dock:not(.expanded) .dock-summary { display: block; } }

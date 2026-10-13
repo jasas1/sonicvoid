@@ -5,7 +5,7 @@ import { predict } from "./matrix.js";
 import { reducedMotion } from "./data.js";
 
 const COOL = new THREE.Color(0x5b7698), WARM = new THREE.Color(0xf26a32), DIM = new THREE.Color(0x15171a);
-const HOME = new THREE.Vector3(34, 26, 50);
+const HOME = new THREE.Vector3(36, 27, 54);
 
 export function initCube(canvas, data, store, { onPick, readout, host }) {
   const powers = data.tubes.filter((t) => t.family === "2A3");
@@ -44,12 +44,30 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
   const scene = new THREE.Scene();
   const camera = new THREE.PerspectiveCamera(30, 1, 0.1, 500); camera.position.copy(HOME);
   const controls = new OrbitControls(camera, canvas); controls.enableDamping = true; controls.dampingFactor = 0.07; controls.enablePan = false; controls.minDistance = 5; controls.maxDistance = 120;
+  const HOME_TARGET = new THREE.Vector3(-4, 0, 0); controls.target.copy(HOME_TARGET); // aim a little left of centre so the box sits right of centre, leaving room for the left-hand labels
   scene.add(new THREE.HemisphereLight(0xe4e9f0, 0x0b0a08, 1.25));
   const key = new THREE.DirectionalLight(0xffe6c8, 1.3); key.position.set(10, 20, 12); scene.add(key);
   const mesh = new THREE.InstancedMesh(new THREE.BoxGeometry(0.66, 0.66, 0.66), new THREE.MeshStandardMaterial({ roughness: 0.4, metalness: 0.12, transparent: true, opacity: 0.92 }), N);
   mesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage); scene.add(mesh);
   const frame = new THREE.LineSegments(new THREE.EdgesGeometry(new THREE.BoxGeometry(nP * S, nR * S, nD * S)), new THREE.LineBasicMaterial({ color: 0x3a3632, transparent: true, opacity: 0.9 })); scene.add(frame);
   const glow = new THREE.Mesh(new THREE.BoxGeometry(0.9, 0.9, 0.9), new THREE.MeshBasicMaterial({ color: 0xffd27a, transparent: true, opacity: 0.35 })); scene.add(glow);
+  // back panes: a faint grid on the three far sides of the bounding box (lattice extents and exploded extents, crossfaded)
+  const EXT_L = { x: nP * S / 2, y: nR * S / 2, z: nD * S / 2 }, EXT_E = { x: nP * S / 2, y: nR * S / 2, z: nD * S * 1.1 };
+  function gridPane(axis, ext) { // pane perpendicular to `axis`, spanning the other two extents
+    const [a, b] = axis === "x" ? ["y", "z"] : axis === "y" ? ["x", "z"] : ["x", "y"];
+    const pts = [];
+    for (let i = -Math.ceil(ext[a]); i <= Math.ceil(ext[a]); i += 1) pts.push(i, -ext[b], i, ext[b]);
+    for (let j = -Math.ceil(ext[b]); j <= Math.ceil(ext[b]); j += 1) pts.push(-ext[a], j, ext[a], j);
+    const v = [];
+    for (let k = 0; k < pts.length; k += 2) { const u = pts[k], w = pts[k + 1]; v.push(...(axis === "x" ? [0, u, w] : axis === "y" ? [u, 0, w] : [u, w, 0])); }
+    const g = new THREE.BufferGeometry(); g.setAttribute("position", new THREE.Float32BufferAttribute(v, 3));
+    return new THREE.LineSegments(g, new THREE.LineBasicMaterial({ color: 0x3a3632, transparent: true, opacity: 0.55 }));
+  }
+  const panes = ["x", "y", "z"].map((axis) => { const lat = gridPane(axis, EXT_L), exp = gridPane(axis, EXT_E); scene.add(lat); scene.add(exp); return { axis, lat, exp }; });
+  function placePanes() {
+    const t = state.explode; const ext = { x: EXT_L.x, y: EXT_L.y, z: THREE.MathUtils.lerp(EXT_L.z, EXT_E.z, t) };
+    panes.forEach((p) => { const side = camera.position[p.axis] > 0 ? -1 : 1; [p.lat, p.exp].forEach((m) => { m.position.set(0, 0, 0); m.position[p.axis] = side * ext[p.axis]; }); });
+  }
 
   const latticePos = (c) => new THREE.Vector3((c.pi - (nP - 1) / 2) * S, (c.ri - (nR - 1) / 2) * S, (c.di - (nD - 1) / 2) * S);
   const range = {}; axes.forEach((a) => { const vals = combos.map((c) => c.pred[a.id]); const lo = Math.min(...vals), hi = Math.max(...vals); range[a.id] = [lo, Math.max(hi, lo + 1)]; });
@@ -68,8 +86,9 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
       m4.compose(v, q, sc); mesh.setMatrixAt(i, m4);
       if (isSel) { glow.position.copy(v); selPos.copy(v); }
     });
-    mesh.instanceMatrix.needsUpdate = true;
+    mesh.instanceMatrix.needsUpdate = true; mesh.computeBoundingSphere();
     frame.material.opacity = 0.9 * (1 - t); frame.visible = t < 0.99;
+    panes.forEach((p) => { p.lat.material.opacity = 0.55 * (1 - t); p.exp.material.opacity = 0.55 * t; });
   }
   const col = new THREE.Color();
   function recolor() {
@@ -91,50 +110,68 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
   const noteEl = document.createElement("p"); noteEl.className = "cube-note"; wrap.appendChild(noteEl);
   function legend() { const a = axes.find((x) => x.id === state.color); legendEl.innerHTML = `<span>${a.low}</span><i></i><span>${a.high}</span><b>${a.label}</b>`; }
   legend();
-  const labels = []; // {el, pos, group, axis, index, id}
-  const mkLabel = (text, pos, group, axis, index, id) => { const el = document.createElement("span"); el.className = `cube-lab ${group} ${axis}`; el.textContent = text; overlay.appendChild(el); const L = { el, pos, group, axis, index, id }; labels.push(L); return L; };
-  powers.forEach((p, pi) => mkLabel(`${p.brand} ${p.model}`, new THREE.Vector3((pi - (nP - 1) / 2) * S, -(nR / 2) * S - 0.5, (nD / 2) * S + 0.5), "lattice", "x", pi, p.id));
-  rects.forEach((r, ri) => mkLabel(`${r.brand} ${r.model}`, new THREE.Vector3((nP / 2) * S + 0.5, (ri - (nR - 1) / 2) * S, (nD / 2) * S + 0.5), "lattice", "y", ri, r.id));
-  drivers.forEach((d, di) => mkLabel(`${d.brand} ${d.model}`, new THREE.Vector3(-(nP / 2) * S - 0.5, -(nR / 2) * S - 0.5, (di - (nD - 1) / 2) * S), "lattice", "z", di, d.id));
-  mkLabel("2A3 →", new THREE.Vector3(0, -(nR / 2) * S - 4.2, (nD / 2) * S + 0.5), "lattice", "title", 0);
-  mkLabel("rectifier ↑", new THREE.Vector3((nP / 2) * S + 5.5, 0, (nD / 2) * S + 0.5), "lattice", "title", 0);
-  mkLabel("driver ⤢", new THREE.Vector3(-(nP / 2) * S - 3.4, -(nR / 2) * S - 2.4, 0), "lattice", "title", 0);
+  const labels = []; // {el, text, group, axis, index, id, coord}
+  const mkLabel = (text, group, axis, index, id, coord) => { const el = document.createElement("span"); el.className = `cube-lab ${group} ${axis}`; el.textContent = text; overlay.appendChild(el); const L = { el, text, group, axis, index, id, coord }; labels.push(L); return L; };
+  powers.forEach((p, pi) => mkLabel(`${p.brand} ${p.model}`, "lattice", "x", pi, p.id, (pi - (nP - 1) / 2) * S));
+  rects.forEach((r, ri) => mkLabel(`${r.brand} ${r.model}`, "lattice", "y", ri, r.id, (ri - (nR - 1) / 2) * S));
+  drivers.forEach((d, di) => mkLabel(`${d.brand} ${d.model}`, "lattice", "z", di, d.id, (di - (nD - 1) / 2) * S));
+  mkLabel("2A3 →", "lattice", "tx", 0); mkLabel("rectifier ↑", "lattice", "ty", 0); mkLabel("driver ⤢", "lattice", "tz", 0);
   function buildSpaceLabels() {
     labels.filter((L) => L.group === "space").forEach((L) => L.el.remove());
     for (let i = labels.length - 1; i >= 0; i--) if (labels[i].group === "space") labels.splice(i, 1);
     const ax = axes.find((a) => a.id === state.ex), ay = axes.find((a) => a.id === state.ey), az = axes.find((a) => a.id === state.ez);
     [[-1, -1, -1], [1, -1, -1], [-1, 1, -1], [1, 1, -1], [-1, -1, 1], [1, -1, 1], [-1, 1, 1], [1, 1, 1]].forEach(([x, y, z], i) => {
-      mkLabel(`${x < 0 ? ax.low : ax.high} · ${y < 0 ? ay.low : ay.high} · ${z < 0 ? az.low : az.high}`, new THREE.Vector3(x * (nP / 2) * S * 1.08, y * (nR / 2) * S * 1.1, z * nD * S * 1.1 * 1.12), "space", "corner", i);
+      const L = mkLabel(`${x < 0 ? ax.low : ax.high} · ${y < 0 ? ay.low : ay.high} · ${z < 0 ? az.low : az.high}`, "space", "corner", i); L.corner = [x, y, z];
     });
-    mkLabel(`${ax.label} →`, new THREE.Vector3(0, -(nR / 2) * S - 2.4, nD * S * 1.3), "space", "title", 0);
-    mkLabel(`${ay.label} ↑`, new THREE.Vector3((nP / 2) * S + 3, 0, nD * S * 1.3), "space", "title", 0);
-    mkLabel(`${az.label} ⤢`, new THREE.Vector3(-(nP / 2) * S - 2.2, -(nR / 2) * S - 2.4, 0), "space", "title", 0);
+    mkLabel(`${ax.label} →`, "space", "tx", 0); mkLabel(`${ay.label} ↑`, "space", "ty", 0); mkLabel(`${az.label} ⤢`, "space", "tz", 0);
     noteEl.textContent = `corners are the pool's own extremes on ${ax.label.toLowerCase()}, ${ay.label.toLowerCase()} and ${az.label.toLowerCase()}`;
   }
   buildSpaceLabels();
   function markSelectedLabels() { const s = store.get(); labels.forEach((L) => L.el.classList.toggle("sel", L.id === s.power || L.id === s.rectifier || L.id === s.driver)); }
   markSelectedLabels();
-  const pv = new THREE.Vector3();
+  const pv = new THREE.Vector3(); const tmp = new THREE.Vector3();
+  const toScreen = (x, y, z, w, h) => { pv.set(x, y, z).project(camera); return [(pv.x * 0.5 + 0.5) * w, (-pv.y * 0.5 + 0.5) * h, pv.z]; };
+  /** Plotly-style edge choice: X and Z ticks on the box edge lowest on screen, Y ticks on the leftmost vertical edge. */
+  function chooseEdges(ext, w, h) {
+    let xe = null, ze = null, ye = null;
+    for (const sy of [-1, 1]) for (const sz of [-1, 1]) { const m = toScreen(0, sy * ext.y, sz * ext.z, w, h); if (!xe || m[1] > xe.m[1]) xe = { sy, sz, m }; }
+    for (const sx of [-1, 1]) for (const sy of [-1, 1]) { const m = toScreen(sx * ext.x, sy * ext.y, 0, w, h); if (!ze || m[1] > ze.m[1]) ze = { sx, sy, m }; }
+    for (const sx of [-1, 1]) for (const sz of [-1, 1]) { const m = toScreen(sx * ext.x, 0, sz * ext.z, w, h); if (!ye || m[0] < ye.m[0]) ye = { sx, sz, m }; }
+    return { xe, ze, ye };
+  }
   function placeLabels() {
     const w = canvas.clientWidth, h = canvas.clientHeight; const t = state.explode;
-    const stride = { x: 1, y: 1, z: 1 };
-    // thinning: measure the projected gap between the first two labels of each lattice axis
-    for (const axis of ["x", "y", "z"]) {
-      const L = labels.filter((l) => l.group === "lattice" && l.axis === axis);
-      if (L.length < 2) continue;
-      const a = pv.copy(L[0].pos).project(camera), ax = (a.x * 0.5 + 0.5) * w, ay = (-a.y * 0.5 + 0.5) * h;
-      const b = pv.copy(L[1].pos).project(camera), bx = (b.x * 0.5 + 0.5) * w, by = (-b.y * 0.5 + 0.5) * h;
-      const gap = Math.hypot(bx - ax, by - ay); stride[axis] = Math.max(1, Math.ceil(13 / Math.max(1, gap)));
-    }
+    const ext = { x: EXT_L.x, y: EXT_L.y, z: THREE.MathUtils.lerp(EXT_L.z, EXT_E.z, t) };
+    const { xe, ze, ye } = chooseEdges(ext, w, h);
     noteEl.style.opacity = t;
+    const pad = 0.6;
+    // thinning per axis from the projected gap between neighbours
+    const gapX = Math.hypot(...(() => { const a = toScreen(0, xe.sy * ext.y, xe.sz * ext.z, w, h), b = toScreen(S, xe.sy * ext.y, xe.sz * ext.z, w, h); return [b[0] - a[0], b[1] - a[1]]; })());
+    const gapY = Math.hypot(...(() => { const a = toScreen(ye.sx * ext.x, 0, ye.sz * ext.z, w, h), b = toScreen(ye.sx * ext.x, S, ye.sz * ext.z, w, h); return [b[0] - a[0], b[1] - a[1]]; })());
+    const gapZ = Math.hypot(...(() => { const a = toScreen(ze.sx * ext.x, ze.sy * ext.y, 0, w, h), b = toScreen(ze.sx * ext.x, ze.sy * ext.y, S, w, h); return [b[0] - a[0], b[1] - a[1]]; })());
+    const stride = { x: Math.max(1, Math.ceil(13 / Math.max(1, gapX))), y: Math.max(1, Math.ceil(13 / Math.max(1, gapY))), z: Math.max(1, Math.ceil(13 / Math.max(1, gapZ))) };
     labels.forEach((L) => {
-      pv.copy(L.pos).project(camera);
-      const x = (pv.x * 0.5 + 0.5) * w, y = (-pv.y * 0.5 + 0.5) * h;
+      let p, mode = "h"; // h: horizontal anchored away from the box; v: vertical (hanging) text
       const alpha = L.group === "lattice" ? 1 - t : t;
+      if (alpha < 0.05) { L.el.style.opacity = 0; return; }
+      if (L.axis === "x") { p = toScreen(L.coord, xe.sy * (ext.y + pad), xe.sz * (ext.z + pad), w, h); mode = "v"; L.up = xe.sy > 0; }
+      else if (L.axis === "y") { p = toScreen(ye.sx * (ext.x + pad * 1.6), L.coord, ye.sz * (ext.z + pad * 1.6), w, h); }
+      else if (L.axis === "z") { p = toScreen(ze.sx * (ext.x + pad * 2.2), ze.sy * (ext.y + pad), L.coord, w, h); } // drivers: horizontal, pushed outward past the x labels
+      else if (L.axis === "tx") { p = toScreen(0, xe.sy * (ext.y + 7.5), xe.sz * (ext.z + 2.5), w, h); }
+      else if (L.axis === "ty") { p = toScreen(ye.sx * (ext.x + 9.5), 0, ye.sz * (ext.z + 5.5), w, h); }
+      else if (L.axis === "tz") { p = toScreen(ze.sx * (ext.x + 7.5), ze.sy * (ext.y + 1.5), 0, w, h); }
+      else if (L.axis === "corner") { const [cx, cy, cz] = L.corner; p = toScreen(cx * (ext.x + 0.8), cy * (ext.y + 0.8), cz * (ext.z + 0.8), w, h); }
       const thinned = L.group === "lattice" && ["x", "y", "z"].includes(L.axis) && (L.index % stride[L.axis] !== 0) && !L.el.classList.contains("sel");
-      const show = alpha > 0.05 && pv.z < 1 && !thinned && x > -40 && x < w + 40 && y > -20 && y < h + 20;
+      const show = p[2] < 1 && !thinned && p[0] > -60 && p[0] < w + 60 && p[1] > -30 && p[1] < h + 30;
       L.el.style.opacity = show ? alpha : 0;
-      if (show) L.el.style.transform = L.axis === "x" ? `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) rotate(-90deg) translate(-100%, -50%)` : L.axis === "y" ? `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) translate(0, -50%)` : `translate(${x.toFixed(1)}px, ${y.toFixed(1)}px) translate(-50%, -50%)`;
+      if (!show) return;
+      let left = p[0] < w / 2; const top = p[1] < h / 2;
+      const lw = L.el.offsetWidth || 0; // flip the side when the text would run off the canvas
+      if (L.axis === "corner" || L.axis === "z" || L.axis === "tz") { if (left && p[0] - lw < 4) left = false; else if (!left && p[0] + lw > w - 4) left = true; }
+      const x = p[0].toFixed(1), y = p[1].toFixed(1);
+      if (mode === "v") L.el.style.transform = L.up ? `translate(${x}px, ${y}px) rotate(-90deg) translate(0, -50%)` : `translate(${x}px, ${y}px) rotate(-90deg) translate(-100%, -50%)`;
+      else if (L.axis === "corner") L.el.style.transform = `translate(${x}px, ${y}px) translate(${left ? "-100%" : "0"}, ${top ? "-100%" : "0"})`;
+      else L.el.style.transform = `translate(${x}px, ${y}px) translate(${left ? "-100%" : "0"}, -50%)`;
     });
   }
 
@@ -146,7 +183,7 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
     controls.enabled = false;
   }
   host.querySelector("#cube-fly").addEventListener("click", () => { place(state.explode); flyTo(selPos, 9.5); });
-  host.querySelector("#cube-home").addEventListener("click", () => flyTo(new THREE.Vector3(0, 0, 0), 0, HOME));
+  host.querySelector("#cube-home").addEventListener("click", () => flyTo(HOME_TARGET, 0, HOME));
   function stepFly(now) {
     const f = state.fly; if (!f) return;
     const u = Math.min(1, (now - f.t0) / f.dur); const e = 1 - Math.pow(1 - u, 3);
@@ -176,7 +213,7 @@ export function initCube(canvas, data, store, { onPick, readout, host }) {
     if (Math.abs(state.target - state.explode) > 0.0005) { state.explode += (state.target - state.explode) * (1 - Math.exp(-dt * 3.2)); place(state.explode); }
     stepFly(now);
     if (controls.enabled) controls.update();
-    pick(); placeLabels(); renderer.render(scene, camera);
+    pick(); placePanes(); placeLabels(); renderer.render(scene, camera);
   }
   new IntersectionObserver((e) => { visible = e[0].isIntersecting; if (visible && active && !raf) { last = 0; raf = requestAnimationFrame(loop); } }, { threshold: 0.05 }).observe(canvas);
   store.subscribe(() => recolor());

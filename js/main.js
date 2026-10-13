@@ -36,6 +36,7 @@ canvas.dispatchEvent(new CustomEvent("tube-hover", { detail: null }));
 
 const tabs = [...document.querySelectorAll(".socket-tab")];
 tabs.forEach((b) => b.addEventListener("click", () => store.set({ role: b.dataset.role })));
+$("#dock-pills").addEventListener("click", (e) => { const b = e.target.closest(".pill"); if (b) store.set({ role: b.dataset.role }); });
 const pool = $("#roll-pool");
 const meters = renderMeters($("#meters"), data);
 const spider = renderSpider($("#spider"), data);
@@ -73,6 +74,7 @@ store.subscribe((st) => {
   const p = predict(st, data);
   meters.set(p.axes); spider.set(p.axes);
   $("#dock-summary").textContent = `${name(st.power)} · ${name(st.rectifier)} · ${name(st.driver)}`;
+  $("#dock-pills").innerHTML = [["power", "2A3 ×4", st.power], ["rectifier", "rectifier", st.rectifier], ["driver", "6C45 ×4", st.driver]].map(([role, lab, id]) => `<button type="button" class="pill" data-role="${role}" aria-pressed="${st.role === role}"><i class="dot ${data.byId[id]?.status || ""}"></i><small>${lab}</small><b>${name(id)}</b></button>`).join("");
   $("#verdict").textContent = p.sentence;
   $("#basis").textContent = `${name(st.power)} ×4 · ${name(st.rectifier)} · ${name(st.driver)} ×4 — ${p.n_sources ? p.n_sources + " verified claims" : "seed priors, 0 verified claims yet"}${p.seeded ? " · heuristic, not a measurement" : ""}`;
   canvas.dispatchEvent(new CustomEvent("tube-hover", { detail: null }));
@@ -111,6 +113,7 @@ function setCombo(v) {
   cube?.setActive(v === "cube");
 }
 comboBtns.forEach((b) => b.addEventListener("click", () => setCombo(b.dataset.combo)));
+if (new URLSearchParams(location.search).get("view") === "cube") setCombo("cube"); // deep link: ?view=cube
 
 // ---- bench ----
 initSignal($("#signal-figure"));
