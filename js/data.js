@@ -11,6 +11,7 @@ export async function loadData() {
       out[name] = null;
     }
   }));
+  try { const r = await fetch("data/history.jsonl", { cache: "no-cache" }); out.history = r.ok ? (await r.text()).split("\n").filter(Boolean).map((l) => { try { return JSON.parse(l); } catch { return null; } }).filter(Boolean) : []; } catch { out.history = []; }
   out.listings = out.listings || [];
   out.lore = out.lore || [];
   out.kb = out.kb || {};

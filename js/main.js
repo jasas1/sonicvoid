@@ -4,6 +4,7 @@ import { initAmp } from "./amp3d.js";
 import { predict, renderMeters, renderMatrix, renderSpider } from "./matrix.js";
 import { initCurves, initRectifier, initTransformer, initAnatomy } from "./bench.js";
 import { renderMarket } from "./market.js";
+import { initTrends } from "./trends.js";
 import { initCube } from "./cube.js";
 import { initSignal } from "./signal.js";
 
@@ -124,6 +125,18 @@ initAnatomy($("#anatomy-svg"), $("#anatomy-note"), [...document.querySelectorAll
 
 // ---- market ----
 renderMarket(data, { filters: $("#market-filters"), body: $("#market-body"), note: $("#market-note"), count: $("#market-count") });
+let trends = null;
+const mviewBtns = [...document.querySelectorAll(".market-toggle .seg-btn")];
+function setMarketView(v) {
+  mviewBtns.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.mview === v)));
+  const listing = v === "listings";
+  ["#market-filters", ".market-bar", ".table-wrap", "#market-note"].forEach((sel) => { const n = document.querySelector("#market " + sel); if (n) n.hidden = !listing; });
+  $("#market-trends").hidden = listing;
+  if (!listing && !trends) trends = initTrends(data, { tube: $("#trend-tube"), norm: $("#trend-norm"), range: $("#trend-range"), title: $("#trend-title"), chart: $("#trend-chart"), tip: $("#trend-tip"), legend: $("#trend-legend"), strip: $("#trend-strip") }, store);
+  else if (!listing) trends.draw();
+}
+mviewBtns.forEach((b) => b.addEventListener("click", () => setMarketView(b.dataset.mview)));
+if (new URLSearchParams(location.search).get("view") === "trends") setMarketView("trends");
 
 // ---- library (teaser; the full entries live in library.html) ----
 const UNITS = { filament_v: "V", filament_a: "A", max_plate_v: "V", max_plate_w: "W", mu: "", rp_ohm: "Ω", gm_ma_v: "mA/V", max_dc_output_ma: "mA", max_piv_v: "V", voltage_drop_v: "V" };
