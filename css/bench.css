@@ -1,0 +1,53 @@
+/* Bench round 2: driver stage, heater budget + warm-up, rectifier legend, signal-path stages.
+   Tokens come from css/site.css; this file adds components only and follows DESIGN.md (hairlines, amber as light, mono numbers). */
+
+/* a figure column that holds a canvas plus its legend or budget */
+.bench-fig { display: flex; flex-direction: column; gap: 0.9rem; min-width: 0; }
+
+/* curve legend under a canvas: swatch, name, provenance */
+.bench-legend { list-style: none; margin: 0; padding: 0.75rem 0 0; display: grid; gap: 0.35rem; border-top: 1px solid var(--hair); }
+.bench-legend li { display: grid; grid-template-columns: 1.6rem 3.2rem minmax(0, 1fr); gap: 0.6rem; align-items: baseline; }
+.bench-legend .sw { display: block; width: 1.6rem; height: 0; border-top: 2px solid var(--c); transform: translateY(-0.3em); }
+.bench-legend .sw.dash { border-top-style: dashed; }
+.bench-legend b { font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; color: var(--ink); }
+.bench-legend span { font-family: var(--font-mono); font-size: 0.72rem; color: var(--ink-2); letter-spacing: 0.01em; }
+
+/* heater budget: one bar scaled to the amp's total draw */
+.heat-budget { display: flex; flex-direction: column; gap: 0.45rem; }
+.heat-scale { display: flex; justify-content: space-between; gap: 1rem; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+.heat-bar { display: flex; height: 14px; border: 1px solid var(--hair-2); background: var(--bg-2); overflow: hidden; }
+.heat-bar span { display: block; flex: none; height: 100%; transition: width 0.5s var(--ease-out); }
+.heat-bar span + span { border-left: 1px solid var(--bg); }
+.heat-bar .rest { flex: 1 1 auto; background: repeating-linear-gradient(135deg, transparent 0 5px, var(--hair) 5px 6px); }
+.heat-legend { list-style: none; margin: 0.35rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1.5rem; }
+.heat-legend li { display: grid; grid-template-columns: 0.6rem minmax(0, 1fr) auto; gap: 0.6rem; align-items: center; padding: 0.4rem 0; border-bottom: 1px dotted var(--hair); font-size: 0.86rem; color: var(--ink-2); }
+.heat-legend li > i { width: 8px; height: 8px; border-radius: 50%; background: var(--c, transparent); opacity: calc(0.18 + 0.82 * var(--e, 1)); box-shadow: 0 0 calc(10px * var(--e, 1)) var(--c, transparent); }
+.heat-legend li.rest > i { background: transparent; border: 1px dashed var(--steel-2); box-shadow: none; opacity: 1; }
+.heat-legend small { display: block; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.02em; color: var(--ink-3); }
+.heat-legend b { font-family: var(--font-mono); font-variant-numeric: tabular-nums; font-weight: 500; font-size: 0.8rem; color: var(--amber-2); }
+.bench-controls .seg { align-self: flex-start; }
+
+/* signal path: each stage is a focusable region; the sentence lands in the panel under the figure */
+.sig-hit { fill: transparent; stroke: transparent; stroke-width: 1; pointer-events: all; cursor: pointer; }
+.sig-stage { outline: none; }
+.sig-stage.on .sig-hit { fill: rgba(239, 231, 220, 0.035); stroke: var(--hair-2); stroke-dasharray: 3 4; }
+.sig-stage.pinned .sig-hit { stroke: var(--ink-2); stroke-dasharray: none; }
+.sig-stage:focus-visible .sig-hit { stroke: var(--amber); stroke-width: 1.5; stroke-dasharray: none; }
+.sig-explain { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr); gap: 0.3rem 1.25rem; align-items: baseline; margin-top: 0.9rem; padding: 0.8rem 0; border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); min-height: 4.6rem; }
+.sig-explain-k { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--amber-2); }
+.sig-explain-t { color: var(--ink-2); font-size: 0.92rem; max-width: var(--measure); }
+.signal-key { margin-top: 0.9rem; }
+.sig-scroll-hint { display: none; margin-top: 0.4rem; font-family: var(--font-mono); font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); }
+
+@media (max-width: 860px) {
+  /* the schematic keeps a readable scale and scrolls sideways inside its frame instead of shrinking to 3 px text */
+  .signal-figure { overflow-x: auto; overscroll-behavior-x: contain; }
+  .signal-figure svg { min-width: 56rem; }
+  .sig-scroll-hint { display: block; }
+  .sig-explain { grid-template-columns: 1fr; min-height: 8.5rem; }
+}
+@media (max-width: 600px) {
+  .heat-legend { grid-template-columns: 1fr; }
+  .bench-legend li { grid-template-columns: 1.6rem 3.2rem minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { .heat-bar span { transition: none; } }

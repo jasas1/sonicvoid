@@ -5615,7 +5615,7 @@
   "price": 160.49,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5632,8 +5632,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5648,7 +5648,7 @@
   "price": 108.66,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5665,8 +5665,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5681,7 +5681,7 @@
   "price": 86.74,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5698,8 +5698,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5714,7 +5714,7 @@
   "price": 47.61,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5731,8 +5731,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5747,7 +5747,7 @@
   "price": 98.83,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5764,8 +5764,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5780,7 +5780,7 @@
   "price": 23.01,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5797,8 +5797,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5813,7 +5813,7 @@
   "price": 26.81,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5830,8 +5830,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5846,7 +5846,7 @@
   "price": 343.95,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5863,8 +5863,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5879,7 +5879,7 @@
   "price": 186.85,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5896,8 +5896,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5912,7 +5912,7 @@
   "price": 47.13,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5929,8 +5929,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5945,7 +5945,7 @@
   "price": 55.08,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5962,8 +5962,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -5978,7 +5978,7 @@
   "price": 91.09,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -5995,8 +5995,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6011,7 +6011,7 @@
   "price": 107.31,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
@@ -6028,8 +6028,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "sold out",
-   "stock_was": "in_stock"
+   "stock_source": "bigcommerce-instock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6702,7 +6702,7 @@
   "price": 349.99,
   "currency": "USD",
   "price_note": "Option 1 one-year warranty; option 2 $299.99 30-day warranty",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
@@ -6719,8 +6719,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "shopify-json",
-   "stock_was": "in_stock"
+   "stock_source": "shopify-js",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6735,7 +6735,7 @@
   "price": 299.99,
   "currency": "USD",
   "price_note": "30-day warranty; one-year warranty option $349.99",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
@@ -6752,8 +6752,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "shopify-json",
-   "stock_was": "in_stock"
+   "stock_source": "shopify-js",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6768,7 +6768,7 @@
   "price": 399.99,
   "currency": "USD",
   "price_note": "30-day warranty; one-year warranty option $399.99",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
@@ -6779,15 +6779,14 @@
   "id": "listings-woo-sophia-16",
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
-  "usd_est": 349.99,
+  "usd_est": 399.99,
   "tube_id": null,
   "stale": false,
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "shopify-json",
-   "stock_was": "in_stock",
-   "price_was": 349.99
+   "stock_source": "shopify-js",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6802,7 +6801,7 @@
   "price": 399.99,
   "currency": "USD",
   "price_note": "30-day warranty; one-year warranty option $450",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
@@ -6819,8 +6818,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "shopify-json",
-   "stock_was": "in_stock"
+   "stock_source": "shopify-js",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6835,7 +6834,7 @@
   "price": 199.99,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
@@ -6846,15 +6845,14 @@
   "id": "listings-woo-sophia-18",
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
-  "usd_est": 249.99,
+  "usd_est": 199.99,
   "tube_id": null,
   "stale": false,
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "shopify-json",
-   "stock_was": "in_stock",
-   "price_was": 249.99
+   "stock_source": "shopify-js",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -6869,7 +6867,7 @@
   "price": 299.99,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
@@ -6886,8 +6884,8 @@
   "check": {
    "at": "2026-10-13",
    "status": "ok",
-   "stock_source": "shopify-json",
-   "stock_was": "in_stock"
+   "stock_source": "shopify-js",
+   "stock_was": "out_of_stock"
   }
  }
 ]

@@ -8,6 +8,7 @@
 <meta name="color-scheme" content="dark">
 <link rel="stylesheet" href="vendor/fonts.css">
 <link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/bench.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23070605'/%3E%3Cpath d='M16 4c-5 0-7 5-7 11v9h14v-9c0-6-2-11-7-11z' fill='none' stroke='%239aa3ad' stroke-width='1.5'/%3E%3Cpath d='M16 10v10' stroke='%23ff9a3c' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E">
 <script type="importmap">
 { "imports": { "three": "./vendor/three.module.js", "three/addons/controls/OrbitControls.js": "./vendor/OrbitControls.js" } }
@@ -130,8 +131,10 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     <p class="lede">The engineering behind the lore. Drag the values; the curves are computed from datasheet models, not drawn.</p>
 
     <article class="bench-card" id="bench-signal">
-      <header><h3>Signal path</h3><p>One loop, source to headphones. Amber dots are the hot phase, steel dots the cold phase; inside each tube, electrons leave the filament and land on the plate. Watch the two 2A3 plate currents: both stay above zero for the whole cycle. That is class A. The transformer takes their difference, which is what push-pull means. Representative topology, not Woo's schematic.</p></header>
+      <header><h3>Signal path</h3><p>One loop, source to headphones. Amber dots are the hot phase, steel dots the cold phase; inside each tube, electrons leave the filament and land on the plate. Watch the two 2A3 plate currents: both stay above zero for the whole cycle. That is class A. The transformer takes their difference, which is what push-pull means. Hover, tap or tab to a stage to read what it does. Representative topology, not Woo's schematic.</p></header>
       <div class="signal-figure" id="signal-figure"></div>
+      <p class="sig-scroll-hint">Swipe the figure sideways to follow the path.</p>
+      <div class="sig-explain" id="signal-explain" aria-live="polite"></div>
       <dl class="readout mono signal-key"><dt>AC</dt><dd>wavy wire, dots surge with the signal</dd><dt>pulsating DC</dt><dd>after the rectifier, before the filter</dd><dt>DC</dt><dd>flat wire, steady dots</dd><dt>electrons</dt><dd>pale dots, filament → plate, gated by the grid</dd></dl>
     </article>
 
@@ -149,13 +152,50 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
       </div>
     </article>
 
-    <article class="bench-card" id="bench-rect">
-      <header><h3>Rectifier sag</h3><p>A rectifier is a resistor that changes with current. The drop at rated current comes from each datasheet; the curve follows the three-halves law. More drop, more sag, softer dynamics.</p></header>
+    <article class="bench-card" id="bench-driver">
+      <header><h3>Driver stage</h3><p>The 6C45 in front of each 2A3. A 2A3 has a μ of only 4.2, so it needs about ±45 V on its grid for full output; a high-transconductance driver makes that swing from about a volt at its own grid, and its low plate resistance keeps the drive stiff. Move the supply, the bias and the plate resistor, and watch the gain, the swing and the plate limit.</p></header>
       <div class="bench-body">
-        <canvas id="rect-canvas" width="900" height="420" aria-label="B+ voltage versus load current for several rectifier tubes"></canvas>
+        <canvas id="driver-canvas" width="900" height="560" aria-label="6C45 plate characteristic curves with a resistor load line, the plate dissipation limit, and the stretch of the line needed to swing a 2A3 grid by 45 volts"></canvas>
+        <div class="bench-controls">
+          <label>Plate supply <span class="val"><output id="o-dvbb">300</output> V</span><input type="range" id="r-dvbb" min="150" max="350" step="5" value="300"></label>
+          <label>Grid bias <span class="val"><output id="o-dvg">−2.0</output> V</span><input type="range" id="r-dvg" min="-5" max="-0.5" step="0.1" value="-2"></label>
+          <label>Plate load resistor <span class="val"><output id="o-drl">5.00</output> kΩ</span><input type="range" id="r-drl" min="1000" max="15000" step="250" value="5000"></label>
+          <dl class="readout mono" id="driver-readout"></dl>
+        </div>
+      </div>
+      <p class="fine" id="driver-basis">Model: Child–Langmuir three-halves law fitted to the KB's μ and gm for the 6C45.</p>
+    </article>
+
+    <article class="bench-card" id="bench-heat">
+      <header><h3>Heaters and warm-up</h3><p>Nine tubes, two ways to heat a cathode. The 2A3s and the rectifier are directly heated: the filament is the cathode, so it emits within seconds. The 6C45s are indirectly heated: a heater warms a separate cathode sleeve, which takes tens of seconds. B+ arrives with the rectifier, before the drivers are awake.</p></header>
+      <div class="bench-body">
+        <div class="bench-fig">
+          <div class="heat-budget">
+            <div class="heat-scale" id="heat-scale"></div>
+            <div class="heat-bar" id="heat-bar" role="img" aria-label="Heater power against the amplifier's total draw"></div>
+            <ul class="heat-legend" id="heat-legend" aria-label="Heater power by tube family"></ul>
+          </div>
+          <canvas id="heat-canvas" width="900" height="400" aria-label="Warm-up timeline on a log time axis: 2A3 filaments, rectifier and B+, and 6C45 cathodes reaching full emission"></canvas>
+        </div>
+        <div class="bench-controls">
+          <div class="seg" role="group" aria-label="Rectifier"><button type="button" class="seg-btn" data-rect="5u4g" aria-pressed="true">5U4G</button><button type="button" class="seg-btn" data-rect="eml" aria-pressed="false" aria-label="EML 5U4G-Mesh">EML mesh</button><button type="button" class="seg-btn" data-rect="274b" aria-pressed="false">274B</button></div>
+          <button class="btn" id="b-poweron" type="button">Power on</button>
+          <dl class="readout mono" id="heat-readout"></dl>
+        </div>
+      </div>
+      <p class="fine">Datasheet: every filament and heater rating (KB), the amp's total draw (Woo's spec), the EML 5U4G-Mesh slow start (EML, via the KB) and the 5 to 10 minutes to operating temperature (Woo's quick-start guide). Typical, not measured: the other warm-up times and the shape of the B+ curve, including its small rise while the drivers are still cold.</p>
+    </article>
+
+    <article class="bench-card" id="bench-rect">
+      <header><h3>Rectifier sag</h3><p>A rectifier is a resistor that changes with current. Each curve's drop at rated current comes from the KB; below that it follows the three-halves law, and past the rating it turns dotted. More drop, more sag, softer dynamics. The EML 5U4G-Mesh is one current 5U4G; the Takatsuki TA-274B, which Woo lists for the WA33, is one 274B. Volts are at the filter input, before the choke.</p></header>
+      <div class="bench-body">
+        <div class="bench-fig">
+          <canvas id="rect-canvas" width="900" height="420" aria-label="B+ voltage versus load current for several rectifier tubes"></canvas>
+          <ul class="bench-legend" id="rect-legend" aria-label="Rectifier curves and their sources"></ul>
+        </div>
         <div class="bench-controls">
           <label>Transformer peak <span class="val"><output id="o-vpk">420</output> V</span><input type="range" id="r-vpk" min="300" max="500" step="5" value="420"></label>
-          <label>Load current <span class="val"><output id="o-il">160</output> mA</span><input type="range" id="r-il" min="40" max="260" step="5" value="160"></label>
+          <label>Load current <span class="val"><output id="o-il">140</output> mA</span><input type="range" id="r-il" min="40" max="260" step="5" value="140"></label>
           <button class="btn" id="b-burst" type="button">Play a transient</button>
           <dl class="readout mono" id="rect-readout"></dl>
         </div>
@@ -163,7 +203,7 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
     </article>
 
     <article class="bench-card" id="bench-xfmr">
-      <header><h3>Output transformer</h3><p>Turns ratio squared sets the reflected load; primary inductance sets the bass corner; leakage inductance sets the treble corner. Change the headphones and the load line on the curves above moves.</p></header>
+      <header><h3>Output transformer</h3><p>Woo publishes no transformer data: no turns ratio, no primary impedance, no inductances. Every value on this card is an assumption you can move. Turns ratio squared sets the reflected load; primary inductance sets the bass corner; leakage inductance sets the treble corner. The one related figure Woo gives is the whole amp's response, −2 dB at 10 Hz and 60 kHz, marked ◇ on the plot. Change the headphones and the load line on the 2A3 curves above moves.</p></header>
       <div class="bench-body">
         <canvas id="xfmr-canvas" width="900" height="420" aria-label="Output transformer frequency response model"></canvas>
         <div class="bench-controls">
@@ -171,9 +211,9 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
             <select id="s-zs" class="mono">
               <option value="32">32 Ω</option><option value="60">60 Ω</option><option value="150">150 Ω</option><option value="300" selected>300 Ω</option><option value="600">600 Ω</option>
             </select></label>
-          <label>Plate-to-plate load <span class="val"><output id="o-rpp">5000</output> Ω</span><input type="range" id="r-rpp" min="2000" max="10000" step="250" value="5000"></label>
-          <label>Primary inductance <span class="val"><output id="o-lp">20</output> H</span><input type="range" id="r-lp" min="5" max="60" step="1" value="20"></label>
-          <label>Leakage inductance <span class="val"><output id="o-ll">10</output> mH</span><input type="range" id="r-ll" min="1" max="40" step="1" value="10"></label>
+          <label>Plate-to-plate load · assumed <span class="val"><output id="o-rpp">5000</output> Ω</span><input type="range" id="r-rpp" min="2000" max="10000" step="250" value="5000"></label>
+          <label>Primary inductance · assumed <span class="val"><output id="o-lp">20</output> H</span><input type="range" id="r-lp" min="5" max="60" step="1" value="20"></label>
+          <label>Leakage inductance · assumed <span class="val"><output id="o-ll">10</output> mH</span><input type="range" id="r-ll" min="1" max="40" step="1" value="10"></label>
           <dl class="readout mono" id="xfmr-readout"></dl>
         </div>
       </div>

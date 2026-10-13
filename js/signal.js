@@ -1,16 +1,31 @@
 // Signal path: a looping schematic of a balanced class-A push-pull tube amplifier with tube rectification.
 // Representative topology for the WA33 (two drivers and two 2A3 per channel, output transformer, 5U4G/274B supply), not Woo's schematic.
+// Call-out numbers, checked 2026-10-13: 2A3 grid −45 V, filament 2.5 V · 2.5 A (data/kb.json 2A3 datasheet); headphone range and power
+// (Woo's WA33 spec: 0.038–600 Ω including ribbon mode, up to 10 W per channel at 32 Ω); B+ ≈ 300 V, driver ≈ 150 V, gain ≈ 40× and
+// the transformer's ≈ 420 V peak are representative values (Woo publishes no voltages), consistent with the bench cards below.
 import { reducedMotion } from "./data.js";
 
 const NS = "http://www.w3.org/2000/svg";
 const el = (tag, attrs = {}, children = []) => { const n = document.createElementNS(NS, tag); for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v); children.forEach((c) => n.appendChild(c)); return n; };
 const text = (x, y, s, cls = "sig-t", anchor = "start") => { const t = el("text", { x, y, class: cls, "text-anchor": anchor }); t.textContent = s; return t; };
 
-export function initSignal(host, { period = 4 } = {}) {
+// One sentence of physics per stage, shown under the figure on hover, focus or tap.
+const STAGES = [
+  { id: "source", name: "Source", box: [8, 140, 157, 305], text: "A balanced source sends the music twice, hot and cold, 180° apart, so hum picked up along the cable lands on both equally and cancels when the amp takes their difference; ≈ 2 V is a typical DAC level, not a Woo figure." },
+  { id: "volume", name: "Volume", box: [165, 140, 105, 305], text: "Woo specifies a four-channel TKD potentiometer: one resistive divider for each phase of each channel on one shaft, so hot and cold are cut by the same ratio at every setting." },
+  { id: "drivers", name: "Drivers", box: [270, 140, 185, 305], text: "Each 6C45 turns about a volt at its grid into tens of volts at its plate because its high transconductance (52 mA/V in the KB) pushes a large current change through the plate load; gain = μ·RL/(RL + rp), and μ 52 caps it, so ≈ 40× is representative." },
+  { id: "power", name: "Power tubes", box: [455, 140, 235, 305], text: "Each 2A3 grid idles 45 V below its 2.5 V, 2.5 A filament and swings ±45 V (KB datasheet); one tube's plate current rises as the other's falls and neither reaches zero, which is class A push-pull." },
+  { id: "transformer", name: "Transformer", box: [690, 140, 210, 305], text: "B+ enters at the centre tap and the two plate currents flow through the primary in opposite directions, so their DC and even harmonics cancel in the core and only the difference reaches the secondary; Woo publishes no transformer data." },
+  { id: "output", name: "Output", box: [900, 140, 292, 305], text: "The secondary trades voltage for current: Woo rates the headphone output at up to 10 W per channel into 32 Ω and lists loads to 600 Ω, plus a current-drive mode for true-ribbon headphones down to 0.038 Ω." },
+  { id: "supply", name: "Supply chain", box: [40, 16, 790, 122], text: "The power transformer steps mains up, the 5U4G or 274B lets electrons flow one way only, and the choke and capacitors smooth the pulses into B+; ≈ 300 V is representative, leaving about 255 V across each 2A3 after 45 V of self-bias, near its 250 V datasheet point." },
+];
+const DEFAULT_TEXT = "Hover, tap or tab to a stage to read the physics behind it.";
+
+export function initSignal(host, { period = 4, explain } = {}) {
   const W = 1200, H = 560;
-  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": "Signal path through a balanced class-A push-pull tube amplifier, from balanced input to headphones, with the tube-rectified power supply above" });
+  const svg = el("svg", { viewBox: `0 0 ${W} ${H}`, role: "group", "aria-label": "Signal path through a balanced class-A push-pull tube amplifier, from balanced input to headphones, with the tube-rectified power supply above. Each stage is a button that explains itself below the figure." });
   host.innerHTML = ""; host.appendChild(svg);
-  const g = (cls) => { const n = el("g", { class: cls }); svg.appendChild(n); return n; };
+  const g = (cls, hidden = true) => { const n = el("g", hidden ? { class: cls, "aria-hidden": "true" } : { class: cls }); svg.appendChild(n); return n; };
   const wires = g("sig-wires"), parts = g("sig-parts"), labels = g("sig-labels"), dots = g("sig-dots"), scopes = g("sig-scopes");
 
   // ---------- geometry ----------
@@ -55,23 +70,23 @@ export function initSignal(host, { period = 4 } = {}) {
   labels.appendChild(text(X.vol, COLD + 34, "volume", "sig-name", "middle"));
   // drivers
   tube(X.drv, HOT - 6, "6C45 driver (+)", false); tube(X.drv, COLD + 6, "6C45 driver (−)", false);
-  labels.appendChild(text(X.drv + 40, HOT - 70, "gain ≈ 40×", "sig-v")); labels.appendChild(text(X.drv, PS + 40, "150 V DC", "sig-v", "middle"));
+  labels.appendChild(text(X.drv + 40, HOT - 70, "gain ≈ 40×", "sig-v")); labels.appendChild(text(X.drv + 6, PS + 60, "plate ≈ 150 V DC", "sig-v"));
   // power tubes
   tube(X.pwr, HOT - 26, "2A3 (+)", true); tube(X.pwr, COLD + 26, "2A3 (−)", true);
-  labels.appendChild(text(X.pwr - 60, HOT - 86, "grid −45 V ± 45 V", "sig-v")); labels.appendChild(text(X.pwr, PS + 40, "B+ 300 V DC", "sig-v", "middle"));
+  labels.appendChild(text(X.pwr - 60, HOT - 86, "grid −45 V ± 45 V", "sig-v")); labels.appendChild(text(X.pwr + 6, PS + 60, "B+ ≈ 300 V DC", "sig-v"));
   labels.appendChild(text(X.pwr + 46, COLD + 112, "filament 2.5 V · 2.5 A", "sig-v"));
   // output transformer with centre tap
   parts.appendChild(coil(X.opt, HOT - 30, COLD - HOT + 60, 8)); parts.appendChild(coil(X.opt + 40, HOT + 10, COLD - HOT - 20, 6));
   parts.appendChild(el("line", { x1: X.opt + 14, y1: HOT - 34, x2: X.opt + 14, y2: COLD + 34, class: "sig-core" })); parts.appendChild(el("line", { x1: X.opt + 24, y1: HOT - 34, x2: X.opt + 24, y2: COLD + 34, class: "sig-core" }));
   parts.appendChild(el("path", { d: `M${X.opt + 10} ${HOT - 36} V${(HOT + COLD) / 2} H${X.opt}`, class: "sig-wire sig-dc" }));
-  labels.appendChild(text(X.opt + 20, COLD + 60, "output transformer", "sig-name", "middle")); labels.appendChild(text(X.opt + 20, COLD + 76, "centre tap to B+ · primary carries the DIFFERENCE of the two plate currents", "sig-t", "middle"));
+  labels.appendChild(text(X.opt + 40, COLD + 60, "output transformer", "sig-name", "middle")); labels.appendChild(text(X.opt + 40, COLD + 76, "centre tap to B+", "sig-t", "middle")); labels.appendChild(text(X.opt + 40, COLD + 90, "primary carries the DIFFERENCE of the two plate currents", "sig-t", "middle"));
   // output XLR + headphone
   parts.appendChild(el("rect", { x: X.out - 10, y: HOT - 6, width: 40, height: COLD - HOT + 12, rx: 6, class: "sig-box" })); labels.appendChild(text(X.out + 10, COLD + 30, "XLR out", "sig-name", "middle"));
   parts.appendChild(el("path", { d: `M${X.hp - 30} ${HOT + 10} q0 -40 30 -40 h0 q30 0 30 40 V${COLD - 10} h-12 V${HOT + 20} h-36 V${COLD - 10} h-12 Z`, class: "sig-glass" }));
-  labels.appendChild(text(X.hp, COLD + 30, "headphones", "sig-name", "middle")); labels.appendChild(text(X.hp, COLD + 46, "32–600 Ω · up to 10 W", "sig-v", "middle"));
+  labels.appendChild(text(X.hp, COLD + 30, "headphones", "sig-name", "middle")); labels.appendChild(text(X.hp, COLD + 46, "≤ 600 Ω · 10 W/ch @ 32 Ω", "sig-v", "middle"));
   // power supply symbols
   labels.appendChild(text(60, PS - 14, "mains 120 V AC", "sig-t")); parts.appendChild(coil(205, PS - 24, 48, 4)); parts.appendChild(coil(245, PS - 24, 48, 4)); labels.appendChild(text(225, PS + 42, "power transformer", "sig-name", "middle"));
-  labels.appendChild(text(300, PS - 14, "≈ 420 V AC", "sig-v"));
+  labels.appendChild(text(288, PS - 14, "≈ 420 V peak", "sig-v"));
   tube(405, PS, "5U4G / 274B rectifier", false);
   labels.appendChild(text(500, PS - 14, "pulsating DC", "sig-v")); parts.appendChild(coil(590, PS - 24, 48, 4)); parts.appendChild(el("rect", { x: 606, y: PS - 10, width: 14, height: 20, class: "sig-box" })); labels.appendChild(text(600, PS + 42, "choke + capacitors", "sig-name", "middle"));
   labels.appendChild(text(660, PS - 14, "smooth DC", "sig-v"));
@@ -80,6 +95,27 @@ export function initSignal(host, { period = 4 } = {}) {
   const SY = 450;
   const sc1 = scope(40, SY, 200, "input: one AC signal"), sc2 = scope(260, SY, 220, "two phases, 180° apart"), sc3 = scope(500, SY, 240, "2A3 plate current: both stay ON (class A)"), sc4 = scope(760, SY, 200, "primary: difference → clean"), sc5 = scope(980, SY, 190, "supply: ripple → DC");
   const trace = (s, fn, path, zeroLine) => { let d = ""; for (let i = 0; i <= 60; i++) { const px = s.x + 8 + (i / 60) * (s.w - 16); const v = fn(i / 60); const py = s.y + 44 - v * 22; d += (i ? "L" : "M") + px.toFixed(1) + " " + py.toFixed(1); } path.setAttribute("d", d); if (zeroLine && !s.zero) { s.zero = el("line", { x1: s.x + 8, y1: s.y + 44 + 22, x2: s.x + s.w - 8, y2: s.y + 44 + 22, class: "sig-zero" }); scopes.appendChild(s.zero); scopes.appendChild(text(s.x + s.w - 10, s.y + 64, "0 mA", "sig-t", "end")); } };
+
+  // ---------- stages: hover, focus or tap explains ----------
+  const panel = explain || document.getElementById("signal-explain") || host.parentElement?.querySelector(".sig-explain");
+  const stagesG = g("sig-stages", false);
+  const say = (s) => { if (!panel) return; panel.innerHTML = `<span class="sig-explain-k">${s ? s.name : "Stages"}</span><span class="sig-explain-t">${s ? s.text : DEFAULT_TEXT}</span>`; };
+  let pinned = null;
+  const nodes = STAGES.map((s) => {
+    const [x, y, w, h] = s.box;
+    const n = el("g", { class: "sig-stage", tabindex: "0", role: "button", "aria-label": s.name, "aria-pressed": "false", "data-stage": s.id }, [el("rect", { x, y, width: w, height: h, class: "sig-hit" })]);
+    stagesG.appendChild(n); return { s, n };
+  });
+  const show = (s) => { say(s); nodes.forEach(({ s: t, n }) => { n.classList.toggle("on", t === s); n.classList.toggle("pinned", t === pinned); n.setAttribute("aria-pressed", String(t === pinned)); }); };
+  nodes.forEach(({ s, n }) => {
+    n.addEventListener("mouseenter", () => show(s));
+    n.addEventListener("mouseleave", () => show(pinned));
+    n.addEventListener("focus", () => show(s));
+    n.addEventListener("blur", () => show(pinned));
+    n.addEventListener("click", () => { pinned = pinned === s ? null : s; show(pinned || s); });
+    n.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); pinned = pinned === s ? null : s; show(pinned || s); } else if (e.key === "Escape") { pinned = null; show(null); } });
+  });
+  show(null);
 
   // ---------- particles ----------
   const SIG = [["hot1", 1], ["hot2", 1], ["hot3", 1], ["hot4", 1], ["cold1", -1], ["cold2", -1], ["cold3", -1], ["cold4", -1]];
