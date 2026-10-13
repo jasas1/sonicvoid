@@ -1,6 +1,422 @@
 [
  {
   "tubes": [
+   "6C45"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "impression",
+  "claim": "A WA33 owner reports that, in this amplifier, the 6C45 driver tubes are the tubes with the most impact on the sound, more so than the other positions, but laments how few rolling options exist for that driver.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33, Abyss 1266, HEDD, Susvara, EML 2A3 mesh, Takatsuki 274B",
+  "date": "2020-05-30",
+  "url": "https://forum.headphones.com/t/1765/1542",
+  "source_host": "forum.headphones.com",
+  "snippet": "the ones with the most impact on the sound as driver tubes",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "In the WA33 the 6C45 driver position offers only two tube choices, unlike the 2A3 power and rectifier positions which have many available options, which the owner finds disappointing.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33, EML 2A3 mesh, Abyss 1266, HEDD",
+  "date": "2020-05-30",
+  "url": "https://forum.headphones.com/t/1765/1541",
+  "source_host": "forum.headphones.com",
+  "snippet": "Only thing that sucks is that 6c45 only has two options",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "With the WA33's 6C45 driver quad, noise is only a real concern on efficient headphones such as the Utopia or Verite Closed; hard-to-drive planars like the 1266, HEDD and Susvara stay quiet.",
+  "descriptors": [
+   "black background"
+  ],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33, Focal Utopia, Verite Closed, Abyss 1266, HEDD, Susvara",
+  "date": "2020-05-30",
+  "url": "https://forum.headphones.com/t/1765/1542",
+  "source_host": "forum.headphones.com",
+  "snippet": "noise using efficient cans such as Utopia and Verite Closed",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "EH gold",
+   "2A3",
+   "KR 2A3"
+  ],
+  "families": [
+   "2A3",
+   "6C45"
+  ],
+  "kind": "impression",
+  "claim": "A WA33 owner finds his replacement 2A3 power tubes more three-dimensional than the stock EH gold-pin 6C45 drivers, and notes he is still waiting on replacement driver and rectifier tubes from Woo Audio.",
+  "descriptors": [
+   "holographic"
+  ],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33, stock EH gold-pin 6C45 drivers, KR 2A3, EML 2A3",
+  "date": "2020-05-13",
+  "url": "https://forum.headphones.com/t/1765/1363",
+  "source_host": "forum.headphones.com",
+  "snippet": "liking the sound vs the Stock EH gold. Sound is more three dimensional",
+  "tube_ids": [
+   "eh-2a3",
+   "kr-2a3"
+  ],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "EH gold pins"
+  ],
+  "families": [
+   "6C45",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A WA33 owner calls the amplifier very tube-dependent and budgets roughly $1200 for the best rectifier and about $280 for the EH gold-pin 6C45 driver set, with many 2A3 power-tube options at varying cost.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33, Abyss 1266 TC, Reference Milo, Custom Citadel, Empyrean",
+  "date": "2020-12-03",
+  "url": "https://forum.headphones.com/t/845/626",
+  "source_host": "forum.headphones.com",
+  "snippet": "get the EH gold pins $280 for the set",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "On a 6C45pi-based headphone amp the 6C45pi is essentially the only tube; there are no real NOS replacements, just one very expensive alternative that is no better or worse than the stock tube.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Bottlehead Mainline, Focal Clears, balanced XLR",
+  "date": "2020-02-16",
+  "url": "https://forum.headphones.com/t/2196/12",
+  "source_host": "forum.headphones.com",
+  "snippet": "the 6C45pi tubes are it no real NOS replacements out there",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "Bottlehead's designer chose the 6C45pi for the Mainline because of its very good linearity range, which is why the tube is hard to substitute in that circuit.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Bottlehead Mainline, Paul Birkland (designer)",
+  "date": "2020-02-16",
+  "url": "https://forum.headphones.com/t/2196/12",
+  "source_host": "forum.headphones.com",
+  "snippet": "they picked the 6C45pi because of its very good linearity range",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "Sovteks",
+   "6C45pi",
+   "EH"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "For 6C45pi amps the available tubes are mostly Sovteks at about $50 to $60 a pair, while Electro-Harmonix makes standard and gold-pin versions with the gold pin harder to find.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Bottlehead Mainline, Woo Audio WA7 Fireflies gold-pin tubes",
+  "date": "2020-02-16",
+  "url": "https://forum.headphones.com/t/2196/12",
+  "source_host": "forum.headphones.com",
+  "snippet": "the Sovteks are about $50-$60 a pair",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "Sovteks",
+   "EH",
+   "6C45pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "impression",
+  "claim": "An owner who tried both the Sovtek 6C45pi and the non-gold-pin Electro-Harmonix 6C45pi prefers the EH, finding the soundstage wider and the tonality better suited to his taste.",
+  "descriptors": [
+   "wide stage"
+  ],
+  "source_type": "forum",
+  "poster_context": "Bottlehead Mainline, Focal Clears",
+  "date": "2020-02-16",
+  "url": "https://forum.headphones.com/t/2196/12",
+  "source_host": "forum.headphones.com",
+  "snippet": "I do prefer the EH's seems like the soundstage is wider",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "The 6C45pi-based Mainline is reported to be dead quiet at the full stepped-attenuator position, with only a brief one-to-three-second settling noise when headphones are first plugged in.",
+  "descriptors": [
+   "black background"
+  ],
+  "source_type": "forum",
+  "poster_context": "Bottlehead Mainline, Focal Clears, balanced XLR",
+  "date": "2020-02-16",
+  "url": "https://forum.headphones.com/t/2196/12",
+  "source_host": "forum.headphones.com",
+  "snippet": "The Mainline is Dead quiet at the full on stepped attenuator position",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45",
+   "Sovtek"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "The 6C45 was originally built for Soviet military communications and radar, with New Sensor's Sovtek brand as the leading supplier, and the DIY audio community adopted it for preamp use because it offers much lower distortion and noise floor than a 12AX7.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "General tube discussion, HeadAmp GS-X Mini thread",
+  "date": "2020-03-29",
+  "url": "https://forum.headphones.com/t/5763/60",
+  "source_host": "forum.headphones.com",
+  "snippet": "6C45 was initially built for Soviet military communications and radar applications",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45Pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "The Ukraine conflict and Russian export controls are expected to disrupt availability of the NOS Russian 6C45Pi tubes that have become popular as input/driver stages, mainly through shipping disruption.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "General tube market discussion, Electro-Harmonix brands",
+  "date": "2022-03-13",
+  "url": "https://forum.headphones.com/t/13799/112",
+  "source_host": "forum.headphones.com",
+  "snippet": "NOS Russian tubes that have become popular on input stages like the 6C45Pi",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "Takatsuki 274B",
+   "PSVANE 2A3",
+   "6C45Pi ElectroHarmonix"
+  ],
+  "families": [
+   "2A3",
+   "6C45",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A Woo Audio WA33 Elite owner runs a Takatsuki 274B rectifier, PSVANE 2A3 power tubes, and Electro-Harmonix 6C45Pi driver tubes together as his preferred tube set.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33 Elite with JPS Alumiloy internal wiring",
+  "date": "2020-01-21",
+  "url": "https://forum.headphones.com/t/4978/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "Takatsuki 274B rectifier tubes, PSVANE 2A3 power tubes, and 6C45Pi ElectroHarmonix driver tubes",
+  "tube_ids": [
+   "takatsuki-ta-274b",
+   "psvane-2a3",
+   "eh-6c45pi"
+  ],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45Pi Electro Harmonix Gold-pin",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "6C45",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "A used WA33 was sold with an upgraded Takatsuki 274B rectifier and an upgraded Electro-Harmonix 6C45Pi gold-pin quad as the driver set, treating both as the worthwhile upgrades over stock.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA33 (black), second owner, located in Canada",
+  "date": "2021-09-02",
+  "url": "https://forum.headphones.com/t/14320/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Quad)",
+  "tube_ids": [
+   "eh-6c45pi",
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "On the 6C45pi-driven Bottlehead Mainline the 6C45pi is pretty much the only option; there are not many other affordable alternatives, so tube rolling is largely off the table.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "ECP Audio T4 vs Bottlehead Mainline comparison",
+  "date": "2020-01-26",
+  "url": "https://forum.headphones.com/t/5090/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "the 6C45pi's are pretty much it, not many other affordable options",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "6C45pi"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "fit",
+  "claim": "The Bottlehead Mainline uses a 6C45pi pair as its tube, and because there are no real substitutes the designer notes that tube rolling does not really apply to this amplifier.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Bottlehead Mainline Non-OTL headphone amp",
+  "date": "2020-02-17",
+  "url": "https://forum.headphones.com/t/5368/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "a 6C45pi pair of tubes, which there are no real substitutes so tube rolling",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "SOVTEK 6C45",
+   "Electro Harmonix C645Pi Gold-Pin"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "pairing",
+  "claim": "A Woo Audio WA7 Fireflies shipped with a stock Russian Sovtek 6C45 pair, with a matched Electro-Harmonix 6C45Pi gold-pin pair (about $140 new) supplied as the upgrade, showing the Sovtek-to-EH-gold upgrade path Woo offers for its 6C45 amps.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA7 Fireflies (2nd Gen) DAC/Amp combo",
+  "date": "2019-12-22",
+  "url": "https://forum.headphones.com/t/4553/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "the stock Russian made SOVTEK 6C45 tube pair, also included are a matched pair",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "SOVTEK 6C45"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "impression",
+  "claim": "The stock Sovtek 6C45 tubes in a Woo 6C45 amp were reported well broken-in after extended use and still had plenty of life, suggesting the 6C45 has a long service life in this circuit.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA7 Fireflies (2nd Gen), stock Sovtek 6C45 pair",
+  "date": "2019-12-22",
+  "url": "https://forum.headphones.com/t/4553/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "tubes ever used with this unit, which are well broken-in and should still",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "SOVTEK 6C45",
+   "Electro Harmonix C645Pi Gold-Pin"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "Because many 6C45 tubes were manufactured decades ago, the identifying paint printed on the glass jacket is often brittle and rubs off easily, so the seller advises avoiding touching printed areas when handling these tubes.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA7 Fireflies (2nd Gen), NOS 6C45 tube handling",
+  "date": "2019-12-22",
+  "url": "https://forum.headphones.com/t/4553/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "many tubes were manufactured decades ago, any identifying paint",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
+   "SOVTEK 6C45",
+   "Electro Harmonix C645Pi Gold-Pin"
+  ],
+  "families": [
+   "6C45"
+  ],
+  "kind": "warning",
+  "claim": "When installing 6C45 tubes the seller warns to press the tube straight down with minimal rocking, since rocking can stretch or warp the socket's metal linings and compromise pin contact and conductivity.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Woo Audio WA7 Fireflies (2nd Gen), 6C45 tube installation",
+  "date": "2019-12-22",
+  "url": "https://forum.headphones.com/t/4553/1",
+  "source_host": "forum.headphones.com",
+  "snippet": "the socket's metal linings effectively compromising the pins' connection and conductivity",
+  "tube_ids": [],
+  "source_task": "lore-6c45"
+ },
+ {
+  "tubes": [
    "Sophia Princess 274B"
   ],
   "families": [
@@ -812,5 +1228,592 @@
    "kr-5u4g"
   ],
   "source_task": "lore-reviews"
+ },
+ {
+  "tubes": [
+   "JJ/Tesla 2A3-40",
+   "Sovtek 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "6moons found the JJ/Tesla 2A3-40 much more alive than the Sovtek 2A3, which came across as comparatively washed out after the swap.",
+  "descriptors": [
+   "dynamic",
+   "rich"
+  ],
+  "source_type": "review",
+  "poster_context": "Melody 2A3 integrated and Fi 2A3 monoblocks; comparator Sovtek 2A3.",
+  "date": "",
+  "url": "https://6moons.com/audioreviews/jj2a3/40.html",
+  "source_host": "6moons.com",
+  "snippet": "The Sovteks sounded comparatively washed out",
+  "tube_ids": [
+   "jj-2a3-40",
+   "sovtek-2a3"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "JJ/Tesla 2A3-40"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The reviewer says the JJ/Tesla 2A3-40 emphasizes body, image density, and midrange presence more than the 45 reference he otherwise preferred for treble elegance.",
+  "descriptors": [
+   "rich",
+   "intimate",
+   "detailed"
+  ],
+  "source_type": "review",
+  "poster_context": "Fi/JJ setup compared with Yamamoto/EML45 flavor and 300B amplifiers.",
+  "date": "",
+  "url": "https://6moons.com/audioreviews/jj2a3/40.html",
+  "source_host": "6moons.com",
+  "snippet": "take the lead in body, image density and midrange presence",
+  "tube_ids": [
+   "jj-2a3-40"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "JJ/Tesla 2A3-40"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "6moons characterizes the JJ/Tesla 2A3-40 as controlled, tight, energetic, and punchy rather than loose or slow.",
+  "descriptors": [
+   "tight bass",
+   "dynamic",
+   "punchy",
+   "fast"
+  ],
+  "source_type": "review",
+  "poster_context": "Fi 2A3 monoblocks after replacing Sovtek tubes.",
+  "date": "",
+  "url": "https://6moons.com/audioreviews/jj2a3/40.html",
+  "source_host": "6moons.com",
+  "snippet": "They were controlled and tight and alive",
+  "tube_ids": [
+   "jj-2a3-40"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Linlai E-2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "In the Vinnie Rossi linestage, Linlai E-2A3 approached the Western Electric 300B's intimacy while adding lower noise, speed, and forward drive.",
+  "descriptors": [
+   "intimate",
+   "noisy",
+   "fast",
+   "forward",
+   "dynamic"
+  ],
+  "source_type": "review",
+  "poster_context": "Vinnie Rossi L2 Signature linestage; compared with Western Electric 300B and Elrog ER50.",
+  "date": "2021-02-01",
+  "url": "https://6moons.com/audioreview_articles/linlai2/4/",
+  "source_host": "6moons.com",
+  "snippet": "added lower noise, speed and more drive",
+  "tube_ids": [
+   "linlai-elite-2a3"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Linlai E-2A3",
+   "Elrog ER50"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "pairing",
+  "claim": "Against the Elrog ER50, 6moons heard the Linlai E-2A3 as the more robust, driven tube, with the Elrog sounding more filigreed or fragile.",
+  "descriptors": [
+   "dynamic",
+   "punchy"
+  ],
+  "source_type": "review",
+  "poster_context": "Vinnie Rossi L2 Signature linestage; Elrog ER50 run on 5V filament setting.",
+  "date": "2021-02-01",
+  "url": "https://6moons.com/audioreview_articles/linlai2/4/",
+  "source_host": "6moons.com",
+  "snippet": "the E-2A3 more robust and driven",
+  "tube_ids": [
+   "linlai-elite-2a3"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Linlai E-2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The Linlai E-2A3 is summarized as a quiet, robust modern valve with bandwidth, drive, and linearity, while still retaining microdynamic freedom and glow.",
+  "descriptors": [
+   "neutral",
+   "dynamic",
+   "detailed",
+   "euphonic",
+   "black background"
+  ],
+  "source_type": "review",
+  "poster_context": "Vinnie Rossi grounded-grid linestage; Audio Physic and Cube Audio speakers in main system.",
+  "date": "2021-02-01",
+  "url": "https://6moons.com/audioreview_articles/linlai2/4/",
+  "source_host": "6moons.com",
+  "snippet": "very quiet robust modern valve like its 300B stablemate",
+  "tube_ids": [
+   "linlai-elite-2a3"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Linlai E-2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "6moons describes Linlai's Elite-range 2A3 as combining 45/50-like energy and directness with some 300B-like substance and weight.",
+  "descriptors": [
+   "rich",
+   "dynamic",
+   "forward",
+   "punchy"
+  ],
+  "source_type": "review",
+  "poster_context": "Vinnie Rossi grounded-grid linestage used as a DHT preamp.",
+  "date": "2021-02-01",
+  "url": "https://6moons.com/audioreview_articles/linlai2/4/",
+  "source_host": "6moons.com",
+  "snippet": "combines color intensity, energy and directness",
+  "tube_ids": [
+   "linlai-elite-2a3"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua II 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Positive Feedback's initial listening notes call the Sophia Electric Aqua II 274B naturally balanced, spacious, tonally colorful, vivid in imaging, and dynamically strong.",
+  "descriptors": [
+   "warm",
+   "rich",
+   "wide stage",
+   "deep stage",
+   "dynamic",
+   "detailed"
+  ],
+  "source_type": "review",
+  "poster_context": "Triode Lab 45 EVO SET with Genalex Gold Lion 12AU7, Psvane CV181-TII, and Sophia Electric mesh plate 45 outputs.",
+  "date": "",
+  "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+  "source_host": "positive-feedback.com",
+  "snippet": "A natural tonal balance, a huge sense of recorded acoustic",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua II 274B",
+   "Sophia Electric Aqua 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "After run-in, the Aqua II kept the original Aqua 274B's musicality and dynamics while adding more resolution, vivid imaging, warmth, and richness.",
+  "descriptors": [
+   "warm",
+   "rich",
+   "detailed",
+   "dynamic",
+   "holographic"
+  ],
+  "source_type": "review",
+  "poster_context": "Triode Lab 45 EVO SET; comparison against original Sophia Electric Aqua 274B.",
+  "date": "",
+  "url": "https://positive-feedback.com/audio-discourse/sophia-electric-aqua-ii-274b-rectifier/",
+  "source_host": "positive-feedback.com",
+  "snippet": "more resolution, more dynamism, a touch more warmth and richness",
+  "tube_ids": [
+   "sophia-aqua-274b",
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Psvane Acme 274B",
+   "Sophia Electric Aqua 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Jeff's Place heard the Psvane Acme 274B combination as darker, richer, less resolved, and more distant than the Sophia Electric Aqua 274B combination.",
+  "descriptors": [
+   "dark",
+   "rich",
+   "laid back",
+   "romantic",
+   "soft"
+  ],
+  "source_type": "review",
+  "poster_context": "Triode Lab 45 EVO with Emission Labs 45 mesh plates and Psvane Acme 274B, compared to Sophia Electric 45 mesh plates and Sophia Electric Aqua 274B.",
+  "date": "",
+  "url": "https://jeffsplace.positive-feedback.com/triode-lab-45-evo-vacuum-tube-comparisons-sophia-electric-45-mesh-plate-emission-labs-45-mesh-plate-sophia-electric-aqua-274b-and-psvane-acme-274b/",
+  "source_host": "jeffsplace.positive-feedback.com",
+  "snippet": "darker and richer overall presentation of the music",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Psvane Acme 274B",
+   "Sophia Electric Aqua 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "warning",
+  "claim": "In one comparison, substituting the Psvane Acme 274B made the presentation darker and richer but also pushed Desmond's alto sax more forward and aggressive than with the Sophia Aqua 274B.",
+  "descriptors": [
+   "dark",
+   "rich",
+   "forward"
+  ],
+  "source_type": "review",
+  "poster_context": "Triode Lab 45 EVO; Sophia Electric 45 mesh plates remained in use while the rectifier was changed.",
+  "date": "",
+  "url": "https://jeffsplace.positive-feedback.com/triode-lab-45-evo-vacuum-tube-comparisons-sophia-electric-45-mesh-plate-emission-labs-45-mesh-plate-sophia-electric-aqua-274b-and-psvane-acme-274b/",
+  "source_host": "jeffsplace.positive-feedback.com",
+  "snippet": "made Desmond's alto sax sound a little more forward",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua 274B",
+   "Psvane Acme 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Jeff's Place says both the Sophia Electric Aqua 274B and Psvane Acme 274B were far ahead of the other NOS rectifiers tried in the 45 EVO.",
+  "descriptors": [
+   "detailed",
+   "dynamic"
+  ],
+  "source_type": "review",
+  "poster_context": "Triode Lab 45 EVO; comparison included other NOS rectifiers.",
+  "date": "",
+  "url": "https://jeffsplace.positive-feedback.com/triode-lab-45-evo-vacuum-tube-comparisons-sophia-electric-45-mesh-plate-emission-labs-45-mesh-plate-sophia-electric-aqua-274b-and-psvane-acme-274b/",
+  "source_host": "jeffsplace.positive-feedback.com",
+  "snippet": "in a different league performance-wise from other NOS rectifiers",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua II 274B",
+   "Blue Glass 5U4G",
+   "Aqua III 274B"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "warning",
+  "claim": "Sophia Electric warns that Aqua II 274B may not suit Decware SE84UFO amplifiers and points those users toward Blue Glass 5U4G or Aqua III 274B instead.",
+  "descriptors": [],
+  "source_type": "maker",
+  "poster_context": "Decware SE84UFO compatibility warning on maker product page.",
+  "date": "",
+  "url": "https://sophiaelectric.com/products/new-sophia-electric-aqua-ii-274b-rectifier-tube-with-live-like-sonic-performance",
+  "source_host": "sophiaelectric.com",
+  "snippet": "may not be compatible with Decware SE84UFO amplifiers",
+  "tube_ids": [
+   "sophia-aqua-274b",
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric Aqua II 274B",
+   "WE 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Sophia's own product page says Aqua II 274B is meant to be more musical than other 274B or 5U4G tubes, with higher resolution and clearer instrumental separation.",
+  "descriptors": [
+   "detailed",
+   "airy",
+   "extended treble"
+  ],
+  "source_type": "maker",
+  "poster_context": "Maker description comparing Aqua II 274B to WE 274B and RCA 5U4G.",
+  "date": "",
+  "url": "https://sophiaelectric.com/products/new-sophia-electric-aqua-ii-274b-rectifier-tube-with-live-like-sonic-performance",
+  "source_host": "sophiaelectric.com",
+  "snippet": "far more musical than any other 274B or 5U4G",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric 274B",
+   "Western Electric 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Fred Volz of Emotive Audio reports the Sophia Electric mesh plate 274B as the best rectifier he had heard, even including an actual Western Electric 274B.",
+  "descriptors": [
+   "detailed",
+   "smooth"
+  ],
+  "source_type": "maker",
+  "poster_context": "Feedback from Fred Volz, Emotive Audio, on Sophia Electric product page.",
+  "date": "",
+  "url": "https://sophiaelectric.com/products/pages-se-274b",
+  "source_host": "sophiaelectric.com",
+  "snippet": "best rectifier tube I have ever heard",
+  "tube_ids": [
+   "sophia-aqua-274b",
+   "we-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric 274B",
+   "Mullard 5AR4"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Sophia Electric describes its 274B mesh plate as a 5U4/5R4/5AR4 replacement with a deeper, wider stage and smoother sound than Mullard 5AR4.",
+  "descriptors": [
+   "deep stage",
+   "wide stage",
+   "smooth"
+  ],
+  "source_type": "maker",
+  "poster_context": "Maker product page for Sophia Electric 274B mesh plate.",
+  "date": "",
+  "url": "https://sophiaelectric.com/products/pages-se-274b",
+  "source_host": "sophiaelectric.com",
+  "snippet": "deeper, wider sound stage and even smoother sound",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric 274B",
+   "NOS WE 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "Sophia Electric says end-user reports put its 274B ahead of NOS WE 274B for current capability, bass, dynamics, and stage depth.",
+  "descriptors": [
+   "deep bass",
+   "dynamic",
+   "deep stage"
+  ],
+  "source_type": "maker",
+  "poster_context": "Maker product page discussing WE 274B lineage and user reports.",
+  "date": "",
+  "url": "https://sophiaelectric.com/products/pages-se-274b",
+  "source_host": "sophiaelectric.com",
+  "snippet": "outperforms the NOS WE 274B by higher current capability",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Sophia Electric 274B"
+  ],
+  "families": [
+   "274B",
+   "2A3"
+  ],
+  "kind": "fit",
+  "claim": "Sophia Electric rates the mesh plate 274B at 90 mA and says it is suitable for tube preamps and mono-block single-ended 45 or 2A3 amplifiers.",
+  "descriptors": [],
+  "source_type": "maker",
+  "poster_context": "Maker fit guidance for Sophia Electric 274B mesh plate.",
+  "date": "",
+  "url": "https://sophiaelectric.com/products/pages-se-274b",
+  "source_host": "sophiaelectric.com",
+  "snippet": "suitable for tube pre-amp and mono-block 45 single ended",
+  "tube_ids": [
+   "sophia-aqua-274b"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Shuguang Treasure series 2A3-Z"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The Tube Store's dealer page says the Shuguang Treasure 2A3-Z sounds fantastic and is considered by many to be the best current-production 2A3.",
+  "descriptors": [],
+  "source_type": "dealer",
+  "poster_context": "Dealer product page; matched pairs/quads available.",
+  "date": "",
+  "url": "https://thetubestore.com/shuguang-treasure-2a3-z",
+  "source_host": "thetubestore.com",
+  "snippet": "sounds fantastic and looks great too",
+  "tube_ids": [
+   "shuguang-2a3"
+  ],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Preferred Series 274B / 5U4G"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "impression",
+  "claim": "A Tube Store reviewer using the Preferred Series 274B/5U4G in an Aric Audio Transcend preamp heard more space and slightly extended bass versus the stock 5U4G.",
+  "descriptors": [
+   "wide stage",
+   "deep bass"
+  ],
+  "source_type": "dealer",
+  "poster_context": "Aric Audio Transcend pre-amplifier; stock 5U4G replaced by Preferred Series 274B/5U4G.",
+  "date": "2019-07-05",
+  "url": "https://thetubestore.com/preferred-series-274b-5u4g?page=2",
+  "source_host": "thetubestore.com",
+  "snippet": "give me a little more space and extend the bass",
+  "tube_ids": [],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Preferred Series 274B / 5U4G"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "impression",
+  "claim": "Another Tube Store reviewer says the Preferred Series 274B/5U4G gave burstier dynamics, deep bass finesse without bloat, excellent soundstaging, and fluid musicality.",
+  "descriptors": [
+   "dynamic",
+   "deep bass",
+   "tight bass",
+   "wide stage",
+   "liquid"
+  ],
+  "source_type": "dealer",
+  "poster_context": "Melody Pure Black 101 and P7688 preamps; Quad II Jubilee power amps.",
+  "date": "2016-11-23",
+  "url": "https://thetubestore.com/preferred-series-274b-5u4g?page=2",
+  "source_host": "thetubestore.com",
+  "snippet": "deep bass finesse without bloat, best soundstaging and fluid musicality",
+  "tube_ids": [],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Preferred Series 274B / 5U4G"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "impression",
+  "claim": "A Tube Store user describes the Preferred Series 274B/5U4G as smooth and balanced with added depth and a stable expanded soundstage.",
+  "descriptors": [
+   "smooth",
+   "deep stage",
+   "wide stage",
+   "neutral"
+  ],
+  "source_type": "dealer",
+  "poster_context": "DHT preamplifier with choice of 5U4G or 274B.",
+  "date": "2016-06-14",
+  "url": "https://thetubestore.com/preferred-series-274b-5u4g?page=2",
+  "source_host": "thetubestore.com",
+  "snippet": "nice smooth balance. Adds nice depth and very stable expanded soundstage",
+  "tube_ids": [],
+  "source_task": "lore-reviews-r4"
+ },
+ {
+  "tubes": [
+   "Preferred Series 274B / 5U4G"
+  ],
+  "families": [
+   "274B",
+   "5U4G"
+  ],
+  "kind": "impression",
+  "claim": "A Tube Store customer says the Preferred Series 274B/5U4G provides air and 3D sound not heard from NOS or new-production 5U4G tubes.",
+  "descriptors": [
+   "airy",
+   "holographic"
+  ],
+  "source_type": "dealer",
+  "poster_context": "Custom hi-fi amp and preamp; compared to NOS and new-production 5U4G.",
+  "date": "2013-01-02",
+  "url": "https://thetubestore.com/preferred-series-274b-5u4g?page=2",
+  "source_host": "thetubestore.com",
+  "snippet": "Has air and 3d sound that I do not get",
+  "tube_ids": [],
+  "source_task": "lore-reviews-r4"
  }
 ]
