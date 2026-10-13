@@ -49,11 +49,11 @@ export function renderMarket(data, els) {
       return `<tr>
         <td class="tube"><b>${l.model.toLowerCase().startsWith(String(l.brand).toLowerCase()) ? l.model : `${l.brand} ${l.model}`}</b><small>${l.service ? "service · " : ""}${l.family} · ${l.unit}${l.condition === "NOS" ? " · NOS" : ""}${l.variant ? " · " + l.variant : ""}</small></td>
         <td><span class="cl">Dealer</span>${l.dealer}<br><small class="mono" style="color:var(--ink-3)">${l.region}${ship}</small></td>
-        <td class="num price"><span class="cl">Price</span>${price}${l.price_note ? `<small>${l.price_note}</small>` : ""}</td>
+        <td class="num price"><span class="cl">Price</span>${price}${l.price_note ? `<small>${l.price_note}</small>` : ""}${l.check?.price_seen != null ? `<small class="ship-unknown" title="seen on the dealer page on ${l.check.at}; not applied automatically">page shows ${Number(l.check.price_seen).toLocaleString("en-US", { minimumFractionDigits: 2 })}</small>` : ""}</td>
         <td class="num"><span class="cl">≈ USD / tube</span>${l.perTube != null ? "$" + Math.round(l.perTube).toLocaleString("en-US") : "—"}</td>
-        <td><span class="cl">Stock</span><span class="stock ${l.in_stock}" title="${l.evidence?.snippet || ""}"><i></i>${STOCK_LABEL[l.in_stock] || l.in_stock}</span></td>
+        <td><span class="cl">Stock</span><span class="stock ${l.stale ? "unknown" : l.in_stock}" title="${l.stale ? "could not re-verify on the dealer page on " + (l.check?.at || l.fetched_at) : (l.evidence?.snippet || "")}"><i></i>${l.stale ? "unverified" : (STOCK_LABEL[l.in_stock] || l.in_stock)}</span></td>
         <td><span class="cl">Order</span>${order}</td>
-        <td class="mono" style="color:var(--ink-3);font-size:0.75rem"><span class="cl">Fetched</span>${l.fetched_at || ""}</td>
+        <td class="mono" style="color:var(--ink-3);font-size:0.75rem"><span class="cl">Fetched</span>${l.fetched_at || ""}${l.check?.stock_was ? `<br><span title="was ${l.check.stock_was} before ${l.check.at}">changed</span>` : ""}</td>
       </tr>`;
     }).join("");
     const dealers = new Set(rows.map((l) => l.dealer)); const stamp = rows.map((l) => l.fetched_at).filter(Boolean).sort().pop();

@@ -15,7 +15,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Directly heated twin diode rectifier"
   },
@@ -23,7 +23,13 @@
   "dealer_region": "US",
   "source_task": "listings-alexsoundtech",
   "usd_est": 1201.75,
-  "tube_id": "takatsuki-ta-274b"
+  "tube_id": "takatsuki-ta-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Alex Sound Technology",
@@ -41,7 +47,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Matched Pair"
   },
@@ -49,7 +55,13 @@
   "dealer_region": "US",
   "source_task": "listings-alexsoundtech",
   "usd_est": 1748.0,
-  "tube_id": "takatsuki-ta-2a3"
+  "tube_id": "takatsuki-ta-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Alex Sound Technology",
@@ -67,7 +79,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Matched Quad"
   },
@@ -75,7 +87,13 @@
   "dealer_region": "US",
   "source_task": "listings-alexsoundtech",
   "usd_est": 3496.0,
-  "tube_id": "takatsuki-ta-2a3"
+  "tube_id": "takatsuki-ta-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -93,7 +111,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Western Electric, early engraved"
   },
@@ -101,7 +119,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 1699.0,
-  "tube_id": "we-274b"
+  "tube_id": "we-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -119,7 +143,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Western Electric, yellow label"
   },
@@ -127,7 +151,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 1499.0,
-  "tube_id": "we-274b"
+  "tube_id": "we-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -145,7 +175,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B JAN Sylvania for US Navy"
   },
@@ -153,7 +183,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 699.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -171,7 +207,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Singleplates, RCA made, engraved base"
   },
@@ -179,7 +215,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 1050.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -193,11 +235,11 @@
   "price": 599.0,
   "currency": "USD",
   "price_note": "single tubes, when available, are $280.00",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Raytheon label black square box plates"
   },
@@ -205,7 +247,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 599.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -219,11 +268,11 @@
   "price": 400.0,
   "currency": "USD",
   "price_note": "single tubes are $199.00 each; page says singles in stock",
-  "in_stock": "unknown",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 RCA label and RCA made"
   },
@@ -231,7 +280,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 400.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "unknown"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -249,7 +305,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 RCA label and RCA made"
   },
@@ -257,7 +313,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -271,11 +333,11 @@
   "price": 475.0,
   "currency": "USD",
   "price_note": "single tubes, when available, are $225.00",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN CRC-2A3 VT-95 military RCA label"
   },
@@ -283,7 +345,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 475.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -297,11 +366,11 @@
   "price": 299.0,
   "currency": "USD",
   "price_note": "single tubes, when available, are $149.00",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 RCA made blackplate,  dual plate"
   },
@@ -309,7 +378,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 299.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock",
+   "price_seen": 149.0
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -323,11 +400,11 @@
   "price": 299.0,
   "currency": "USD",
   "price_note": "single tubes are $150.00 each; page says one single in stock",
-  "in_stock": "unknown",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Raytheon made black dual square plates"
   },
@@ -335,7 +412,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 299.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "unknown",
+   "price_seen": 150.0
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -353,7 +438,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Raytheon made black dual square plates"
   },
@@ -361,7 +446,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 150.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -379,7 +470,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 greyplate RCA made, dual plate"
   },
@@ -387,7 +478,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 140.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -401,11 +498,11 @@
   "price": 199.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -413,7 +510,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -427,11 +531,11 @@
   "price": 199.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate Ken Rad with foil getter"
   },
@@ -439,7 +543,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -457,7 +568,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -465,7 +576,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -483,7 +600,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -491,7 +608,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -509,7 +632,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4WG / 5931 JAN US Military"
   },
@@ -517,7 +640,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 90.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -531,11 +660,11 @@
   "price": 99.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate RCA or Cunningham"
   },
@@ -543,7 +672,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 99.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -561,7 +697,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate RCA made for other brands"
   },
@@ -569,7 +705,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 79.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -583,11 +725,11 @@
   "price": 99.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G / 567 Sheldon Hi-Po blackplate"
   },
@@ -595,7 +737,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 99.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -609,11 +758,11 @@
   "price": 79.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sylvnaia green label blackplate, ST shape"
   },
@@ -621,7 +770,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 79.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -639,7 +795,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate RCA \"Butt Ugly\" tubes"
   },
@@ -647,7 +803,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 69.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -665,7 +827,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Raytheon, Tung Sol blackplate"
   },
@@ -673,7 +835,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 79.0,
-  "tube_id": "tungsol-5u4g-reissue"
+  "tube_id": "tungsol-5u4g-reissue",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -691,7 +859,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Psvane, ST (Coke bottle) shape"
   },
@@ -699,7 +867,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 59.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -713,11 +887,11 @@
   "price": 75.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4GB US Military, Sylvania and Philips"
   },
@@ -725,7 +899,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 75.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -743,7 +924,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB RCA blackplate,SELECTED TUBE"
   },
@@ -751,7 +932,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 75.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -765,11 +952,11 @@
   "price": 40.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB RCA blackplate, tubular shape"
   },
@@ -777,7 +964,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -791,11 +985,11 @@
   "price": 55.0,
   "currency": "USD",
   "price_note": "selected for McIntosh 1960s",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB RCA blackplate, tubular shape"
   },
@@ -803,7 +997,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 55.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -821,7 +1022,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB 1950s Raytheon blackplate"
   },
@@ -829,7 +1030,13 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -843,11 +1050,11 @@
   "price": 45.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GA / 5U4GB RCA made blackplate"
   },
@@ -855,7 +1062,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 45.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -869,11 +1083,11 @@
   "price": 40.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GA / 5U4GB Sylvania blackplate"
   },
@@ -881,7 +1095,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -895,11 +1116,11 @@
   "price": 40.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB Tung Sol, blackplate, tubular shape"
   },
@@ -907,7 +1128,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": "tungsol-5u4g-reissue"
+  "tube_id": "tungsol-5u4g-reissue",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -921,11 +1149,11 @@
   "price": 30.0,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB various USA brands, straight sided envelope"
   },
@@ -933,7 +1161,14 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 30.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -951,7 +1186,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 PSVANE ART T3 Serie, werksgematchtes Paar"
   },
@@ -959,7 +1194,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 500.91,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -977,7 +1218,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-T-Mark II Psvane Reference Mark II-Serie EINZELRÖHRE"
   },
@@ -985,7 +1226,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 195.11,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1003,7 +1250,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3B PSVANE HIFI-Series, Gold-Pin"
   },
@@ -1011,7 +1258,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 73.57,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1029,7 +1282,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane WR2A3 Xtreme Classic Series, ein PAAR"
   },
@@ -1037,7 +1290,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 587.0,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1055,7 +1314,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "KR Audio 2A3-HP High Performance - Paar (2 gematchte Röhren)"
   },
@@ -1063,7 +1322,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 1168.41,
-  "tube_id": "kr-2a3"
+  "tube_id": "kr-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1081,7 +1346,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "KR Audio 2A3 - Paar (2 gematchte Röhren)"
   },
@@ -1089,7 +1354,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 1057.72,
-  "tube_id": "kr-2a3"
+  "tube_id": "kr-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1107,7 +1378,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "KR Audio 2A3-SQ Special Quality High Performance - Paar"
   },
@@ -1115,7 +1386,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 1308.18,
-  "tube_id": "kr-2a3"
+  "tube_id": "kr-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1133,7 +1410,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane 2A3-T-Mark II Gematchtes Paar"
   },
@@ -1141,7 +1418,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 390.22,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1159,7 +1442,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane ACME 2A3, ein PAAR im exklusiven Präsentkarton"
   },
@@ -1167,7 +1450,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 832.98,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1185,7 +1474,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane WE275 Replica (entspricht 2A3), ein PAAR"
   },
@@ -1193,7 +1482,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 587.0,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1211,7 +1506,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Kundenbewertungen für \"6C45Pi (R)\""
   },
@@ -1219,7 +1514,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 31.08,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1237,7 +1538,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Produktinformationen \"5U4G PSVANE HIFI-Series\""
   },
@@ -1245,7 +1546,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 43.61,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1263,7 +1570,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G-SV TAD PREMIUM SELECTED"
   },
@@ -1271,7 +1578,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 47.85,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1289,7 +1602,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB SYLVANIA NOS-NIB, USA"
   },
@@ -1297,7 +1610,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 71.56,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1315,7 +1634,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB TAD PREMIUM SELECTED mit geradem Glaskolben"
   },
@@ -1323,7 +1642,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 40.81,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1341,7 +1666,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JJ 5U4GB JJ Electronic"
   },
@@ -1349,7 +1674,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 22.14,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1367,7 +1698,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "TAD 5U4G REDBASE PREMIUM SELECTED"
   },
@@ -1375,7 +1706,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 47.85,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1393,7 +1730,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Produktinformationen \"KR Audio 274B\""
   },
@@ -1401,7 +1738,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 522.15,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "nicht mehr lieferbar"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1419,7 +1762,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "KR Audio 274B - Paar (2 gematchte Röhren)"
   },
@@ -1427,7 +1770,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 871.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1445,7 +1794,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane 274B-T-MKII Psvane Reference Mark 2 T-series"
   },
@@ -1453,7 +1802,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 178.34,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1471,7 +1826,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Produktinformationen \"Psvane ACME 274B\""
   },
@@ -1479,7 +1834,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 367.85,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1497,7 +1858,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Kundenbewertungen für \"Shuguang 274B\""
   },
@@ -1505,7 +1866,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 80.62,
-  "tube_id": "shuguang-274b"
+  "tube_id": "shuguang-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
@@ -1523,7 +1890,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "WE274B Psvane WE-Replica Serie"
   },
@@ -1531,7 +1898,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 311.95,
-  "tube_id": "psvane-we274b"
+  "tube_id": "psvane-we274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1549,7 +1922,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B-D Linlai Titanium tube"
   },
@@ -1557,7 +1930,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 99.73,
-  "tube_id": "linlai-274b"
+  "tube_id": "linlai-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1575,7 +1954,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B EML Meshplate Rectifier High-End Gleichrichter Röhre"
   },
@@ -1583,7 +1962,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 432.7,
-  "tube_id": "eml-274b-mesh"
+  "tube_id": "eml-274b-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1601,7 +1986,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B HiFi series PSVANE tube Gleichrichterröhre"
   },
@@ -1609,7 +1994,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 106.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1627,7 +2018,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Linlai black Plate tube 2-Wege Röhrengleichrichter"
   },
@@ -1635,7 +2026,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 53.45,
-  "tube_id": "linlai-274b"
+  "tube_id": "linlai-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1648,12 +2045,12 @@
   "unit": "single",
   "price": 184.9,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B/n Fullmusic Coke Bottle Mesh Plate Rectifier tube"
   },
@@ -1661,7 +2058,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 206.74,
-  "tube_id": "sophia-274b-mesh"
+  "tube_id": "sophia-274b-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1674,12 +2078,12 @@
   "unit": "single",
   "price": 184.9,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B/n TJ/Fullmusic Globeshape Mesh Plate Rectifier tube"
   },
@@ -1687,7 +2091,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 206.74,
-  "tube_id": "sophia-274b-mesh"
+  "tube_id": "sophia-274b-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1700,12 +2111,12 @@
   "unit": "single",
   "price": 248.0,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B/n/+ TJ/Fullmusic High Power Version"
   },
@@ -1713,7 +2124,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 277.29,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1731,7 +2149,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Shuguang tube-Octal base Gleichrichterröhre"
   },
@@ -1739,7 +2157,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 35.67,
-  "tube_id": "shuguang-274b"
+  "tube_id": "shuguang-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1757,7 +2181,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-40 JJ matched Quartet factory matched Quad tubes"
   },
@@ -1765,7 +2189,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 815.99,
-  "tube_id": "jj-2a3-40"
+  "tube_id": "jj-2a3-40",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1783,7 +2213,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-40 JJ matched tube Pair Ser.No.:        Röhren"
   },
@@ -1791,7 +2221,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 402.4,
-  "tube_id": "jj-2a3-40"
+  "tube_id": "jj-2a3-40",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1809,7 +2245,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-40JJ Power tube Triode Ser.No.:"
   },
@@ -1817,7 +2253,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 221.16,
-  "tube_id": "jj-2a3-40"
+  "tube_id": "jj-2a3-40",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1835,7 +2277,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-B PSVANE HiFi series tube"
   },
@@ -1843,7 +2285,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 89.35,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1861,7 +2309,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-B PSVANE Pair HiFi tubes Röhren factory matched Paar"
   },
@@ -1869,7 +2317,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 178.67,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1882,12 +2336,12 @@
   "unit": "single",
   "price": 459.8,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3/C TJ Fullmusic Carbon factory selected matched tubes"
   },
@@ -1895,7 +2349,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 514.1,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1913,7 +2374,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-D Tit. Linlai Dream series factory matched Pair"
   },
@@ -1921,7 +2382,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 277.29,
-  "tube_id": "linlai-elite-2a3"
+  "tube_id": "linlai-elite-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1939,7 +2406,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 EML EmissionLabs Trioden factory matched tube pair S/N:"
   },
@@ -1947,7 +2414,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 856.46,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1965,7 +2438,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Kron KR-2A3 Triode tubes factory matched Pair Röhren"
   },
@@ -1973,7 +2446,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 849.76,
-  "tube_id": "kr-2a3"
+  "tube_id": "kr-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -1991,7 +2470,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Mesh EML tube Emiss. Labs factory matched tube pair S/N:"
   },
@@ -1999,7 +2478,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 972.75,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2012,12 +2497,12 @@
   "unit": "pair",
   "price": 459.8,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3/n TJ/Fullmusic DOME tubes Röhren factory matched pair"
   },
@@ -2025,7 +2510,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 514.1,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2038,12 +2530,12 @@
   "unit": "single",
   "price": 198.0,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3/n TJ/Fullmusic tube 2A3 Globe Shape Röhre"
   },
@@ -2051,7 +2543,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 221.38,
-  "tube_id": "eml-2a3-mesh-globe"
+  "tube_id": "eml-2a3-mesh-globe",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2064,12 +2563,12 @@
   "unit": "single",
   "price": 219.0,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3/n TJ Fullmusic tube Dome shoulder Shape Meshplate"
   },
@@ -2077,7 +2576,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 244.86,
-  "tube_id": "sophia-2a3-mesh"
+  "tube_id": "sophia-2a3-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2095,7 +2601,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-S EML EmissionLabs factory matched tube pair S/N:"
   },
@@ -2103,7 +2609,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 915.72,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2116,12 +2628,12 @@
   "unit": "single",
   "price": 335.0,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-SE TJ Fullmusic tube Triode with Globeshape Röhre"
   },
@@ -2129,7 +2641,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 374.56,
-  "tube_id": "eml-2a3-mesh-globe"
+  "tube_id": "eml-2a3-mesh-globe",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2147,7 +2666,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Sovtek Monoplate tubes Röhren BTB matched pair"
   },
@@ -2155,7 +2674,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 169.28,
-  "tube_id": "sovtek-2a3"
+  "tube_id": "sovtek-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2173,7 +2698,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 SQ Kron KR-2A3SQ Triode factory matched Pair"
   },
@@ -2181,7 +2706,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 892.24,
-  "tube_id": "kr-2a3"
+  "tube_id": "kr-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2199,7 +2730,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3-T Naturalsound Linlaitubes factory matched 2A3 pair"
   },
@@ -2207,7 +2738,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 189.97,
-  "tube_id": "linlai-elite-2a3"
+  "tube_id": "linlai-elite-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2225,7 +2762,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3B Pair Shuguang Carbon tube Röhren factory matched Paar"
   },
@@ -2233,7 +2770,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 178.67,
-  "tube_id": "shuguang-2a3"
+  "tube_id": "shuguang-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2251,7 +2794,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3B Shuguang Carbonplate tube Monoplate 2A3 Shuguang Triode"
   },
@@ -2259,7 +2802,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 83.75,
-  "tube_id": "shuguang-2a3"
+  "tube_id": "shuguang-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2277,7 +2826,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3EH Electro Harmonix Gold factory matched pair tubes"
   },
@@ -2285,7 +2834,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 197.68,
-  "tube_id": "eh-2a3"
+  "tube_id": "eh-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2298,12 +2853,12 @@
   "unit": "pair",
   "price": 279.8,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3Z PSVANE Treasure tube factory matched Pair"
   },
@@ -2311,7 +2866,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 312.84,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2329,7 +2891,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3Z PSVANE Treasure tube"
   },
@@ -2337,7 +2899,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 154.3,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2355,7 +2923,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G = 5Z3S black plate Svetlana winged =C="
   },
@@ -2363,7 +2931,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 89.22,
-  "tube_id": "nos-svetlana-5u4g"
+  "tube_id": "nos-svetlana-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2381,7 +2955,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G(A/B) NOS (=VU71 =U52) 2-way rectifier tube"
   },
@@ -2389,7 +2963,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 55.68,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2407,7 +2987,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G EML Meshplate rectifier High-End Gleichrichter Röhre"
   },
@@ -2415,7 +2995,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 432.7,
-  "tube_id": "eml-5u4g-mesh"
+  "tube_id": "eml-5u4g-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2428,12 +3014,12 @@
   "unit": "single",
   "price": 519.8,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G KRON KR-Audio rectifier Update 2025 Version"
   },
@@ -2441,7 +3027,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 581.19,
-  "tube_id": "kr-5u4g"
+  "tube_id": "kr-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2459,7 +3052,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Linlai rectifier tube Coke Bottle shoulder Shape"
   },
@@ -2467,7 +3060,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 38.91,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2485,7 +3084,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G PSVANE HiFi series tube Coke Bottle shoulder Shape"
   },
@@ -2493,7 +3092,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 38.91,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2511,7 +3116,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G S4GB rectifier tube handselected for Guitar&Basses"
   },
@@ -2519,7 +3124,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 40.03,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2537,7 +3148,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Shuguang Coke Bottle 2-way rectifier tube"
   },
@@ -2545,7 +3156,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 32.2,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2563,7 +3180,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Svetlana SED (=5Z3S) winged =C= rectifier tube"
   },
@@ -2571,7 +3188,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 38.91,
-  "tube_id": "nos-svetlana-5u4g"
+  "tube_id": "nos-svetlana-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2589,7 +3212,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB EHX 2-way rectifier tube Electro Harmonix Röhre"
   },
@@ -2597,7 +3220,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 23.26,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2615,7 +3244,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB JJ Red Label rectifier stronger Version than 5U4G"
   },
@@ -2623,7 +3252,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 21.69,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2641,7 +3276,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB NOS straight glass"
   },
@@ -2649,7 +3284,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 55.68,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2667,7 +3308,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "6C45Pi (6S45P-E) Power Triode"
   },
@@ -2675,7 +3316,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 44.5,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2688,12 +3335,12 @@
   "unit": "pair",
   "price": 52.0,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "6C45Pi EH Gold Pair Harmonix Röhren BTB matched Paar"
   },
@@ -2701,7 +3348,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 58.14,
-  "tube_id": "eh-6c45pi"
+  "tube_id": "eh-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2714,12 +3368,12 @@
   "unit": "single",
   "price": 25.8,
   "currency": "EUR",
-  "price_note": "inkl. MwSt. zzgl. Versandkosten (export VAT-free outside EU)",
-  "in_stock": "in_stock",
+  "price_note": "no price shown while sold out",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "6C45Pi EH Goldpin Powertriode use Standardversion instaed"
   },
@@ -2727,7 +3381,14 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 28.85,
-  "tube_id": "eh-6c45pi"
+  "tube_id": "eh-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "keine preisangabe",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2745,7 +3406,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "E-274B Linlai E-Series tube Global Elite Flagship rectifie"
   },
@@ -2753,7 +3414,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 290.48,
-  "tube_id": "linlai-274b"
+  "tube_id": "linlai-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2771,7 +3438,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "WE274B Linlai rectifier tube High-End Röhrengleichrichter"
   },
@@ -2779,7 +3446,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 189.85,
-  "tube_id": "linlai-274b"
+  "tube_id": "linlai-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2797,7 +3470,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "WE274B PSVANE rectifier tube"
   },
@@ -2805,7 +3478,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 265.77,
-  "tube_id": "psvane-we274b"
+  "tube_id": "psvane-we274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2823,7 +3502,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "WE2A3 WR2A3 PSVANE tube High End 2A3 close to RCA tube"
   },
@@ -2831,7 +3510,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 245.76,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "BTB Elektronik",
@@ -2849,7 +3534,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "ZX274B Linlai Audio Recifier High-End Röhren Gleichrichter"
   },
@@ -2857,7 +3542,13 @@
   "dealer_region": "EU",
   "source_task": "listings-eu-uk",
   "usd_est": 133.95,
-  "tube_id": "linlai-274b"
+  "tube_id": "linlai-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in den warenkorb"
+  }
  },
  {
   "dealer": "Langrex",
@@ -2875,7 +3566,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 2A3B PSVANE NEW BOXED VALVE TUBE"
   },
@@ -2883,7 +3574,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 99.26,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Langrex",
@@ -2901,7 +3598,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 2A3C GOLDEN DRAGON PREMIUM MATCHED PAIR NEW"
   },
@@ -2909,7 +3606,14 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart",
+   "price_seen": 27.5
+  }
  },
  {
   "dealer": "Langrex",
@@ -2927,7 +3631,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 2A3C SHUGUANG CERAMIC GOLD PIN NEW BOXED"
   },
@@ -2935,7 +3639,14 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
-  "tube_id": "shuguang-2a3"
+  "tube_id": "shuguang-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart",
+   "price_seen": 7.5
+  }
  },
  {
   "dealer": "Langrex",
@@ -2953,7 +3664,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 GOLDEN DRAGON MATCHED PAIR NEW VALVE TUBE"
   },
@@ -2961,7 +3672,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Langrex",
@@ -2979,7 +3696,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 PREMIUM GOLDEN DRAGON MATCHED PAIR NEW VALVE"
   },
@@ -2987,7 +3704,14 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 238.23,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart",
+   "price_seen": 12.75
+  }
  },
  {
   "dealer": "Langrex",
@@ -3005,7 +3729,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B FULL MUSIC GLOBE SHAPE MATCHED PAIR VALVE"
   },
@@ -3013,7 +3737,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 370.58,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Langrex",
@@ -3031,7 +3761,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B FULL MUSIC SHOULDERED PAIR NEW BOXED VALVE"
   },
@@ -3039,7 +3769,14 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 370.58,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart",
+   "price_seen": 12.0
+  }
  },
  {
   "dealer": "Langrex",
@@ -3057,7 +3794,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G U52 GEC MOV BASE NOS BOXED VALVE"
   },
@@ -3065,7 +3802,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 860.27,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Langrex",
@@ -3083,7 +3826,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G U52 OSRAM BLACK PLATE NOS BOXED VALVE"
   },
@@ -3091,7 +3834,14 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 860.27,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart",
+   "price_seen": 55.0
+  }
  },
  {
   "dealer": "Langrex",
@@ -3109,7 +3859,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "U52 5U4G OSRAM MOV ROUND BASE NOS BOXED"
   },
@@ -3117,7 +3867,14 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 1985.25,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart",
+   "price_seen": 30.0
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3135,7 +3892,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB-ELECTRO HARMONIX AKA MESA 5U4GB MESA SELECT TYPE"
   },
@@ -3143,7 +3900,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 42.35,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3161,7 +3924,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB-GROOVE TUBES SUPER PREMIUM"
   },
@@ -3169,7 +3932,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 39.7,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3187,7 +3956,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JJ Tesla / 5U4GB-JJ TESLA"
   },
@@ -3195,7 +3964,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 23.82,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3213,7 +3988,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB-PHILIPS JAN BLACK PLATE"
   },
@@ -3221,7 +3996,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 46.32,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3239,7 +4020,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Marconi / 5U4GB/U52-MARCONI BLACK PLATE"
   },
@@ -3247,7 +4028,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 66.17,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3265,7 +4052,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Harma Cryo  / 5U4GB-HARMA RETRO CRYO"
   },
@@ -3273,7 +4060,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 47.65,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3291,7 +4084,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JJ Tesla Cryo  / 5U4GB-JJ TESLA CRYO"
   },
@@ -3299,7 +4092,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 34.41,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3317,7 +4116,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "The Sovtek 6C45PI is a single triode preamp"
   },
@@ -3325,7 +4124,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 33.09,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Watford Valves",
@@ -3343,7 +4148,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sovtek / 6C45PI-E-SOVTEK REFLECTOR"
   },
@@ -3351,7 +4156,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 42.35,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3369,7 +4180,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sovtek 2A3 Valve | HIFICollective"
   },
@@ -3377,7 +4188,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 102.29,
-  "tube_id": "sovtek-2a3"
+  "tube_id": "sovtek-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3395,7 +4212,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Electro Harmonix 2A3 Gold Pin Valve"
   },
@@ -3403,7 +4220,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 126.67,
-  "tube_id": "eh-2a3"
+  "tube_id": "eh-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3421,7 +4244,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JJ Electronic 2A3 - 40W Valve"
   },
@@ -3429,7 +4252,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 227.47,
-  "tube_id": "jj-2a3-40"
+  "tube_id": "jj-2a3-40",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3447,7 +4276,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 2A3-T, Premium Grade Valve, matched"
   },
@@ -3455,7 +4284,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 414.57,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3473,7 +4308,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane Hi-Fi Series 2A3-B Valve, matched pair"
   },
@@ -3481,7 +4316,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 154.45,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3499,7 +4340,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane WR2A3 Valve, matched pair"
   },
@@ -3507,7 +4348,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 595.81,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3525,7 +4372,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Genalex Gold Lion PX2A3 Valve, Matched Pair"
   },
@@ -3533,7 +4380,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 318.91,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3551,7 +4404,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Russian 6C45P Valve | HIFICollective"
   },
@@ -3559,7 +4412,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 23.43,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3577,7 +4436,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sovtek 6C45Pi Valve | HIFICollective"
   },
@@ -3585,7 +4444,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 54.08,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3603,7 +4468,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Mesa Boogie 5U4G Valve"
   },
@@ -3611,7 +4476,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 52.3,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3629,7 +4500,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Russian Valve | HIFICollective"
   },
@@ -3637,7 +4508,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 27.41,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3655,7 +4532,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Electro Harmonix 5U4GB Valve"
   },
@@ -3663,7 +4540,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 36.01,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3681,7 +4564,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Mesa Boogie 5U4GB Valve"
   },
@@ -3689,7 +4572,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 64.53,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "out of stock"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3707,7 +4596,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JJ Electronic 5U4GB Valve"
   },
@@ -3715,7 +4604,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 24.99,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3733,7 +4628,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane Hi-Fi Series 5U4G Valve, single valve"
   },
@@ -3741,7 +4636,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 45.81,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3759,7 +4660,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 274B Valve, Premium Grade, single"
   },
@@ -3767,7 +4668,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 185.29,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3785,7 +4692,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 274B Valve, Premium Grade, matched"
   },
@@ -3793,7 +4700,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 374.6,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3811,7 +4724,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane WE274B Western Electric Replica Valve, matched pair"
   },
@@ -3819,7 +4732,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 655.3,
-  "tube_id": "psvane-we274b"
+  "tube_id": "psvane-we274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "Hifi Collective",
@@ -3837,7 +4756,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane ACME 274B Valve, matched pair"
   },
@@ -3845,7 +4764,13 @@
   "dealer_region": "UK",
   "source_task": "listings-eu-uk",
   "usd_est": 746.03,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "add to cart"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -3871,7 +4796,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 843.05,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -3889,7 +4820,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "EML 2A3-Mesh-Globe (Matched Pair)"
   },
@@ -3897,7 +4828,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 885.54,
-  "tube_id": "eml-2a3-mesh-globe"
+  "tube_id": "eml-2a3-mesh-globe",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "pdf-price-list"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -3923,7 +4860,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 793.85,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -3941,7 +4884,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Quad matching for 2A3 Versions"
   },
@@ -3949,7 +4892,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 20.13,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "pdf-price-list"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -3975,7 +4924,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 959.33,
-  "tube_id": "eml-2a3-mesh"
+  "tube_id": "eml-2a3-mesh",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -4001,7 +4956,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 375.68,
-  "tube_id": "eml-274b-mesh"
+  "tube_id": "eml-274b-mesh",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -4027,7 +4988,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 375.68,
-  "tube_id": "eml-5u4g-mesh"
+  "tube_id": "eml-5u4g-mesh",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -4045,7 +5012,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3. Sylvania NOS. NOS"
   },
@@ -4053,7 +5020,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 469.6,
-  "tube_id": "nos-sylvania-2a3"
+  "tube_id": "nos-sylvania-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "pdf-price-list"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -4071,7 +5044,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G / GZ31.=C= Logo.Svetlana NOS"
   },
@@ -4079,7 +5052,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 23.48,
-  "tube_id": "nos-svetlana-5u4g"
+  "tube_id": "nos-svetlana-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "pdf-price-list"
+  }
  },
  {
   "dealer": "JAC Music",
@@ -4097,7 +5076,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G / GZ31.Other Logo. NOS"
   },
@@ -4105,7 +5084,13 @@
   "dealer_region": "EU",
   "source_task": "listings-jac-eml",
   "usd_est": 14.54,
-  "tube_id": "nos-svetlana-5u4g"
+  "tube_id": "nos-svetlana-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "pdf-price-list"
+  }
  },
  {
   "dealer": "ELROG",
@@ -4123,7 +5108,7 @@
   "order_path": "email",
   "ships_to_us": "unknown",
   "ships_to_us_note": "export price excl. VAT",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "ER274B Filament Voltage 5 V Filament Current 2 A Peak Inverse Voltage 1500 V"
   },
@@ -4131,7 +5116,13 @@
   "dealer_region": "EU",
   "source_task": "listings-makers-eu",
   "usd_est": null,
-  "tube_id": "elrog-er274b"
+  "tube_id": "elrog-er274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "ELROG",
@@ -4149,7 +5140,7 @@
   "order_path": "email",
   "ships_to_us": "unknown",
   "ships_to_us_note": "export price excl. VAT",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "ER5U4G Filament Voltage 5 V Filament Current 3 A Peak Inverse Voltage 1550 V"
   },
@@ -4157,7 +5148,13 @@
   "dealer_region": "EU",
   "source_task": "listings-makers-eu",
   "usd_est": null,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Parts ConneXion",
@@ -4171,11 +5168,11 @@
   "price": 127.96,
   "currency": "USD",
   "price_note": "sale, was 159.95",
-  "in_stock": "out_of_stock",
+  "in_stock": "inquire",
   "order_path": "cart",
-  "ships_to_us": "yes",
-  "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-12",
+  "ships_to_us": "no",
+  "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Tube New Sovtek 2A3"
   },
@@ -4183,7 +5180,15 @@
   "dealer_region": "US",
   "source_task": "listings-partsconnexion",
   "usd_est": 127.96,
-  "tube_id": "sovtek-2a3"
+  "tube_id": "sovtek-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "stock_was": "out_of_stock",
+   "price_seen": 159.95
+  }
  },
  {
   "dealer": "Parts ConneXion",
@@ -4201,7 +5206,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "TAKATSUKI TA-2A3 Triode Vacuum Tubes"
   },
@@ -4209,7 +5214,13 @@
   "dealer_region": "US",
   "source_task": "listings-partsconnexion",
   "usd_est": 1599.95,
-  "tube_id": "takatsuki-ta-2a3"
+  "tube_id": "takatsuki-ta-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "notify me when"
+  }
  },
  {
   "dealer": "Parts ConneXion",
@@ -4223,11 +5234,11 @@
   "price": 147.96,
   "currency": "USD",
   "price_note": "sale, was 184.95",
-  "in_stock": "in_stock",
+  "in_stock": "inquire",
   "order_path": "cart",
-  "ships_to_us": "yes",
-  "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-12",
+  "ships_to_us": "no",
+  "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Electro Harmonix 2A3 Gold Grid"
   },
@@ -4235,7 +5246,15 @@
   "dealer_region": "US",
   "source_task": "listings-partsconnexion",
   "usd_est": 147.96,
-  "tube_id": "eh-2a3"
+  "tube_id": "eh-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "stock_was": "in_stock",
+   "price_seen": 184.95
+  }
  },
  {
   "dealer": "Parts ConneXion",
@@ -4249,11 +5268,11 @@
   "price": 1099.95,
   "currency": "USD",
   "price_note": "sale, was 1649.95",
-  "in_stock": "in_stock",
+  "in_stock": "inquire",
   "order_path": "cart",
-  "ships_to_us": "yes",
-  "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-12",
+  "ships_to_us": "no",
+  "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "TAKATSUKI TA-274B Rectifier Vacuum Tubes"
   },
@@ -4261,7 +5280,14 @@
   "dealer_region": "US",
   "source_task": "listings-partsconnexion",
   "usd_est": 1099.95,
-  "tube_id": "takatsuki-ta-274b"
+  "tube_id": "takatsuki-ta-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Parts ConneXion",
@@ -4275,11 +5301,11 @@
   "price": 22.36,
   "currency": "USD",
   "price_note": "sale, was 27.95",
-  "in_stock": "in_stock",
+  "in_stock": "inquire",
   "order_path": "cart",
-  "ships_to_us": "yes",
-  "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-12",
+  "ships_to_us": "no",
+  "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Electro Harmonix 5U4GB / 5U4GT"
   },
@@ -4287,7 +5313,15 @@
   "dealer_region": "US",
   "source_task": "listings-partsconnexion",
   "usd_est": 22.36,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "stock_was": "in_stock",
+   "price_seen": 27.95
+  }
  },
  {
   "dealer": "Parts ConneXion",
@@ -4301,11 +5335,11 @@
   "price": 45.56,
   "currency": "USD",
   "price_note": "sale, was 56.95",
-  "in_stock": "in_stock",
+  "in_stock": "inquire",
   "order_path": "cart",
-  "ships_to_us": "yes",
-  "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-12",
+  "ships_to_us": "no",
+  "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Tube New Sovtek 6C45Pi-E"
   },
@@ -4313,7 +5347,15 @@
   "dealer_region": "US",
   "source_task": "listings-partsconnexion",
   "usd_est": 45.56,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "stock_was": "in_stock",
+   "price_seen": 56.95
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4327,11 +5369,11 @@
   "price": 160.49,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Genalex Gold Lion PX-2A3 Vacuum Tube"
   },
@@ -4339,7 +5381,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 160.49,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4353,11 +5402,11 @@
   "price": 108.66,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Electro-Harmonix 2A3 Gold Grid Vacuum Tube"
   },
@@ -4365,7 +5414,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 108.66,
-  "tube_id": "eh-2a3"
+  "tube_id": "eh-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4379,11 +5435,11 @@
   "price": 86.74,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Sovtek 2A3 Triode Vacuum Tube"
   },
@@ -4391,7 +5447,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 86.74,
-  "tube_id": "sovtek-2a3"
+  "tube_id": "sovtek-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4405,11 +5468,11 @@
   "price": 47.61,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Sovtek 6C45Pi Vacuum Tube"
   },
@@ -4417,7 +5480,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 47.61,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4431,11 +5501,11 @@
   "price": 98.83,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Pair (2) Sovtek 6C45Pi Vacuum Tubes"
   },
@@ -4443,7 +5513,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 98.83,
-  "tube_id": "sovtek-6c45pi"
+  "tube_id": "sovtek-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4457,11 +5534,11 @@
   "price": 23.01,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Electro-Harmonix 5U4GB Vacuum Tube"
   },
@@ -4469,7 +5546,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 23.01,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4483,11 +5567,11 @@
   "price": 26.81,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New JJ 5U4GB Rectifier Vacuum Tube"
   },
@@ -4495,7 +5579,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 26.81,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4509,11 +5600,11 @@
   "price": 343.95,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Pair (2) Genalex Gold Lion PX-2A3 Vacuum Tubes"
   },
@@ -4521,7 +5612,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 343.95,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4535,11 +5633,11 @@
   "price": 186.85,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Pair (2) Sovtek 2A3 Triode Vacuum Tubes"
   },
@@ -4547,7 +5645,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 186.85,
-  "tube_id": "sovtek-2a3"
+  "tube_id": "sovtek-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4561,11 +5666,11 @@
   "price": 47.13,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Pair (2) Electro-Harmonix 5U4GB Vacuum Tubes"
   },
@@ -4573,7 +5678,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 47.13,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4587,11 +5699,11 @@
   "price": 55.08,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Pair (2) JJ 5U4GB Rectifier Vacuum Tubes"
   },
@@ -4599,7 +5711,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 55.08,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4613,11 +5732,11 @@
   "price": 91.09,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Quad (4) Electro-Harmonix 5U4GB Vacuum Tubes"
   },
@@ -4625,7 +5744,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 91.09,
-  "tube_id": "eh-5u4gb"
+  "tube_id": "eh-5u4gb",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Viva Tubes",
@@ -4639,11 +5765,11 @@
   "price": 107.31,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "New Matched Quad (4) JJ 5U4GB Rectifier Vacuum Tubes"
   },
@@ -4651,7 +5777,14 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 107.31,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "sold out",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Vintage Tube Services",
@@ -4677,7 +5810,13 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 308.0,
-  "tube_id": "nos-rca-2a3-bi"
+  "tube_id": "nos-rca-2a3-bi",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "Vintage Tube Services",
@@ -4703,7 +5842,13 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 366.0,
-  "tube_id": "nos-rca-2a3-bi"
+  "tube_id": "nos-rca-2a3-bi",
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "Vintage Tube Services",
@@ -4729,7 +5874,13 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 58.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "Vintage Tube Services",
@@ -4755,7 +5906,13 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 78.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "Vintage Tube Services",
@@ -4781,7 +5938,13 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 64.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "Vintage Tube Services",
@@ -4807,7 +5970,13 @@
   "dealer_region": "US",
   "source_task": "listings-us-dealers",
   "usd_est": 64.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": true,
+  "check": {
+   "at": "2026-10-13",
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4825,7 +5994,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "TA-2A3 Takatsuki Tube (In Pair)"
   },
@@ -4833,7 +6002,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 2180.0,
-  "tube_id": "takatsuki-ta-2a3"
+  "tube_id": "takatsuki-ta-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4851,7 +6026,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Tube (In Quad)"
   },
@@ -4859,7 +6034,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 4360.0,
-  "tube_id": "takatsuki-ta-2a3"
+  "tube_id": "takatsuki-ta-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4877,7 +6058,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "TA-274B Takatsuki Tube (In Each)"
   },
@@ -4885,7 +6066,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 1550.0,
-  "tube_id": "takatsuki-ta-274b"
+  "tube_id": "takatsuki-ta-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4903,7 +6090,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "TA-274B Takatsuki Tube (In Pair)"
   },
@@ -4911,7 +6098,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 3100.0,
-  "tube_id": "takatsuki-ta-274b"
+  "tube_id": "takatsuki-ta-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "in stock"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4929,7 +6122,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Sophia Mesh Plate Tube (In Each)"
   },
@@ -4937,7 +6130,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
-  "tube_id": "sophia-274b-mesh"
+  "tube_id": "sophia-274b-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4955,7 +6154,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Sophia Mesh Plate Tube (In Pair)"
   },
@@ -4963,7 +6162,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 598.99,
-  "tube_id": "sophia-274b-mesh"
+  "tube_id": "sophia-274b-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -4981,7 +6186,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Sophia Aqua III Tube (In Each)"
   },
@@ -4989,7 +6194,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
-  "tube_id": "sophia-aqua-274b"
+  "tube_id": "sophia-aqua-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5007,7 +6218,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Sophia Aqua III Blue Glass Tube"
   },
@@ -5015,7 +6226,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 598.99,
-  "tube_id": "sophia-aqua-274b"
+  "tube_id": "sophia-aqua-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5033,7 +6250,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Pair)"
   },
@@ -5041,7 +6258,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 195.0,
-  "tube_id": "eh-6c45pi"
+  "tube_id": "eh-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5059,7 +6282,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Quad)"
   },
@@ -5067,7 +6290,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 405.0,
-  "tube_id": "eh-6c45pi"
+  "tube_id": "eh-6c45pi",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5085,7 +6314,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN RCA 2A3 Tube (New Old Stock in Quad)"
   },
@@ -5093,7 +6322,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 4200.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5111,7 +6346,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane WE274B Tube from $320.00"
   },
@@ -5119,7 +6354,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 320.0,
-  "tube_id": "psvane-we274b"
+  "tube_id": "psvane-we274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5137,7 +6378,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane ACME 2A3 Tube (In Pair)"
   },
@@ -5145,7 +6386,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 710.0,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Woo Audio",
@@ -5163,7 +6410,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Psvane ACME 2A3 Tube (In Quad)"
   },
@@ -5171,7 +6418,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 1420.0,
-  "tube_id": "psvane-2a3"
+  "tube_id": "psvane-2a3",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "none"
+  }
  },
  {
   "dealer": "Sophia Electric",
@@ -5185,11 +6438,11 @@
   "price": 349.99,
   "currency": "USD",
   "price_note": "Option 1 one-year warranty; option 2 $299.99 30-day warranty",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sophia Electric Aqua III 274B Rectifier Tube"
   },
@@ -5197,7 +6450,14 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 349.99,
-  "tube_id": "sophia-aqua-274b"
+  "tube_id": "sophia-aqua-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "shopify-json",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Sophia Electric",
@@ -5211,11 +6471,11 @@
   "price": 299.99,
   "currency": "USD",
   "price_note": "30-day warranty; one-year warranty option $349.99",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sophia Electric 274B Mesh Plate Tubes"
   },
@@ -5223,7 +6483,14 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
-  "tube_id": "sophia-274b-mesh"
+  "tube_id": "sophia-274b-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "shopify-json",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Sophia Electric",
@@ -5234,14 +6501,14 @@
   "variant": "mesh plate high-current 5U4/274B family",
   "condition": "new",
   "unit": "single",
-  "price": 349.99,
+  "price": 399.99,
   "currency": "USD",
   "price_note": "30-day warranty; one-year warranty option $399.99",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sophia Electric 5U4XL Mesh Plate Rectifier Tube"
   },
@@ -5249,7 +6516,15 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 349.99,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "shopify-json",
+   "stock_was": "in_stock",
+   "price_was": 349.99
+  }
  },
  {
   "dealer": "Sophia Electric",
@@ -5263,11 +6538,11 @@
   "price": 399.99,
   "currency": "USD",
   "price_note": "30-day warranty; one-year warranty option $450",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sophia Electric Blue Glass 2A3 Tubes"
   },
@@ -5275,7 +6550,14 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 399.99,
-  "tube_id": "sophia-2a3-mesh"
+  "tube_id": "sophia-2a3-mesh",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "shopify-json",
+   "stock_was": "in_stock"
+  }
  },
  {
   "dealer": "Sophia Electric",
@@ -5286,14 +6568,14 @@
   "variant": "blue glass",
   "condition": "new",
   "unit": "single",
-  "price": 249.99,
+  "price": 199.99,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sophia Electric 5U4G Rectifier Tubes"
   },
@@ -5301,7 +6583,15 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 249.99,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "shopify-json",
+   "stock_was": "in_stock",
+   "price_was": 249.99
+  }
  },
  {
   "dealer": "Sophia Electric",
@@ -5315,11 +6605,11 @@
   "price": 299.99,
   "currency": "USD",
   "price_note": "",
-  "in_stock": "in_stock",
+  "in_stock": "out_of_stock",
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sophia Electric Aqua II 274B Rectifier Tube"
   },
@@ -5327,6 +6617,13 @@
   "dealer_region": "US",
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
-  "tube_id": "sophia-aqua-274b"
+  "tube_id": "sophia-aqua-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "shopify-json",
+   "stock_was": "in_stock"
+  }
  }
 ]
