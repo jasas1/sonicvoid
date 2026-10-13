@@ -93,7 +93,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Western Electric, early engraved"
   },
@@ -101,7 +101,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 1699.0,
-  "tube_id": "we-274b"
+  "tube_id": "we-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$1699.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -119,7 +127,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B Western Electric, yellow label"
   },
@@ -127,7 +135,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 1499.0,
-  "tube_id": "we-274b"
+  "tube_id": "we-274b",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$1499.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -145,7 +161,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "274B JAN Sylvania for US Navy"
   },
@@ -153,7 +169,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 699.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$699.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -171,7 +195,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Singleplates, RCA made, engraved base"
   },
@@ -179,7 +203,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 1050.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$1050.00 per pair', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -197,7 +229,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Raytheon label black square box plates"
   },
@@ -205,7 +237,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 599.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$599.00 per pair', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -219,11 +259,11 @@
   "price": 400.0,
   "currency": "USD",
   "price_note": "single tubes are $199.00 each; page says singles in stock",
-  "in_stock": "unknown",
+  "in_stock": "inquire",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 RCA label and RCA made"
   },
@@ -231,7 +271,16 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 400.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$400.00 per pair', stock cell 'singles in stock'",
+   "stock_was": "unknown"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -249,7 +298,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 RCA label and RCA made"
   },
@@ -257,7 +306,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$400.00 per pair', stock cell 'singles in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -275,7 +332,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN CRC-2A3 VT-95 military RCA label"
   },
@@ -283,7 +340,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 475.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$475.00 per pair', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -301,7 +366,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 RCA made blackplate,  dual plate"
   },
@@ -309,7 +374,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 299.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$299.00 per pair', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -323,11 +396,11 @@
   "price": 299.0,
   "currency": "USD",
   "price_note": "single tubes are $150.00 each; page says one single in stock",
-  "in_stock": "unknown",
+  "in_stock": "out_of_stock",
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Raytheon made black dual square plates"
   },
@@ -335,7 +408,16 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 299.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '299.00 per pair', stock cell 'one single in stock'",
+   "stock_was": "unknown"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -353,7 +435,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 Raytheon made black dual square plates"
   },
@@ -361,7 +443,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 150.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '299.00 per pair', stock cell 'one single in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -379,7 +469,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "2A3 greyplate RCA made, dual plate"
   },
@@ -387,7 +477,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 140.0,
-  "tube_id": "nos-rca-2a3-single"
+  "tube_id": "nos-rca-2a3-single",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$140.00', stock cell 'in stock 1940s manufacture vin'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -405,7 +503,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -413,7 +511,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$199.00', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -431,7 +537,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate Ken Rad with foil getter"
   },
@@ -439,7 +545,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$199.00', stock cell 'out of Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -457,7 +571,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -465,7 +579,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$199.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -483,7 +605,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -491,7 +613,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 199.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$199.00', stock cell 'out of Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -509,7 +639,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4WG / 5931 JAN US Military"
   },
@@ -517,7 +647,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 90.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$90.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -535,7 +673,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate RCA or Cunningham"
   },
@@ -543,7 +681,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 99.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$99.00', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -561,7 +707,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate RCA made for other brands"
   },
@@ -569,7 +715,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 79.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$79.00', stock cell 'In Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -587,7 +741,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G / 567 Sheldon Hi-Po blackplate"
   },
@@ -595,7 +749,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 99.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$99.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -613,7 +775,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "Sylvnaia green label blackplate, ST shape"
   },
@@ -621,7 +783,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 79.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$79.00', stock cell 'in Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -639,7 +809,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G blackplate RCA \"Butt Ugly\" tubes"
   },
@@ -647,7 +817,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 69.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$69.00', stock cell 'In Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -665,7 +843,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Raytheon, Tung Sol blackplate"
   },
@@ -673,7 +851,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 79.0,
-  "tube_id": "tungsol-5u4g-reissue"
+  "tube_id": "tungsol-5u4g-reissue",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$79.00', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -691,7 +877,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4G Psvane, ST (Coke bottle) shape"
   },
@@ -699,7 +885,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 59.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$59.00', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -717,7 +911,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "JAN 5U4GB US Military, Sylvania and Philips"
   },
@@ -725,7 +919,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 75.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$75.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -743,7 +945,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB RCA blackplate,SELECTED TUBE"
   },
@@ -751,7 +953,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 75.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$75.00', stock cell 'out of Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -769,7 +979,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB RCA blackplate, tubular shape"
   },
@@ -777,7 +987,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$40.00', stock cell 'in Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -795,7 +1013,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB RCA blackplate, tubular shape"
   },
@@ -803,7 +1021,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 55.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "sub-variant sentence in the row description: A FEW IN STOCK SELECTED FOR MCINTOSH 1960S, $55.00 EACH."
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -821,7 +1047,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB 1950s Raytheon blackplate"
   },
@@ -829,7 +1055,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$40.00', stock cell 'in stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -847,7 +1081,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GA / 5U4GB RCA made blackplate"
   },
@@ -855,7 +1089,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 45.0,
-  "tube_id": "nos-rca-5u4g"
+  "tube_id": "nos-rca-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$45.00', stock cell 'out of stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -873,7 +1115,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GA / 5U4GB Sylvania blackplate"
   },
@@ -881,7 +1123,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": "nos-sylvania-5u4g"
+  "tube_id": "nos-sylvania-5u4g",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$40.00', stock cell 'In Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -899,7 +1149,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB Tung Sol, blackplate, tubular shape"
   },
@@ -907,7 +1157,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 40.0,
-  "tube_id": "tungsol-5u4g-reissue"
+  "tube_id": "tungsol-5u4g-reissue",
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$40.00', stock cell 'out of Stock'"
+  }
  },
  {
   "dealer": "Brent Jessee Recording & Supply, Inc.",
@@ -925,7 +1183,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-10-12",
+  "fetched_at": "2026-10-13",
   "evidence": {
    "snippet": "5U4GB various USA brands, straight sided envelope"
   },
@@ -933,7 +1191,15 @@
   "dealer_region": "US",
   "source_task": "listings-brentjessee",
   "usd_est": 30.0,
-  "tube_id": null
+  "tube_id": null,
+  "stale": false,
+  "check": {
+   "at": "2026-10-13",
+   "status": "ok",
+   "stock_source": "brentjessee",
+   "extractor": "brentjessee",
+   "note": "row: price cell '$30.00', stock cell 'In Stock'"
+  }
  },
  {
   "dealer": "Tube Amp Doctor",
