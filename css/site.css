@@ -504,3 +504,6 @@ main { padding-top: 2.4rem; }
   .hero-sticky { top: auto; height: auto; }
   .hero { height: auto; }
 }
+
+/* anchors land below the fixed site strip */
+.sheet, .kb-page, .kb-entry, .bench-card { scroll-margin-top: 3.2rem; }

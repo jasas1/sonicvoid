@@ -65,3 +65,6 @@ const sections = await Promise.all(fams.map(async (fam) => {
 $("#kb").innerHTML = sections.join("");
 $("#lore-list").innerHTML = (data.lore || []).filter((c) => c.kind === "pairing").map((c) => `<blockquote class="quote"><b>${(c.tubes || []).map(esc).join(" + ")}</b><br>${esc(c.claim)}<cite>${esc(c.source_type)}${c.poster_context ? " · " + esc(c.poster_context) : ""} · <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.source_host || "source")}</a></cite></blockquote>`).join("") || `<p class="pending">No pairing claims merged yet.</p>`;
 initRail();
+// the entries render after the data loads, so honour the URL hash now (and on later changes)
+function jumpToHash() { if (!location.hash) return; const el = document.getElementById(decodeURIComponent(location.hash.slice(1))); if (el) el.scrollIntoView({ behavior: "auto", block: "start" }); }
+jumpToHash(); window.addEventListener("hashchange", jumpToHash);
