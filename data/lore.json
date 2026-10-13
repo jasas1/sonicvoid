@@ -884,6 +884,566 @@
  },
  {
   "tubes": [
+   "PSVANE WR2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster reports that Jack Wu of Woo Audio recommended PSVANE WR2A3 tubes for the WA33 when asked about adding more warmth to the sound.",
+  "descriptors": [
+   "warm"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, Jack Wu of Woo Audio recommendation",
+  "date": "2018-06-01",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-12",
+  "source_host": "head-fi.org",
+  "snippet": "@dawktah2 , I didn't own any Woo Audio amps except WA22 and WA33. I",
+  "tube_ids": [
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "KR 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "warning",
+  "claim": "The poster asks about reliability issues with KR 2A3 tubes, noting that other threads about 2A3 amps have reported quality control problems.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WA33, stock tubes, considering KR 2A3 upgrade",
+  "date": "2018-06-14",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-12",
+  "source_host": "head-fi.org",
+  "snippet": "Hey guys I was just wondering if anyone has had any issues with their",
+  "tube_ids": [
+   "kr-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "In this pairing the poster mentions using a Takatsuki 274B rectifier as part of the best valve combination for the WA33 Elite during a long term review.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WA33 Elite, long term review, Takatsuki 274B, HRS Vortex Footers",
+  "date": "2018-08-06",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-15",
+  "source_host": "head-fi.org",
+  "snippet": "I have been using a WA 33 Elite for the last month for long",
+  "tube_ids": [
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "JJ 2A3-40",
+   "EML 274B Mesh"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "The poster runs JJ 2A3-40 power tubes with an EML 274B Mesh rectifier in the WA33, finding the combination really solid all around with Abyss Phi headphones.",
+  "descriptors": [
+   "detailed"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, Abyss Phi headphones, JJ 2A3-40, EML 274B Mesh rectifier",
+  "date": "2018-09-06",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-17",
+  "source_host": "head-fi.org",
+  "snippet": "I'm looking for any insight on how the EML Mesh or EML Solids",
+  "tube_ids": [
+   "jj-2a3-40",
+   "eml-274b-mesh"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "EML 2A3-S"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster concluded that the EML 2A3-S solid plate tubes could be the wiser choice for preserving the Abyss Phi bass punch and resolution.",
+  "descriptors": [
+   "tight bass",
+   "detailed",
+   "dynamic"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, Abyss Phi headphones, considering EML 2A3-S",
+  "date": "2018-09-07",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-17",
+  "source_host": "head-fi.org",
+  "snippet": "Thanks, it sounds like the EML 2A3-S could be the wiser move based",
+  "tube_ids": [
+   "eml-2a3-mesh"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "Elrog ER5U4G"
+  ],
+  "families": [
+   "5U4G"
+  ],
+  "kind": "warning",
+  "claim": "The poster reports that an Elrog ER5U4G rectifier became very noisy soon after being installed in a WA33 Elite, and both Elrog and Woo Audio stated the Elrog was not recommended for use in the WA33.",
+  "descriptors": [
+   "noisy"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33 Elite Edition, Elrog ER5U4G rectifier",
+  "date": "2026-06-18",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-248",
+  "source_host": "head-fi.org",
+  "snippet": "Apparently some 5U4G are more equal than others. A couple of years ago I",
+  "tube_ids": [],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "PSvane ACME 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster acquired PSvane ACME 2A3 tubes and was looking forward to hearing their effect on the WA33, describing the amp as having a very natural, musical sound with dynamics, clarity, focus and resolution.",
+  "descriptors": [
+   "detailed",
+   "dynamic",
+   "smooth"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, Utopia, Caldera Closed, Verite Closed headphones",
+  "date": "2026-07-31",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-249",
+  "source_host": "head-fi.org",
+  "snippet": "I’ve had my WA33 for 7 weeks or so and I can say",
+  "tube_ids": [
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "PSVane ACME 2A3",
+   "Electro-Harmonix 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster reports that PSVane ACME 2A3 tubes sound more dynamic with better extension top and bottom compared to stock Electro-Harmonix tubes, with a step up in resolution, imaging and bass texture.",
+  "descriptors": [
+   "dynamic",
+   "detailed",
+   "textured",
+   "extended treble",
+   "deep bass"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, PSvane ACME 2A3 vs stock Electro-Harmonix 2A3",
+  "date": "2026-08-28",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-250",
+  "source_host": "head-fi.org",
+  "snippet": "Some thoughts on the PSVANE Acme 2A3s: Dropped some PSvane ACME series 2A3 tubes",
+  "tube_ids": [
+   "psvane-2a3",
+   "eh-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "EH 2A3",
+   "Takatsuki 274B",
+   "Psvane ACME 2A3",
+   "KR 2A3"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "The poster found Psvane ACME 2A3 too forward in upper mids, and swapped in stock EH 2A3 with Takatsuki 274B rectifier, finding it quite good on the Gen 1 Elite. The KR HP quad was getting tired.",
+  "descriptors": [
+   "forward",
+   "warm",
+   "neutral"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33 Gen 1 Elite, KR HP 2A3 quad (worn), Psvane ACME 2A3 (too forward), stock EH 2A3, Takatsuki 274B",
+  "date": "2026-09-10",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-250",
+  "source_host": "head-fi.org",
+  "snippet": "Tube check in: What's everyone running? My KR HP quad is getting a",
+  "tube_ids": [
+   "eh-2a3",
+   "takatsuki-ta-274b",
+   "psvane-2a3",
+   "kr-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "Takatsuki 2A3",
+   "Stradi 5U4G",
+   "WE 417a"
+  ],
+  "families": [
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "kind": "pairing",
+  "claim": "The poster runs Takatsuki 2A3 power tubes with a Stradi 5U4G rectifier and WE 417a driver tubes, reporting long tube life for the Takatsuki tubes at 20k hours expected.",
+  "descriptors": [
+   "neutral",
+   "detailed"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, Tak 2A3, Stradi 5U4G, WE 417a driver",
+  "date": "2026-09-10",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-250",
+  "source_host": "head-fi.org",
+  "snippet": "My current lineup is Tak 2A3/Stradi 5U4G/We 417a. I am surprised by",
+  "tube_ids": [
+   "takatsuki-ta-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "KR 274B"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "The poster found the KR 274B rectifier bland and uninteresting, which influenced their decision to buy Takatsuki 2A3 tubes instead of KR HP tubes.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WA33, compared KR 274B and Takatsuki tubes",
+  "date": "2026-09-10",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-250",
+  "source_host": "head-fi.org",
+  "snippet": "My current lineup is Tak 2A3/Stradi 5U4G/We 417a. I am surprised by",
+  "tube_ids": [],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "PSVane ACME 2A3",
+   "ELROG 5U4G",
+   "Sovtek",
+   "EML 5U4G",
+   "RCA 2A3",
+   "Mazda 5U4G"
+  ],
+  "families": [
+   "2A3",
+   "5U4G"
+  ],
+  "kind": "pairing",
+  "claim": "The poster tried multiple tube combinations including PSVane ACME 2A3 with ELROG 5U4G and Sovtek, then EML 5U4G, and later RCA 2A3 with Mazda 5U4G, eventually switching to a Toshiba 2A3.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WA33, multiple rectifier and 2A3 tube combinations",
+  "date": "2026-09-10",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-250",
+  "source_host": "head-fi.org",
+  "snippet": "At first, I had: PSVane ACME 2A3 ELROG 5U4G Sovtek Then I bought an",
+  "tube_ids": [
+   "psvane-2a3",
+   "eml-5u4g-mesh",
+   "nos-rca-2a3-single"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "RCA black plate 5U4G",
+   "SovTek 6C45",
+   "PSvane ACME 2A3"
+  ],
+  "families": [
+   "2A3",
+   "5U4G",
+   "6C45"
+  ],
+  "kind": "pairing",
+  "claim": "The poster runs an RCA black plate hanging filament 5U4G rectifier with stock SovTek 6C45 drivers and PSvane ACME 2A3 power tubes on a Gen 2 base WA33, reporting better bass and treble extension with better dynamics compared to stock tubes.",
+  "descriptors": [
+   "neutral",
+   "dynamic",
+   "deep bass",
+   "extended treble"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33 Gen 2 base, RCA black plate 5U4G, SovTek 6C45, PSvane ACME 2A3",
+  "date": "2026-09-10",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-251",
+  "source_host": "head-fi.org",
+  "snippet": "On my Gen 2 base WA33 I’m running an RCA black plate hanging",
+  "tube_ids": [
+   "nos-rca-2a3-single",
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "RCA NOS 2A3",
+   "KR AUDIO 274B",
+   "EH Gold Pin 6C45"
+  ],
+  "families": [
+   "2A3",
+   "274B",
+   "6C45"
+  ],
+  "kind": "pairing",
+  "claim": "The poster settled on RCA NOS 2A3 power tubes with a KR Audio 274B rectifier and EH Gold Pin 6C45 drivers, reporting a powerful sound with clear imaging.",
+  "descriptors": [
+   "rich",
+   "detailed",
+   "punchy"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33 with Woo Audio upgraded tubes",
+  "date": "2017-10-04",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-6",
+  "source_host": "head-fi.org",
+  "snippet": "I have come to settle my WA33 with following tubes: 4* RCA NOS 2a3",
+  "tube_ids": [
+   "nos-rca-2a3-single",
+   "eh-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "NOS RCA 2A3",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "The poster ordered a WA33 with NOS RCA 2A3 power tubes and a Takatsuki 274B rectifier, all purchased through Woo Audio.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WA33, all tubes bought from Woo Audio",
+  "date": "2017-10-09",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-6",
+  "source_host": "head-fi.org",
+  "snippet": "Anyone can report the actual dimension of WA33 unit? I still waiting mine to",
+  "tube_ids": [
+   "nos-rca-2a3-single",
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "KR 2A3",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "2A3",
+   "274B"
+  ],
+  "kind": "pairing",
+  "claim": "The poster runs KR 2A3 power tubes with a Takatsuki 274B rectifier in the WA33, finding the KR tubes much better than stock and reporting greatly increased resolution and detail with Focal Utopia headphones.",
+  "descriptors": [
+   "detailed",
+   "wide stage",
+   "holographic"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA33, Focal Utopia headphones, KR2A3 power tubes, Takatsuki 274B rectifier",
+  "date": "2017-12-30",
+  "url": "https://www.head-fi.org/threads/woos-new-flagship-wa33.843710/page-9",
+  "source_host": "head-fi.org",
+  "snippet": "Just a quick post to contribute further impressions to the discussion - I'm a",
+  "tube_ids": [
+   "kr-2a3",
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "EML 2A3 Mesh",
+   "RCA dual gray plates 2A3",
+   "Psvane WR2A3",
+   "Psvane Treasure T Mk II 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster compared EML mesh, RCA dual gray plates, Psvane Treasure T Mk II and Psvane WR2A3 tubes in a DNA Stratus amp, finding EML meshplates smooth, quiet, rich and balanced, while Psvane WR2A3 tubes were more full, open and airy with better top extension and defined bass.",
+  "descriptors": [
+   "smooth",
+   "lush",
+   "rich",
+   "airy",
+   "extended treble",
+   "tight bass"
+  ],
+  "source_type": "forum",
+  "poster_context": "DNA Stratus amp, Marconi U52 rectifier, cryo pearl 6N1P driver",
+  "date": "2014-04-24",
+  "url": "https://www.head-fi.org/threads/2a3-tubes-lets-hear-your-favorites/",
+  "source_host": "head-fi.org",
+  "snippet": "Used in DNA Stratus with Marconi U52 rectifier and cryo pearl 6N1P: I have",
+  "tube_ids": [
+   "eml-2a3-mesh",
+   "nos-rca-2a3-single",
+   "psvane-2a3",
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "Linlai Elite 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster mentioned considering Linlai Elite 2A3 tubes from BTBelektronik.de for a WBA Blazebird amplifier.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "WBA Blazebird amp, considering Linlai Elite 2A3",
+  "date": "2024-06-29",
+  "url": "https://www.head-fi.org/threads/2a3-tubes-lets-hear-your-favorites/",
+  "source_host": "head-fi.org",
+  "snippet": "I was thinking of Linlai Elite 2A3 from BTBelektronik.de for the WBA Blazebird",
+  "tube_ids": [
+   "linlai-elite-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "Psvane 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "warning",
+  "claim": "The poster reports persistent reliability problems with Psvane 2A3 tubes, with sputtering, spitting, ticking and squeaking noises developing in 13 out of 14 tubes tested.",
+  "descriptors": [
+   "noisy"
+  ],
+  "source_type": "forum",
+  "poster_context": "DNA Stratus amp, Psvane 2A3T MkII and WR2A3 tubes",
+  "date": "2014-05-29",
+  "url": "https://www.head-fi.org/threads/psvane-2a3-tubes/",
+  "source_host": "head-fi.org",
+  "snippet": "I'm curious to find out who else has had problems with Psvane 2A3",
+  "tube_ids": [
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "PSVANE Horizon 2A3"
+  ],
+  "families": [
+   "2A3"
+  ],
+  "kind": "impression",
+  "claim": "The poster received PSVANE Horizon 2A3 tubes as a giveaway and found them to sound pretty good, describing them as a gateway to 2A3 tube rolling.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "First taste of 2A3 tubes, PSVANE Horizon 2A3",
+  "date": "2024-07-09",
+  "url": "https://www.head-fi.org/threads/psvane-horizon-2a3-at-tube-is-my-gateway-to-2a3-tubes/",
+  "source_host": "head-fi.org",
+  "snippet": "First off, thank you @PSVANE for the giveaway and for allowing me to try",
+  "tube_ids": [
+   "psvane-2a3"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "Sophia 274B mesh plate"
+  ],
+  "families": [
+   "274B"
+  ],
+  "kind": "impression",
+  "claim": "The poster reports that the Sophia 274B mesh plate has a more refined top end and nicer midrange, doing a smoother job of rectifying with less overshoot and softer recovery.",
+  "descriptors": [
+   "smooth",
+   "detailed",
+   "lush"
+  ],
+  "source_type": "forum",
+  "poster_context": "WA6 amp, Sophia 274B mesh plate vs Philips GZ34 metal base",
+  "date": "2008-07-08",
+  "url": "https://www.head-fi.org/threads/tj-274b-meshplate-or-sophia-electric-274b-princess-mesh-plate/",
+  "source_host": "head-fi.org",
+  "snippet": "The Sophia 274B mesh plate is supposed to have a more refined top end",
+  "tube_ids": [
+   "sophia-274b-mesh"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
+   "EH 5U4GB",
+   "Takatsuki 274B"
+  ],
+  "families": [
+   "5U4G",
+   "274B"
+  ],
+  "kind": "fit",
+  "claim": "The poster asks whether EH 5U4GB and 274B tubes are interchangeable, and a responder notes that the modern 274B appears to be an equivalent to the 5U4G but with different specifications.",
+  "descriptors": [],
+  "source_type": "forum",
+  "poster_context": "Viva Egoista 845, considering switching EH 5U4GB to Takatsuki 274B",
+  "date": "2023-10-30",
+  "url": "https://www.head-fi.org/threads/tube-help-eh5u4gb-and-274b-do-they-interchange/",
+  "source_host": "head-fi.org",
+  "snippet": "First question: what do all the letters and numbers in a tube mean? Second",
+  "tube_ids": [
+   "eh-5u4gb",
+   "takatsuki-ta-274b"
+  ],
+  "source_task": "lore-headfi-deep"
+ },
+ {
+  "tubes": [
    "6C45",
    "2A3",
    "274B rectifier tube"
