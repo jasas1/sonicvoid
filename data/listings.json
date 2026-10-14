@@ -15,7 +15,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Directly heated twin diode rectifier"
   },
@@ -24,11 +24,11 @@
   "source_task": "listings-alexsoundtech",
   "usd_est": 1201.75,
   "tube_id": "takatsuki-ta-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -43,11 +43,11 @@
   "price": 1748.0,
   "currency": "USD",
   "price_note": "sale, was 1840.00",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Matched Pair"
   },
@@ -56,11 +56,12 @@
   "source_task": "listings-alexsoundtech",
   "usd_est": 1748.0,
   "tube_id": "takatsuki-ta-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -75,11 +76,11 @@
   "price": 3496.0,
   "currency": "USD",
   "price_note": "sale, was 3680.00",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Matched Quad"
   },
@@ -88,11 +89,12 @@
   "source_task": "listings-alexsoundtech",
   "usd_est": 3496.0,
   "tube_id": "takatsuki-ta-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -1233,7 +1235,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 PSVANE ART T3 Serie, werksgematchtes Paar"
   },
@@ -1242,11 +1244,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 500.91,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1265,7 +1267,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-T-Mark II Psvane Reference Mark II-Serie EINZELRÖHRE"
   },
@@ -1274,11 +1276,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 195.11,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1297,7 +1299,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3B PSVANE HIFI-Series, Gold-Pin"
   },
@@ -1306,11 +1308,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 73.57,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -1329,7 +1331,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane WR2A3 Xtreme Classic Series, ein PAAR"
   },
@@ -1338,11 +1340,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 587.0,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1361,7 +1363,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "KR Audio 2A3-HP High Performance - Paar (2 gematchte Röhren)"
   },
@@ -1370,11 +1372,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 1168.41,
   "tube_id": "kr-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1393,7 +1395,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "KR Audio 2A3 - Paar (2 gematchte Röhren)"
   },
@@ -1402,11 +1404,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 1057.72,
   "tube_id": "kr-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1425,7 +1427,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "KR Audio 2A3-SQ Special Quality High Performance - Paar"
   },
@@ -1434,11 +1436,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 1308.18,
   "tube_id": "kr-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1457,7 +1459,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane 2A3-T-Mark II Gematchtes Paar"
   },
@@ -1466,11 +1468,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 390.22,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1489,7 +1491,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane ACME 2A3, ein PAAR im exklusiven Präsentkarton"
   },
@@ -1498,11 +1500,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 832.98,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1521,7 +1523,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane WE275 Replica (entspricht 2A3), ein PAAR"
   },
@@ -1530,11 +1532,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 587.0,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1553,7 +1555,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Kundenbewertungen für \"6C45Pi (R)\""
   },
@@ -1562,11 +1564,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 31.08,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1585,7 +1587,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Produktinformationen \"5U4G PSVANE HIFI-Series\""
   },
@@ -1594,11 +1596,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 43.61,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -1617,7 +1619,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G-SV TAD PREMIUM SELECTED"
   },
@@ -1626,11 +1628,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 47.85,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1649,7 +1651,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB SYLVANIA NOS-NIB, USA"
   },
@@ -1658,11 +1660,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 71.56,
   "tube_id": "nos-sylvania-5u4g",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1681,7 +1683,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB TAD PREMIUM SELECTED mit geradem Glaskolben"
   },
@@ -1690,11 +1692,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 40.81,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -1713,7 +1715,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JJ 5U4GB JJ Electronic"
   },
@@ -1722,11 +1724,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 22.14,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -1745,7 +1747,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "TAD 5U4G REDBASE PREMIUM SELECTED"
   },
@@ -1754,11 +1756,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 47.85,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1777,7 +1779,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Produktinformationen \"KR Audio 274B\""
   },
@@ -1786,11 +1788,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 522.15,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "nicht mehr lieferbar"
   }
  },
  {
@@ -1809,7 +1811,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "KR Audio 274B - Paar (2 gematchte Röhren)"
   },
@@ -1818,11 +1820,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 871.0,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1841,7 +1843,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane 274B-T-MKII Psvane Reference Mark 2 T-series"
   },
@@ -1850,11 +1852,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 178.34,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1873,7 +1875,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Produktinformationen \"Psvane ACME 274B\""
   },
@@ -1882,11 +1884,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 367.85,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -1905,7 +1907,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Kundenbewertungen für \"Shuguang 274B\""
   },
@@ -1914,11 +1916,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 80.62,
   "tube_id": "shuguang-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -1937,7 +1939,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "WE274B Psvane WE-Replica Serie"
   },
@@ -1946,11 +1948,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 311.95,
   "tube_id": "psvane-we274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -1969,7 +1971,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B-D Linlai Titanium tube"
   },
@@ -1978,11 +1980,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 99.73,
   "tube_id": "linlai-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2001,7 +2003,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B EML Meshplate Rectifier High-End Gleichrichter Röhre"
   },
@@ -2010,11 +2012,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 432.7,
   "tube_id": "eml-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2033,7 +2035,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B HiFi series PSVANE tube Gleichrichterröhre"
   },
@@ -2042,11 +2044,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 106.0,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2065,7 +2067,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B Linlai black Plate tube 2-Wege Röhrengleichrichter"
   },
@@ -2074,11 +2076,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 53.45,
   "tube_id": "linlai-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2097,7 +2099,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B/n Fullmusic Coke Bottle Mesh Plate Rectifier tube"
   },
@@ -2106,11 +2108,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 206.74,
   "tube_id": "sophia-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2129,7 +2131,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B/n TJ/Fullmusic Globeshape Mesh Plate Rectifier tube"
   },
@@ -2138,11 +2140,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 206.74,
   "tube_id": "sophia-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2161,7 +2163,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B/n/+ TJ/Fullmusic High Power Version"
   },
@@ -2170,11 +2172,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 277.29,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2193,7 +2195,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B Shuguang tube-Octal base Gleichrichterröhre"
   },
@@ -2202,11 +2204,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 35.67,
   "tube_id": "shuguang-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2225,7 +2227,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-40 JJ matched Quartet factory matched Quad tubes"
   },
@@ -2234,11 +2236,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 815.99,
   "tube_id": "jj-2a3-40",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2257,7 +2259,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-40 JJ matched tube Pair Ser.No.:        Röhren"
   },
@@ -2266,11 +2268,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 402.4,
   "tube_id": "jj-2a3-40",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "no-anchor"
   }
  },
  {
@@ -2289,7 +2291,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-40JJ Power tube Triode Ser.No.:"
   },
@@ -2298,11 +2300,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 221.16,
   "tube_id": "jj-2a3-40",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2321,7 +2323,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-B PSVANE HiFi series tube"
   },
@@ -2330,11 +2332,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 89.35,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2353,7 +2355,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-B PSVANE Pair HiFi tubes Röhren factory matched Paar"
   },
@@ -2362,11 +2364,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 178.67,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2385,7 +2387,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3/C TJ Fullmusic Carbon factory selected matched tubes"
   },
@@ -2394,11 +2396,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 514.1,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2417,7 +2419,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-D Tit. Linlai Dream series factory matched Pair"
   },
@@ -2426,11 +2428,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 277.29,
   "tube_id": "linlai-elite-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2449,7 +2451,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 EML EmissionLabs Trioden factory matched tube pair S/N:"
   },
@@ -2458,11 +2460,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 856.46,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2481,7 +2483,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 Kron KR-2A3 Triode tubes factory matched Pair Röhren"
   },
@@ -2490,11 +2492,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 849.76,
   "tube_id": "kr-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2513,7 +2515,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 Mesh EML tube Emiss. Labs factory matched tube pair S/N:"
   },
@@ -2522,11 +2524,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 972.75,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2545,7 +2547,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3/n TJ/Fullmusic DOME tubes Röhren factory matched pair"
   },
@@ -2554,11 +2556,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 514.1,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2577,7 +2579,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3/n TJ/Fullmusic tube 2A3 Globe Shape Röhre"
   },
@@ -2586,11 +2588,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 221.38,
   "tube_id": "eml-2a3-mesh-globe",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2609,7 +2611,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3/n TJ Fullmusic tube Dome shoulder Shape Meshplate"
   },
@@ -2618,11 +2620,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 244.86,
   "tube_id": "sophia-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2641,7 +2643,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-S EML EmissionLabs factory matched tube pair S/N:"
   },
@@ -2650,11 +2652,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 915.72,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2673,7 +2675,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-SE TJ Fullmusic tube Triode with Globeshape Röhre"
   },
@@ -2682,11 +2684,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 374.56,
   "tube_id": "eml-2a3-mesh-globe",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2705,7 +2707,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 Sovtek Monoplate tubes Röhren BTB matched pair"
   },
@@ -2714,11 +2716,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 169.28,
   "tube_id": "sovtek-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2737,7 +2739,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 SQ Kron KR-2A3SQ Triode factory matched Pair"
   },
@@ -2746,11 +2748,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 892.24,
   "tube_id": "kr-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2769,7 +2771,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3-T Naturalsound Linlaitubes factory matched 2A3 pair"
   },
@@ -2778,11 +2780,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 189.97,
   "tube_id": "linlai-elite-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2801,7 +2803,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3B Pair Shuguang Carbon tube Röhren factory matched Paar"
   },
@@ -2810,11 +2812,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 178.67,
   "tube_id": "shuguang-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2833,7 +2835,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3B Shuguang Carbonplate tube Monoplate 2A3 Shuguang Triode"
   },
@@ -2842,11 +2844,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 83.75,
   "tube_id": "shuguang-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2865,7 +2867,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3EH Electro Harmonix Gold factory matched pair tubes"
   },
@@ -2874,11 +2876,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 197.68,
   "tube_id": "eh-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2897,7 +2899,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3Z PSVANE Treasure tube factory matched Pair"
   },
@@ -2906,11 +2908,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 312.84,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -2929,7 +2931,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3Z PSVANE Treasure tube"
   },
@@ -2938,11 +2940,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 154.3,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2961,7 +2963,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G = 5Z3S black plate Svetlana winged =C="
   },
@@ -2970,11 +2972,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 89.22,
   "tube_id": "nos-svetlana-5u4g",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -2993,7 +2995,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G(A/B) NOS (=VU71 =U52) 2-way rectifier tube"
   },
@@ -3002,11 +3004,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 55.68,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3025,7 +3027,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G EML Meshplate rectifier High-End Gleichrichter Röhre"
   },
@@ -3034,11 +3036,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 432.7,
   "tube_id": "eml-5u4g-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3057,7 +3059,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G KRON KR-Audio rectifier Update 2025 Version"
   },
@@ -3066,11 +3068,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 581.19,
   "tube_id": "kr-5u4g",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -3089,7 +3091,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G Linlai rectifier tube Coke Bottle shoulder Shape"
   },
@@ -3098,11 +3100,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 38.91,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3121,7 +3123,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G PSVANE HiFi series tube Coke Bottle shoulder Shape"
   },
@@ -3130,11 +3132,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 38.91,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3153,7 +3155,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G S4GB rectifier tube handselected for Guitar&Basses"
   },
@@ -3162,11 +3164,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 40.03,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3185,7 +3187,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G Shuguang Coke Bottle 2-way rectifier tube"
   },
@@ -3194,11 +3196,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 32.2,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3217,7 +3219,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G Svetlana SED (=5Z3S) winged =C= rectifier tube"
   },
@@ -3226,11 +3228,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 38.91,
   "tube_id": "nos-svetlana-5u4g",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3249,7 +3251,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB EHX 2-way rectifier tube Electro Harmonix Röhre"
   },
@@ -3258,11 +3260,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 23.26,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3281,7 +3283,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB JJ Red Label rectifier stronger Version than 5U4G"
   },
@@ -3290,11 +3292,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 21.69,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3313,7 +3315,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB NOS straight glass"
   },
@@ -3322,11 +3324,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 55.68,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3345,7 +3347,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "6C45Pi (6S45P-E) Power Triode"
   },
@@ -3354,11 +3356,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 44.5,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3377,7 +3379,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "6C45Pi EH Gold Pair Harmonix Röhren BTB matched Paar"
   },
@@ -3386,11 +3388,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 58.14,
   "tube_id": "eh-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -3409,7 +3411,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "6C45Pi EH Goldpin Powertriode use Standardversion instaed"
   },
@@ -3418,11 +3420,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 28.85,
   "tube_id": "eh-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "keine preisangabe"
   }
  },
  {
@@ -3441,7 +3443,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "E-274B Linlai E-Series tube Global Elite Flagship rectifie"
   },
@@ -3450,11 +3452,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 290.48,
   "tube_id": "linlai-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3473,7 +3475,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "WE274B Linlai rectifier tube High-End Röhrengleichrichter"
   },
@@ -3482,11 +3484,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 189.85,
   "tube_id": "linlai-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3505,7 +3507,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "WE274B PSVANE rectifier tube"
   },
@@ -3514,11 +3516,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 265.77,
   "tube_id": "psvane-we274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3537,7 +3539,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "WE2A3 WR2A3 PSVANE tube High End 2A3 close to RCA tube"
   },
@@ -3546,11 +3548,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 245.76,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3569,7 +3571,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "ZX274B Linlai Audio Recifier High-End Röhren Gleichrichter"
   },
@@ -3578,11 +3580,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 133.95,
   "tube_id": "linlai-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in den warenkorb"
   }
  },
  {
@@ -3601,7 +3603,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 2A3B PSVANE NEW BOXED VALVE TUBE"
   },
@@ -3610,11 +3612,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 99.26,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 75.0, stock '10 in stock'"
   }
  },
  {
@@ -3633,7 +3637,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 2A3C GOLDEN DRAGON PREMIUM MATCHED PAIR NEW"
   },
@@ -3642,11 +3646,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 120.0, stock '45 in stock'"
   }
  },
  {
@@ -3665,7 +3671,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 2A3C SHUGUANG CERAMIC GOLD PIN NEW BOXED"
   },
@@ -3674,11 +3680,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
   "tube_id": "shuguang-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 120.0, stock '12 in stock'"
   }
  },
  {
@@ -3697,7 +3705,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 GOLDEN DRAGON MATCHED PAIR NEW VALVE TUBE"
   },
@@ -3706,11 +3714,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 120.0, stock '13 in stock'"
   }
  },
  {
@@ -3729,7 +3739,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3 PREMIUM GOLDEN DRAGON MATCHED PAIR NEW VALVE"
   },
@@ -3738,11 +3748,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 238.23,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 180.0, stock '4 in stock'"
   }
  },
  {
@@ -3761,7 +3773,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B FULL MUSIC GLOBE SHAPE MATCHED PAIR VALVE"
   },
@@ -3770,11 +3782,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 370.58,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 280.0, stock '4 in stock'"
   }
  },
  {
@@ -3793,7 +3807,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B FULL MUSIC SHOULDERED PAIR NEW BOXED VALVE"
   },
@@ -3802,11 +3816,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 370.58,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 280.0, stock '1 in stock'"
   }
  },
  {
@@ -3825,7 +3841,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G U52 GEC MOV BASE NOS BOXED VALVE"
   },
@@ -3834,11 +3850,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 860.27,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 650.0, stock '2 in stock'"
   }
  },
  {
@@ -3857,7 +3875,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G U52 OSRAM BLACK PLATE NOS BOXED VALVE"
   },
@@ -3866,11 +3884,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 860.27,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 650.0, stock '1 in stock'"
   }
  },
  {
@@ -3889,7 +3909,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "U52 5U4G OSRAM MOV ROUND BASE NOS BOXED"
   },
@@ -3898,11 +3918,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 1985.25,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 1500.0, stock '1 in stock'"
   }
  },
  {
@@ -3921,7 +3943,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB-ELECTRO HARMONIX AKA MESA 5U4GB MESA SELECT TYPE"
   },
@@ -3930,11 +3952,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 42.35,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -3953,7 +3975,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB-GROOVE TUBES SUPER PREMIUM"
   },
@@ -3962,11 +3984,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 39.7,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -3985,7 +4007,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JJ Tesla / 5U4GB-JJ TESLA"
   },
@@ -3994,11 +4016,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 23.82,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4017,7 +4039,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4GB-PHILIPS JAN BLACK PLATE"
   },
@@ -4026,11 +4048,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 46.32,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4049,7 +4071,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Marconi / 5U4GB/U52-MARCONI BLACK PLATE"
   },
@@ -4058,11 +4080,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 66.17,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4081,7 +4103,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Harma Cryo  / 5U4GB-HARMA RETRO CRYO"
   },
@@ -4090,11 +4112,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 47.65,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4113,7 +4135,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JJ Tesla Cryo  / 5U4GB-JJ TESLA CRYO"
   },
@@ -4122,11 +4144,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 34.41,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4145,7 +4167,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "The Sovtek 6C45PI is a single triode preamp"
   },
@@ -4154,11 +4176,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 33.09,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4177,7 +4199,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sovtek / 6C45PI-E-SOVTEK REFLECTOR"
   },
@@ -4186,11 +4208,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 42.35,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4209,7 +4231,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sovtek 2A3 Valve | HIFICollective"
   },
@@ -4218,11 +4240,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 102.29,
   "tube_id": "sovtek-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4241,7 +4263,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Electro Harmonix 2A3 Gold Pin Valve"
   },
@@ -4250,11 +4272,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 126.67,
   "tube_id": "eh-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4273,7 +4295,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JJ Electronic 2A3 - 40W Valve"
   },
@@ -4282,11 +4304,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 227.47,
   "tube_id": "jj-2a3-40",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4305,7 +4327,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 2A3-T, Premium Grade Valve, matched"
   },
@@ -4314,11 +4336,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 414.57,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4337,7 +4359,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane Hi-Fi Series 2A3-B Valve, matched pair"
   },
@@ -4346,11 +4368,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 154.45,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4369,7 +4391,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane WR2A3 Valve, matched pair"
   },
@@ -4378,11 +4400,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 595.81,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4401,7 +4423,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Genalex Gold Lion PX2A3 Valve, Matched Pair"
   },
@@ -4410,11 +4432,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 318.91,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4433,7 +4455,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Russian 6C45P Valve | HIFICollective"
   },
@@ -4442,11 +4464,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 23.43,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4465,7 +4487,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sovtek 6C45Pi Valve | HIFICollective"
   },
@@ -4474,11 +4496,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 54.08,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4497,7 +4519,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Mesa Boogie 5U4G Valve"
   },
@@ -4506,11 +4528,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 52.3,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "out of stock"
   }
  },
  {
@@ -4529,7 +4551,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G Russian Valve | HIFICollective"
   },
@@ -4538,11 +4560,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 27.41,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4561,7 +4583,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Electro Harmonix 5U4GB Valve"
   },
@@ -4570,11 +4592,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 36.01,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "out of stock"
   }
  },
  {
@@ -4593,7 +4615,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Mesa Boogie 5U4GB Valve"
   },
@@ -4602,11 +4624,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 64.53,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "out of stock"
   }
  },
  {
@@ -4625,7 +4647,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JJ Electronic 5U4GB Valve"
   },
@@ -4634,11 +4656,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 24.99,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4657,7 +4679,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane Hi-Fi Series 5U4G Valve, single valve"
   },
@@ -4666,11 +4688,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 45.81,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4689,7 +4711,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 274B Valve, Premium Grade, single"
   },
@@ -4698,11 +4720,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 185.29,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4721,7 +4743,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 274B Valve, Premium Grade, matched"
   },
@@ -4730,11 +4752,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 374.6,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -4753,7 +4775,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane WE274B Western Electric Replica Valve, matched pair"
   },
@@ -4762,11 +4784,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 655.3,
   "tube_id": "psvane-we274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4785,7 +4807,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane ACME 274B Valve, matched pair"
   },
@@ -4794,11 +4816,11 @@
   "source_task": "listings-eu-uk",
   "usd_est": 746.03,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -4817,7 +4839,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "EML 2A3-Mesh (Matched Pair)"
   },
@@ -4826,11 +4848,14 @@
   "source_task": "listings-jac-eml",
   "usd_est": 843.05,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 44: export 754.0 EUR (DE incl. VAT 897.26) (list dated 2026-09-12)",
+   "source": "https://www.jacmusic.com/html/order/!jacmusic-pricelist.pdf"
   }
  },
  {
@@ -4849,7 +4874,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "EML 2A3-Mesh-Globe (Matched Pair)"
   },
@@ -4858,11 +4883,13 @@
   "source_task": "listings-jac-eml",
   "usd_est": 885.54,
   "tube_id": "eml-2a3-mesh-globe",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 45: export 792.0 EUR (DE incl. VAT 942.48) (list dated 2026-09-12)"
   }
  },
  {
@@ -4881,7 +4908,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "EML 2A3-S (Matched Pair)"
   },
@@ -4890,11 +4917,14 @@
   "source_task": "listings-jac-eml",
   "usd_est": 793.85,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 47: export 710.0 EUR (DE incl. VAT 844.9) (list dated 2026-09-12)",
+   "source": "https://www.jacmusic.com/html/order/!jacmusic-pricelist.pdf"
   }
  },
  {
@@ -4913,7 +4943,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Quad matching for 2A3 Versions"
   },
@@ -4922,11 +4952,13 @@
   "source_task": "listings-jac-eml",
   "usd_est": 20.13,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 50: export 18.0 EUR (DE incl. VAT 21.42) (list dated 2026-09-12)"
   }
  },
  {
@@ -4945,7 +4977,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "EML 300B25 Mesh (Matched Pair) 2A3"
   },
@@ -4954,11 +4986,14 @@
   "source_task": "listings-jac-eml",
   "usd_est": 959.33,
   "tube_id": "eml-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 53: export 858.0 EUR (DE incl. VAT 1021.02) (list dated 2026-09-12)",
+   "source": "https://www.jacmusic.com/html/order/!jacmusic-pricelist.pdf"
   }
  },
  {
@@ -4977,7 +5012,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "EML 274B -Mesh (One tube)"
   },
@@ -4986,11 +5021,14 @@
   "source_task": "listings-jac-eml",
   "usd_est": 375.68,
   "tube_id": "eml-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 42: export 336.0 EUR (DE incl. VAT 399.84) (list dated 2026-09-12)",
+   "source": "https://www.jacmusic.com/html/order/!jacmusic-pricelist.pdf"
   }
  },
  {
@@ -5009,7 +5047,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "EML 5U4G-Mesh (One tube)"
   },
@@ -5018,11 +5056,14 @@
   "source_task": "listings-jac-eml",
   "usd_est": 375.68,
   "tube_id": "eml-5u4g-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 94: export 336.0 EUR (DE incl. VAT 399.84) (list dated 2026-09-12)",
+   "source": "https://www.jacmusic.com/html/order/!jacmusic-pricelist.pdf"
   }
  },
  {
@@ -5041,7 +5082,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "2A3. Sylvania NOS. NOS"
   },
@@ -5050,11 +5091,13 @@
   "source_task": "listings-jac-eml",
   "usd_est": 469.6,
   "tube_id": "nos-sylvania-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 220: export 420.0 EUR (DE incl. VAT 499.8) (list dated 2026-09-12)"
   }
  },
  {
@@ -5073,7 +5116,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G / GZ31.=C= Logo.Svetlana NOS"
   },
@@ -5082,11 +5125,13 @@
   "source_task": "listings-jac-eml",
   "usd_est": 23.48,
   "tube_id": "nos-svetlana-5u4g",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 226: export 21.0 EUR (DE incl. VAT 24.99) (list dated 2026-09-12)"
   }
  },
  {
@@ -5105,7 +5150,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "5U4G / GZ31.Other Logo. NOS"
   },
@@ -5114,11 +5159,13 @@
   "source_task": "listings-jac-eml",
   "usd_est": 14.54,
   "tube_id": "nos-svetlana-5u4g",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "jacmusic",
+   "extractor": "jacmusic",
+   "note": "price list line 228: export 13.0 EUR (DE incl. VAT 15.47) (list dated 2026-09-12)"
   }
  },
  {
@@ -5149,8 +5196,8 @@
   "stale": true,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
   }
  },
  {
@@ -5169,7 +5216,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JAN-CRC RCA 2A3 Power Vacuum Tube"
   },
@@ -5178,11 +5225,11 @@
   "source_task": "listings-linlai-psvane-us",
   "usd_est": 239.95,
   "tube_id": "nos-rca-2a3-single",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -5201,7 +5248,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Shuguang Treasure 2A3-Z Power Vacuum Tube"
   },
@@ -5210,11 +5257,11 @@
   "source_task": "listings-linlai-psvane-us",
   "usd_est": 163.95,
   "tube_id": "shuguang-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -5233,7 +5280,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Shuguang 2A3C Power Vacuum Tube"
   },
@@ -5242,11 +5289,11 @@
   "source_task": "listings-linlai-psvane-us",
   "usd_est": 87.95,
   "tube_id": "shuguang-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -5277,8 +5324,8 @@
   "stale": true,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "snippet-missing",
+   "stock_source": "no-anchor"
   }
  },
  {
@@ -5297,7 +5344,7 @@
   "order_path": "email",
   "ships_to_us": "unknown",
   "ships_to_us_note": "export price excl. VAT",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "ER274B Filament Voltage 5 V Filament Current 2 A Peak Inverse Voltage 1500 V"
   },
@@ -5306,11 +5353,11 @@
   "source_task": "listings-makers-eu",
   "usd_est": null,
   "tube_id": "elrog-er274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -5329,7 +5376,7 @@
   "order_path": "email",
   "ships_to_us": "unknown",
   "ships_to_us_note": "export price excl. VAT",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "ER5U4G Filament Voltage 5 V Filament Current 3 A Peak Inverse Voltage 1550 V"
   },
@@ -5338,11 +5385,11 @@
   "source_task": "listings-makers-eu",
   "usd_est": null,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -5361,7 +5408,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Tube New Sovtek 2A3"
   },
@@ -5370,11 +5417,12 @@
   "source_task": "listings-partsconnexion",
   "usd_est": 127.96,
   "tube_id": "sovtek-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "price_seen": 159.95
   }
  },
  {
@@ -5393,7 +5441,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "TAKATSUKI TA-2A3 Triode Vacuum Tubes"
   },
@@ -5402,11 +5450,11 @@
   "source_task": "listings-partsconnexion",
   "usd_est": 1599.95,
   "tube_id": "takatsuki-ta-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5425,7 +5473,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Electro Harmonix 2A3 Gold Grid"
   },
@@ -5434,11 +5482,12 @@
   "source_task": "listings-partsconnexion",
   "usd_est": 147.96,
   "tube_id": "eh-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "price_seen": 184.95
   }
  },
  {
@@ -5457,7 +5506,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "TAKATSUKI TA-274B Rectifier Vacuum Tubes"
   },
@@ -5466,11 +5515,11 @@
   "source_task": "listings-partsconnexion",
   "usd_est": 1099.95,
   "tube_id": "takatsuki-ta-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "button has been removed"
   }
  },
  {
@@ -5489,7 +5538,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Electro Harmonix 5U4GB / 5U4GT"
   },
@@ -5498,11 +5547,12 @@
   "source_task": "listings-partsconnexion",
   "usd_est": 22.36,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "price_seen": 27.95
   }
  },
  {
@@ -5521,7 +5571,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Tube New Sovtek 6C45Pi-E"
   },
@@ -5530,11 +5580,12 @@
   "source_task": "listings-partsconnexion",
   "usd_est": 45.56,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "button has been removed",
+   "price_seen": 56.95
   }
  },
  {
@@ -5553,7 +5604,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Genalex Gold Lion PX-2A3 Vacuum Tube"
   },
@@ -5562,11 +5613,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 160.49,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5585,7 +5636,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Electro-Harmonix 2A3 Gold Grid Vacuum Tube"
   },
@@ -5594,11 +5645,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 108.66,
   "tube_id": "eh-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5617,7 +5668,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Sovtek 2A3 Triode Vacuum Tube"
   },
@@ -5626,11 +5677,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 86.74,
   "tube_id": "sovtek-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5649,7 +5700,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Sovtek 6C45Pi Vacuum Tube"
   },
@@ -5658,11 +5709,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 47.61,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5681,7 +5732,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Pair (2) Sovtek 6C45Pi Vacuum Tubes"
   },
@@ -5690,11 +5741,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 98.83,
   "tube_id": "sovtek-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5713,7 +5764,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Electro-Harmonix 5U4GB Vacuum Tube"
   },
@@ -5722,11 +5773,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 23.01,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5745,7 +5796,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New JJ 5U4GB Rectifier Vacuum Tube"
   },
@@ -5754,11 +5805,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 26.81,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5777,7 +5828,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Pair (2) Genalex Gold Lion PX-2A3 Vacuum Tubes"
   },
@@ -5786,11 +5837,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 343.95,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5809,7 +5860,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Pair (2) Sovtek 2A3 Triode Vacuum Tubes"
   },
@@ -5818,11 +5869,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 186.85,
   "tube_id": "sovtek-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5841,7 +5892,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Pair (2) Electro-Harmonix 5U4GB Vacuum Tubes"
   },
@@ -5850,11 +5901,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 47.13,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5873,7 +5924,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Pair (2) JJ 5U4GB Rectifier Vacuum Tubes"
   },
@@ -5882,11 +5933,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 55.08,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5905,7 +5956,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Quad (4) Electro-Harmonix 5U4GB Vacuum Tubes"
   },
@@ -5914,11 +5965,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 91.09,
   "tube_id": "eh-5u4gb",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5937,7 +5988,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "New Matched Quad (4) JJ 5U4GB Rectifier Vacuum Tubes"
   },
@@ -5946,11 +5997,11 @@
   "source_task": "listings-us-dealers",
   "usd_est": 107.31,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "bigcommerce-instock"
   }
  },
  {
@@ -5969,7 +6020,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "The classic black bi-plate unit"
   },
@@ -5978,11 +6029,14 @@
   "source_task": "listings-us-dealers",
   "usd_est": 308.0,
   "tube_id": "nos-rca-2a3-bi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "vintagetubeservices",
+   "extractor": "vintagetubeservices",
+   "note": "stock-list row: 2A3 | RCA | 1940's | 18 | $308.00",
+   "source": "https://vintagetubeservices.com/wp-content/uploads/2026/09/Audio-Triode-Outputs-09272026.pdf"
   }
  },
  {
@@ -6001,7 +6055,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Fully date coded mirror matched pair"
   },
@@ -6010,11 +6064,14 @@
   "source_task": "listings-us-dealers",
   "usd_est": 366.0,
   "tube_id": "nos-rca-2a3-bi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "vintagetubeservices",
+   "extractor": "vintagetubeservices",
+   "note": "stock-list row: 2A3 | RCA | 1940's | Matched Pair | $366 Pair",
+   "source": "https://vintagetubeservices.com/wp-content/uploads/2026/09/Audio-Triode-Outputs-09272026.pdf"
   }
  },
  {
@@ -6033,7 +6090,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Here come the series string tubes"
   },
@@ -6042,11 +6099,14 @@
   "source_task": "listings-us-dealers",
   "usd_est": 58.0,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "vintagetubeservices",
+   "extractor": "vintagetubeservices",
+   "note": "stock-list row: 5U4-GB | RCA | 1955 - 1970's | H.V. Test | 58 | $58.00",
+   "source": "https://vintagetubeservices.com/wp-content/uploads/2026/09/Rectifiers-09272026.pdf"
   }
  },
  {
@@ -6065,7 +6125,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Tall bottle. The re-engineered straight sided"
   },
@@ -6074,11 +6134,14 @@
   "source_task": "listings-us-dealers",
   "usd_est": 78.0,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "vintagetubeservices",
+   "extractor": "vintagetubeservices",
+   "note": "stock-list row: 5U4-GB | RCA | 1952 + | H.V. Test | 17 | $78.00",
+   "source": "https://vintagetubeservices.com/wp-content/uploads/2026/09/Rectifiers-09272026.pdf"
   }
  },
  {
@@ -6097,7 +6160,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "1950's New Old Stock, all matched the same"
   },
@@ -6106,11 +6169,14 @@
   "source_task": "listings-us-dealers",
   "usd_est": 64.0,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "vintagetubeservices",
+   "extractor": "vintagetubeservices",
+   "note": "stock-list row: 5U4-G | GE | 1950's | H.V. Test | 94 | $64.00",
+   "source": "https://vintagetubeservices.com/wp-content/uploads/2026/09/Rectifiers-09272026.pdf"
   }
  },
  {
@@ -6129,7 +6195,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "GE 1950's - 1960's H.V. Test 10 $64.00"
   },
@@ -6138,11 +6204,14 @@
   "source_task": "listings-us-dealers",
   "usd_est": 64.0,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "vintagetubeservices",
+   "extractor": "vintagetubeservices",
+   "note": "stock-list row: 5U4-GB | GE | 1950's - 1960's | H.V. Test | 10 | $64.00",
+   "source": "https://vintagetubeservices.com/wp-content/uploads/2026/09/Rectifiers-09272026.pdf"
   }
  },
  {
@@ -6161,7 +6230,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "TA-2A3 Takatsuki Tube (In Pair)"
   },
@@ -6170,11 +6239,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 2180.0,
   "tube_id": "takatsuki-ta-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6193,7 +6262,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Tube (In Quad)"
   },
@@ -6202,11 +6271,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 4360.0,
   "tube_id": "takatsuki-ta-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6225,7 +6294,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "TA-274B Takatsuki Tube (In Each)"
   },
@@ -6234,11 +6303,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 1550.0,
   "tube_id": "takatsuki-ta-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6257,7 +6326,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "TA-274B Takatsuki Tube (In Pair)"
   },
@@ -6266,11 +6335,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 3100.0,
   "tube_id": "takatsuki-ta-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "in stock"
   }
  },
  {
@@ -6289,7 +6358,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B Sophia Mesh Plate Tube (In Each)"
   },
@@ -6298,11 +6367,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
   "tube_id": "sophia-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6321,7 +6390,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B Sophia Mesh Plate Tube (In Pair)"
   },
@@ -6330,11 +6399,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 598.99,
   "tube_id": "sophia-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6353,7 +6422,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B Sophia Aqua III Tube (In Each)"
   },
@@ -6362,11 +6431,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
   "tube_id": "sophia-aqua-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6385,7 +6454,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "274B Sophia Aqua III Blue Glass Tube"
   },
@@ -6394,11 +6463,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 598.99,
   "tube_id": "sophia-aqua-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6417,7 +6486,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Pair)"
   },
@@ -6426,11 +6495,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 195.0,
   "tube_id": "eh-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6449,7 +6518,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Quad)"
   },
@@ -6458,11 +6527,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 405.0,
   "tube_id": "eh-6c45pi",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6481,7 +6550,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "JAN RCA 2A3 Tube (New Old Stock in Quad)"
   },
@@ -6490,11 +6559,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 4200.0,
   "tube_id": "nos-rca-2a3-single",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6513,7 +6582,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane WE274B Tube from $320.00"
   },
@@ -6522,11 +6591,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 320.0,
   "tube_id": "psvane-we274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6545,7 +6614,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane ACME 2A3 Tube (In Pair)"
   },
@@ -6554,11 +6623,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 710.0,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6577,7 +6646,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Psvane ACME 2A3 Tube (In Quad)"
   },
@@ -6586,11 +6655,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 1420.0,
   "tube_id": "psvane-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "none"
   }
  },
  {
@@ -6609,7 +6678,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sophia Electric Aqua III 274B Rectifier Tube"
   },
@@ -6618,11 +6687,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 349.99,
   "tube_id": "sophia-aqua-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "shopify-js"
   }
  },
  {
@@ -6641,7 +6710,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sophia Electric 274B Mesh Plate Tubes"
   },
@@ -6650,11 +6719,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
   "tube_id": "sophia-274b-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "shopify-js"
   }
  },
  {
@@ -6673,7 +6742,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sophia Electric 5U4XL Mesh Plate Rectifier Tube"
   },
@@ -6682,11 +6751,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 399.99,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "shopify-js"
   }
  },
  {
@@ -6705,7 +6774,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sophia Electric Blue Glass 2A3 Tubes"
   },
@@ -6714,11 +6783,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 399.99,
   "tube_id": "sophia-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "shopify-js"
   }
  },
  {
@@ -6737,7 +6806,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sophia Electric 5U4G Rectifier Tubes"
   },
@@ -6746,11 +6815,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 199.99,
   "tube_id": null,
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "shopify-js"
   }
  },
  {
@@ -6769,7 +6838,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-10-13",
+  "fetched_at": "2026-10-14",
   "evidence": {
    "snippet": "Sophia Electric Aqua II 274B Rectifier Tube"
   },
@@ -6778,11 +6847,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 299.99,
   "tube_id": "sophia-aqua-274b",
-  "stale": true,
+  "stale": false,
   "check": {
    "at": "2026-10-14",
-   "status": "error",
-   "note": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl."
+   "status": "ok",
+   "stock_source": "shopify-js"
   }
  }
 ]
