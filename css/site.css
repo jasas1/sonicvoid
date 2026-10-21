@@ -493,6 +493,7 @@ body.dock-on .hero-readout { display: none; }
 .site-nav__link[aria-current="page"] { color: var(--amber-2); }
 .site-nav__link[aria-current="page"]::before { content: ""; width: 5px; height: 5px; border-radius: 50%; background: var(--amber-2); box-shadow: 0 0 6px var(--amber); }
 .site-nav__link.is-planned { color: var(--ink-3); cursor: default; }
+.site-nav__link[hidden] { display: none; }
 .site-nav__link small { font-family: var(--font-mono); font-size: 0.56rem; letter-spacing: 0.1em; text-transform: uppercase; border: 1px solid var(--hair-2); border-radius: 999px; padding: 0.05rem 0.4rem; }
 .site-nav__link svg { width: 9px; height: 9px; }
 .site-nav__right { margin-left: auto; }

@@ -3,13 +3,25 @@ import * as THREE from "three";
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 import { reducedMotion } from "./data.js";
 
+// Glass profiles [radius, height] in metres, measured up from where the glass leaves the base.
+// st: ST-16 shouldered bulb (2A3, 5U4G, 274B) — round lower bulb, shoulder, narrower dome-topped chimney, exhaust pip
+// straight: T-12 tubular (5U4GB-style); globe: Sophia/Psvane ball on a tall neck; noval: 22 mm B9A miniature (6C45), no base, tipped top
+function globeProfile() {
+  const R = 0.033, neckR = 0.0135, neckTop = 0.018, cy = neckTop + Math.sqrt(R * R - neckR * neckR);
+  const pts = [[neckR, 0], [neckR, neckTop - 0.002]];
+  const a0 = -Math.acos(neckR / R);
+  for (let i = 0; i <= 14; i++) { const a = a0 + (Math.PI / 2 - 0.08 - a0) * (i / 14); pts.push([R * Math.cos(a), cy + R * Math.sin(a)]); }
+  const top = cy + R;
+  pts.push([0.0022, top], [0.0018, top + 0.003], [0, top + 0.0035]);
+  return { pts, core: cy };
+}
 const BOTTLES = {
-  st:       [[0.012, 0], [0.015, 0.004], [0.017, 0.02], [0.021, 0.045], [0.024, 0.07], [0.024, 0.1], [0.021, 0.118], [0.014, 0.128], [0.006, 0.132], [0, 0.133]],
-  globe:    [[0.012, 0], [0.014, 0.004], [0.016, 0.012], [0.024, 0.03], [0.029, 0.06], [0.027, 0.09], [0.02, 0.11], [0.01, 0.12], [0, 0.122]],
-  straight: [[0.012, 0], [0.019, 0.004], [0.02, 0.02], [0.02, 0.11], [0.017, 0.124], [0.009, 0.13], [0, 0.131]],
-  noval:    [[0.008, 0], [0.011, 0.002], [0.011, 0.05], [0.009, 0.058], [0.004, 0.062], [0, 0.063]],
+  st: { core: 0.04, pts: [[0.015, 0], [0.0162, 0.004], [0.019, 0.012], [0.0225, 0.022], [0.025, 0.032], [0.026, 0.042], [0.0256, 0.05], [0.024, 0.058], [0.0215, 0.066], [0.0196, 0.073], [0.019, 0.08], [0.019, 0.094], [0.0182, 0.101], [0.016, 0.106], [0.012, 0.1095], [0.006, 0.1115], [0.0025, 0.112], [0.002, 0.1145], [0, 0.115]] },
+  straight: { core: 0.042, pts: [[0.0165, 0], [0.018, 0.003], [0.019, 0.008], [0.019, 0.088], [0.0182, 0.096], [0.0155, 0.102], [0.011, 0.1055], [0.005, 0.1075], [0.0022, 0.108], [0.0018, 0.11], [0, 0.1105]] },
+  globe: globeProfile(),
+  noval: { core: 0.024, pts: [[0.0088, 0], [0.0104, 0.0012], [0.011, 0.0035], [0.011, 0.044], [0.0104, 0.0478], [0.0088, 0.0503], [0.006, 0.0518], [0.0028, 0.0524], [0.002, 0.0528], [0.0016, 0.0555], [0, 0.056]] },
 };
-const SCALE = { power: 1.0, rectifier: 1.08, driver: 1.0 };
+const SCALE = { power: 1.0, rectifier: 1.03, driver: 1.0 };
 const GLOW = { power: 0.11, rectifier: 0.09, driver: 0.05 };
 
 function roundedBox(w, h, d, r) {
@@ -110,49 +122,71 @@ export function initAmp(canvas, data, store, { onSocketClick } = {}) {
     const base = new THREE.Mesh(new THREE.CylinderGeometry(R, R, 0.003, 40), black); base.position.y = -0.0015; group.add(base);
     for (let i = 0; i < 8; i++) { const h = new THREE.Mesh(new THREE.CylinderGeometry(0.0012, 0.0012, 0.002, 8), new THREE.MeshStandardMaterial({ color: 0x55595f, metalness: 0.8, roughness: 0.4 })); const a = (i / 8) * Math.PI * 2; h.position.set(Math.cos(a) * R * 0.82, 0.0005, Math.sin(a) * R * 0.82); group.add(h); }
     scene.add(group);
-    return { socket: s, group, tube: null, glow: null, filament: null };
+    return { socket: s, group, tube: null, glow: null, baseGlow: null, filament: null };
   });
 
   function buildTube(tube, role) {
-    const sc = SCALE[role];
-    const profile = BOTTLES[tube.bottle] || BOTTLES.st;
-    const pts = profile.map(([r, y]) => new THREE.Vector2(r * sc, y * sc));
-    const g = new THREE.Group();
-    const glass = new THREE.Mesh(new THREE.LatheGeometry(pts, 48), new THREE.MeshPhysicalMaterial({ color: 0xfaf6f0, metalness: 0, roughness: 0.06, transmission: 0.97, thickness: 0.003, ior: 1.5, transparent: true, envMapIntensity: 2.0, clearcoat: 1, clearcoatRoughness: 0.08 }));
-    glass.position.y = 0.012 * sc; g.add(glass);
+    const bottle = BOTTLES[tube.bottle] || BOTTLES.st;
     const isNoval = tube.bottle === "noval";
-    const baseH = isNoval ? 0.004 : 0.014;
-    const base = new THREE.Mesh(new THREE.CylinderGeometry(pts[0].x, pts[0].x * 0.96, baseH, 32), new THREE.MeshStandardMaterial({ color: 0x121010, roughness: 0.35, metalness: 0.2 }));
-    base.position.y = baseH / 2 + 0.003; g.add(base);
+    const prof = bottle.pts.map(([r, y]) => new THREE.Vector2(r, y));
+    const pts = new THREE.SplineCurve(prof).getPoints(prof.length * 5).map((v) => new THREE.Vector2(Math.max(0, v.x), v.y));
+    pts[pts.length - 1].x = 0;
+    const radiusAt = (y) => { for (let i = 1; i < prof.length; i++) if (prof[i].y >= y) { const a = prof[i - 1], b = prof[i]; return a.x + (b.x - a.x) * ((y - a.y) / Math.max(1e-6, b.y - a.y)); } return 0; };
+    const top = prof[prof.length - 1].y;
+    const g = new THREE.Group(); g.scale.setScalar(SCALE[role]);
+    // ST and tubular bottles sit in a bakelite base (UX4 or octal); the noval glass sits straight on its pins
+    const baseH = isNoval ? 0 : 0.022, glassY = isNoval ? 0.0015 : baseH + 0.003;
+    const glass = new THREE.Mesh(new THREE.LatheGeometry(pts, 48), new THREE.MeshPhysicalMaterial({ color: 0xfaf6f0, metalness: 0, roughness: 0.06, transmission: 0.97, thickness: 0.003, ior: 1.5, transparent: true, envMapIntensity: 2.0, clearcoat: 1, clearcoatRoughness: 0.08 }));
+    glass.position.y = glassY; g.add(glass);
+    if (isNoval) {
+      const press = new THREE.Mesh(new THREE.CircleGeometry(prof[0].x, 32), new THREE.MeshStandardMaterial({ color: 0x1c1a18, roughness: 0.4, metalness: 0.1 }));
+      press.rotation.x = -Math.PI / 2; press.position.y = glassY + 0.0002; g.add(press);
+    } else {
+      const base = new THREE.Mesh(new THREE.CylinderGeometry(0.0168, 0.0172, baseH, 40), new THREE.MeshStandardMaterial({ color: 0x121010, roughness: 0.35, metalness: 0.2 }));
+      base.position.y = baseH / 2 + 0.003; g.add(base);
+    }
     const isMesh = /mesh/i.test(tube.construction || "");
-    const plateH = (isNoval ? 0.022 : 0.05) * sc, plateW = (isNoval ? 0.008 : 0.02) * sc, plateD = (isNoval ? 0.006 : 0.012) * sc;
+    const plateH = isNoval ? 0.02 : 0.05, plateW = isNoval ? 0.008 : 0.02, plateD = isNoval ? 0.006 : 0.012;
     const plateMat = isMesh
       ? new THREE.MeshStandardMaterial({ map: meshTex, transparent: true, alphaTest: 0.3, color: 0x8a8278, roughness: 0.7, metalness: 0.4, side: THREE.DoubleSide })
       : new THREE.MeshStandardMaterial({ color: 0x4a4f55, roughness: 0.7, metalness: 0.4, alphaMap: isNoval ? null : slotTex, transparent: !isNoval, alphaTest: 0.5, side: THREE.DoubleSide });
-    const plateY = (isNoval ? 0.03 : 0.065) * sc;
+    const plateY = glassY + bottle.core;
     if (role === "rectifier") { // full-wave rectifier: two tall narrow plates side by side (Takatsuki TA-274B reference)
       [-1, 1].forEach((side) => { const p = new THREE.Mesh(new THREE.BoxGeometry(plateW * 0.42, plateH * 1.05, plateD * 0.7), plateMat); p.position.set(side * plateW * 0.3, plateY, 0); g.add(p); });
     } else {
       const plate = new THREE.Mesh(new THREE.BoxGeometry(plateW, plateH, plateD), plateMat); plate.position.y = plateY; g.add(plate);
     }
-    const topMica = new THREE.Mesh(new THREE.CylinderGeometry(pts[isNoval ? 2 : 4].x * 0.9, pts[isNoval ? 2 : 4].x * 0.9, 0.0008, 24), new THREE.MeshStandardMaterial({ color: 0xcfc9bd, roughness: 0.9, transparent: true, opacity: 0.6 }));
-    topMica.position.y = plateY + plateH / 2 + 0.003; g.add(topMica);
-    const getter = new THREE.Mesh(new THREE.SphereGeometry(pts[pts.length - 3].x * 0.9, 24, 12, 0, Math.PI * 2, 0, 0.7), new THREE.MeshStandardMaterial({ color: 0x1a1d22, metalness: 1, roughness: 0.15 }));
-    getter.position.y = pts[pts.length - 1].y - 0.004; getter.rotation.x = Math.PI; g.add(getter);
+    const micaY = bottle.core + plateH / 2 + 0.003;
+    const topMica = new THREE.Mesh(new THREE.CylinderGeometry(radiusAt(micaY) * 0.88, radiusAt(micaY) * 0.88, 0.0008, 24), new THREE.MeshStandardMaterial({ color: 0xcfc9bd, roughness: 0.9, transparent: true, opacity: 0.6 }));
+    topMica.position.y = glassY + micaY; g.add(topMica);
+    // getter flash: a silvered cap inside the dome
+    const gR = radiusAt(top - 0.012) * 0.92;
+    const getter = new THREE.Mesh(new THREE.SphereGeometry(gR, 24, 12, 0, Math.PI * 2, 0, 0.8), new THREE.MeshStandardMaterial({ color: 0x1a1d22, metalness: 1, roughness: 0.15 }));
+    getter.position.y = glassY + top - 0.006 - gR; g.add(getter);
     const thoriated = /thoriated/i.test(tube.construction || "");
     const fColor = new THREE.Color(thoriated ? 0xfff4dc : 0xffb050);
     const fil = new THREE.Group();
     const n = isNoval ? 1 : 3;
     for (let i = 0; i < n; i++) {
-      const f = new THREE.Mesh(new THREE.CylinderGeometry(0.0007 * sc, 0.0007 * sc, plateH * 0.8, 6), new THREE.MeshBasicMaterial({ color: fColor }));
+      const f = new THREE.Mesh(new THREE.CylinderGeometry(0.0007, 0.0007, plateH * 0.8, 6), new THREE.MeshBasicMaterial({ color: fColor }));
       f.position.set((i - (n - 1) / 2) * plateW * 0.3, plateY, 0); fil.add(f);
     }
     g.add(fil);
     const glow = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex, color: thoriated ? 0xfff0d0 : 0xff9a3c, blending: THREE.AdditiveBlending, depthWrite: false, transparent: true, opacity: 0 }));
     const gs = GLOW[role] * 0.7 * (isMesh ? 1.25 : 1) * (tube.bottle === "globe" ? 1.15 : 1);
     glow.scale.set(gs, gs, 1); glow.position.y = plateY; g.add(glow);
+    // 6C45: a small amber heater glow at the foot — a soft halo in the glass bottom and a warm pool on the chassis
+    let baseGlow = null;
+    if (isNoval) {
+      baseGlow = new THREE.Group();
+      const halo = new THREE.Sprite(new THREE.SpriteMaterial({ map: glowTex, color: 0xff8a2a, blending: THREE.AdditiveBlending, depthWrite: false, depthTest: false, transparent: true, opacity: 0 }));
+      halo.scale.set(0.026, 0.016, 1); halo.position.y = glassY + 0.005; halo.renderOrder = 2; baseGlow.add(halo);
+      const pool = new THREE.Mesh(new THREE.PlaneGeometry(0.05, 0.05), new THREE.MeshBasicMaterial({ map: glowTex, color: 0xff7a1e, blending: THREE.AdditiveBlending, depthWrite: false, transparent: true, opacity: 0 }));
+      pool.rotation.x = -Math.PI / 2; pool.position.y = 0.0006; pool.renderOrder = 2; baseGlow.add(pool);
+      g.add(baseGlow);
+    }
     g.traverse((o) => { o.userData.tubeRoot = g; });
-    return { g, glow, fil, fColor };
+    return { g, glow, baseGlow, fil, fColor };
   }
 
   function setTube(role, tubeId) {
@@ -160,7 +194,7 @@ export function initAmp(canvas, data, store, { onSocketClick } = {}) {
     sockets.filter((s) => s.socket.role === role).forEach((s) => {
       if (s.tube) { s.group.remove(s.tube); s.tube.traverse((o) => { o.geometry?.dispose?.(); }); }
       const built = buildTube(tube, role);
-      s.tube = built.g; s.glow = built.glow; s.filament = built.fil; s.group.add(built.g); s.tubeData = tube;
+      s.tube = built.g; s.glow = built.glow; s.baseGlow = built.baseGlow; s.filament = built.fil; s.group.add(built.g); s.tubeData = tube;
     });
   }
   const initial = store.get();
@@ -210,17 +244,17 @@ export function initAmp(canvas, data, store, { onSocketClick } = {}) {
     if (hover && onSocketClick) onSocketClick(hover.socket.role, hover.socket);
   });
 
-  // socket map: V1–V9 labels projected above each tube, shown while docked
-  const labelHost = document.getElementById("socket-labels");
+  // socket map: V1–V9 labels projected above each tube every frame while the hero shows them (scroll-docked or after a tube click)
+  const labelHost = document.getElementById("socket-labels"); const heroEl = document.getElementById("hero");
   const labels = sockets.map((s) => { const el = document.createElement("span"); el.className = "socket-label"; labelHost?.appendChild(el); return el; });
   const lv = new THREE.Vector3();
   function placeLabels() {
-    if (!labelHost || !docked) return;
+    if (!labelHost || !heroEl?.classList.contains("docked")) return;
     const w = canvas.clientWidth, h = canvas.clientHeight;
     sockets.forEach((s, i) => {
-      lv.set(s.socket.pos[0], s.socket.role === "driver" ? 0.075 : 0.15, s.socket.pos[2]).project(camera);
+      lv.set(s.socket.pos[0], s.socket.role === "driver" ? 0.06 : 0.142, s.socket.pos[2]).project(camera);
       const x = (lv.x * 0.5 + 0.5) * w, y = (-lv.y * 0.5 + 0.5) * h;
-      labels[i].style.transform = `translate(${x.toFixed(1)}px, ${(y - 28).toFixed(1)}px) translate(-50%, -100%)`;
+      labels[i].style.transform = `translate(${x.toFixed(1)}px, ${(y - 8).toFixed(1)}px) translate(-50%, -100%)`;
       labels[i].innerHTML = `<b>${s.socket.label}</b> ${s.tubeData?.family || s.socket.family}`;
     });
   }
@@ -244,7 +278,7 @@ export function initAmp(canvas, data, store, { onSocketClick } = {}) {
     const warm = Math.min(1, (now - t0) / 1000 / warmSecs);
     const w = 1 - Math.pow(1 - warm, 3);
     const flicker = reducedMotion() ? 1 : 1 + 0.03 * Math.sin(now / 90) * Math.sin(now / 230);
-    sockets.forEach((s) => { if (s.glow) s.glow.material.opacity = 0.6 * w * flicker; if (s.filament) s.filament.children.forEach((f) => f.material.color.copy(s.tube ? f.material.color : f.material.color)); });
+    sockets.forEach((s) => { if (s.glow) s.glow.material.opacity = 0.6 * w * flicker; if (s.baseGlow) s.baseGlow.children.forEach((c, i) => { c.material.opacity = (i ? 0.45 : 0.6) * w * flicker; }); if (s.filament) s.filament.children.forEach((f) => f.material.color.copy(s.tube ? f.material.color : f.material.color)); });
     Object.entries(lights).forEach(([role, l]) => { l.intensity = LIGHT_MAX[role] * w * flicker; });
     if (controls.enabled) controls.update(); else cameraFromPath(path.p);
     placeLabels();
