@@ -80,8 +80,24 @@ export function initTrends(data, els, store) {
         for (let i = 1; i < pts.length; i++) el("line", { x1: X(pts[i - 1].t), y1: Y(pts[i - 1].v), x2: X(pts[i].t), y2: Y(pts[i].v), class: "trend-line" + (pts[i].source === "wayback" || pts[i - 1].source === "wayback" ? " archive" : ""), stroke: s.color }, svg);
       }
       pts.forEach((p) => { el("circle", { cx: X(p.t), cy: Y(p.v), r: 4, class: "trend-dot" + (p.stock === "in_stock" ? " in" : "") + (p.stale ? " stale" : ""), stroke: s.color, fill: p.stock === "in_stock" ? s.color : "var(--bg-2)" }, svg); });
-      if (visible.length <= 4 && pts.length) { const last = pts[pts.length - 1]; const t = el("text", { x: X(last.t) + 10, y: Y(last.v) + 4, class: "trend-label" }, svg); t.textContent = `${s.short} ${fmtUsd(last.v)}`; }
     });
+    // direct labels: line ends that land within 12px share one label ("$299 · 3 listings"), then labels are pushed 14px apart with a leader
+    if (visible.length <= 4) {
+      const ends = visible.map((s) => { const p = s.pts.filter((q) => q.v != null).pop(); return p && { s, x: X(p.t), y: Y(p.v), v: p.v }; }).filter(Boolean).sort((a, b) => a.y - b.y);
+      const groups = [];
+      ends.forEach((e) => { const g = groups[groups.length - 1]; if (g && Math.abs(e.y - g.y) < 12) { g.items.push(e); g.x = Math.max(g.x, e.x); } else groups.push({ x: e.x, y: e.y, items: [e] }); });
+      let prev = -Infinity; groups.forEach((g) => { g.ly = Math.max(g.y, prev + 14); prev = g.ly; });
+      const over = prev - (H - pad.b); if (over > 0) groups.forEach((g) => { g.ly -= over; });
+      const fit = (str, n) => (str.length > n ? str.slice(0, n - 1) + "…" : str);
+      groups.forEach((g) => {
+        const lx = g.x + 10, vs = g.items.map((e) => e.v), lo = Math.min(...vs), hi = Math.max(...vs);
+        const price = Math.round(lo) === Math.round(hi) ? fmtUsd(lo) : `${fmtUsd(lo)}–${Math.round(hi)}`;
+        if (Math.abs(g.ly - g.y) > 2) el("line", { x1: g.x + 6, y1: g.y, x2: lx - 2, y2: g.ly, class: "trend-lead" }, svg);
+        const t = el("text", { x: lx, y: g.ly + 4, class: "trend-label" }, svg);
+        t.textContent = g.items.length > 1 ? `${price} · ${g.items.length} listings` : `${price} ${fit(g.items[0].s.short, 20 - price.length)}`;
+        el("title", {}, t).textContent = g.items.map((e) => `${e.s.label} ${fmtUsd(e.v)}`).join("\n");
+      });
+    }
     // legend (line keys, click to hide)
     S.forEach((s) => { const b = document.createElement("button"); b.type = "button"; b.className = "trend-key" + (state.hidden.has(s.id) ? " off" : ""); b.setAttribute("aria-pressed", String(!state.hidden.has(s.id))); const i = document.createElement("i"); i.style.background = s.color; b.appendChild(i); b.appendChild(document.createTextNode(` ${s.label} (${s.pts.length})`)); b.addEventListener("click", () => { state.hidden.has(s.id) ? state.hidden.delete(s.id) : state.hidden.add(s.id); draw(); }); els.legend.appendChild(b); });
     // stock strip: one row per dealer, one cell per observation

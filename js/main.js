@@ -121,7 +121,25 @@ initSignal($("#signal-figure"));
 const curves = initCurves(data, { canvas: $("#curves-canvas"), vp: $("#r-vp"), vg: $("#r-vg"), rl: $("#r-rl"), ovp: $("#o-vp"), ovg: $("#o-vg"), orl: $("#o-rl"), w40: $("#c-40w"), readout: $("#curves-readout") });
 initRectifier(data, { canvas: $("#rect-canvas"), vpk: $("#r-vpk"), il: $("#r-il"), ovpk: $("#o-vpk"), oil: $("#o-il"), burst: $("#b-burst"), readout: $("#rect-readout") });
 initTransformer(data, { canvas: $("#xfmr-canvas"), zs: $("#s-zs"), rpp: $("#r-rpp"), lp: $("#r-lp"), ll: $("#r-ll"), orpp: $("#o-rpp"), olp: $("#o-lp"), oll: $("#o-ll"), readout: $("#xfmr-readout") }, curves);
-initAnatomy($("#anatomy-svg"), $("#anatomy-note"), [...document.querySelectorAll(".seg-btn")]);
+initAnatomy($("#anatomy-svg"), $("#anatomy-note"), [...document.querySelectorAll("#bench-anatomy .seg-btn")]);
+// per-card Reset: snapshot every control once the cards are wired, then restore it and fire the same events a user would
+document.querySelectorAll("#bench .bench-card").forEach((card) => {
+  const controls = card.querySelector(".bench-controls"); if (!controls) return;
+  const fields = [...controls.querySelectorAll("input, select")].map((f) => ({ f, v: f.type === "checkbox" ? f.checked : f.value }));
+  const seg = controls.querySelector('.seg-btn[aria-pressed="true"]');
+  if (!fields.length && !seg) return;
+  const btn = Object.assign(document.createElement("button"), { type: "button", className: "btn btn-reset", textContent: "Reset" });
+  btn.setAttribute("aria-label", `Reset ${card.querySelector("h3")?.textContent || "this card"} to defaults`);
+  btn.addEventListener("click", () => {
+    fields.forEach(({ f, v }) => {
+      if (f.type === "checkbox") { if (f.checked !== v) { f.checked = v; f.dispatchEvent(new Event("change")); } }
+      else if (f.value !== v) { f.value = v; f.dispatchEvent(new Event(f.tagName === "SELECT" ? "change" : "input")); }
+    });
+    seg?.click();
+    card.querySelector("#anatomy-svg svg")?.dispatchEvent(new MouseEvent("click")); // unpin the cutaway part
+  });
+  controls.appendChild(btn);
+});
 
 // ---- market ----
 renderMarket(data, { filters: $("#market-filters"), body: $("#market-body"), note: $("#market-note"), count: $("#market-count") });
