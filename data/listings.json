@@ -15,7 +15,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Directly heated twin diode rectifier"
   },
@@ -26,7 +26,7 @@
   "tube_id": "takatsuki-ta-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -43,11 +43,11 @@
   "price": 1748.0,
   "currency": "USD",
   "price_note": "sale, was 1840.00",
-  "in_stock": "out_of_stock",
+  "in_stock": "in_stock",
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Matched Pair"
   },
@@ -58,9 +58,10 @@
   "tube_id": "takatsuki-ta-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
-   "stock_source": "out of stock"
+   "stock_source": "in stock",
+   "stock_was": "out_of_stock"
   }
  },
  {
@@ -79,7 +80,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "US-based distributor (Windermere, Florida) serving the American market; shipping policy says customer is responsible for import duties/taxes.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Matched Quad"
   },
@@ -90,7 +91,7 @@
   "tube_id": "takatsuki-ta-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in stock"
   }
@@ -111,7 +112,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Western Electric, early engraved"
   },
@@ -122,7 +123,7 @@
   "tube_id": "we-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -145,7 +146,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Western Electric, yellow label"
   },
@@ -156,7 +157,7 @@
   "tube_id": "we-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -179,7 +180,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B JAN Sylvania for US Navy"
   },
@@ -190,7 +191,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -213,7 +214,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Singleplates, RCA made, engraved base"
   },
@@ -224,7 +225,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -247,7 +248,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Raytheon label black square box plates"
   },
@@ -258,7 +259,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -281,7 +282,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 RCA label and RCA made"
   },
@@ -292,7 +293,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -315,7 +316,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 RCA label and RCA made"
   },
@@ -326,7 +327,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -349,7 +350,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN CRC-2A3 VT-95 military RCA label"
   },
@@ -360,7 +361,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -383,7 +384,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 RCA made blackplate,  dual plate"
   },
@@ -394,7 +395,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -417,7 +418,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Raytheon made black dual square plates"
   },
@@ -428,7 +429,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -451,7 +452,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Raytheon made black dual square plates"
   },
@@ -462,7 +463,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -485,7 +486,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 greyplate RCA made, dual plate"
   },
@@ -496,7 +497,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -519,7 +520,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -530,7 +531,7 @@
   "tube_id": "nos-sylvania-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -553,7 +554,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G blackplate Ken Rad with foil getter"
   },
@@ -564,7 +565,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -587,7 +588,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -598,7 +599,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -621,7 +622,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN 5U4G blackplate (JAN VT244 military type)"
   },
@@ -632,7 +633,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -655,7 +656,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN 5U4WG / 5931 JAN US Military"
   },
@@ -666,7 +667,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -689,7 +690,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G blackplate RCA or Cunningham"
   },
@@ -700,7 +701,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -723,7 +724,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G blackplate RCA made for other brands"
   },
@@ -734,7 +735,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -757,7 +758,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G / 567 Sheldon Hi-Po blackplate"
   },
@@ -768,7 +769,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -791,7 +792,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Sylvnaia green label blackplate, ST shape"
   },
@@ -802,7 +803,7 @@
   "tube_id": "nos-sylvania-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -825,7 +826,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G blackplate RCA \"Butt Ugly\" tubes"
   },
@@ -836,7 +837,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -859,7 +860,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G Raytheon, Tung Sol blackplate"
   },
@@ -870,7 +871,7 @@
   "tube_id": "tungsol-5u4g-reissue",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -893,7 +894,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G Psvane, ST (Coke bottle) shape"
   },
@@ -904,7 +905,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -927,7 +928,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN 5U4GB US Military, Sylvania and Philips"
   },
@@ -938,7 +939,7 @@
   "tube_id": "nos-sylvania-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -961,7 +962,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB RCA blackplate,SELECTED TUBE"
   },
@@ -972,7 +973,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -995,7 +996,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB RCA blackplate, tubular shape"
   },
@@ -1006,7 +1007,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1029,7 +1030,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB RCA blackplate, tubular shape"
   },
@@ -1040,7 +1041,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1063,7 +1064,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB 1950s Raytheon blackplate"
   },
@@ -1074,7 +1075,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1097,7 +1098,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GA / 5U4GB RCA made blackplate"
   },
@@ -1108,7 +1109,7 @@
   "tube_id": "nos-rca-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1131,7 +1132,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GA / 5U4GB Sylvania blackplate"
   },
@@ -1142,7 +1143,7 @@
   "tube_id": "nos-sylvania-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1165,7 +1166,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB Tung Sol, blackplate, tubular shape"
   },
@@ -1176,7 +1177,7 @@
   "tube_id": "tungsol-5u4g-reissue",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1199,7 +1200,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "In the USA and it's territories, we primarily ship by USPS Mail with tracking.",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB various USA brands, straight sided envelope"
   },
@@ -1210,7 +1211,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "brentjessee",
    "extractor": "brentjessee",
@@ -1233,7 +1234,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 PSVANE ART T3 Serie, werksgematchtes Paar"
   },
@@ -1244,7 +1245,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1265,7 +1266,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-T-Mark II Psvane Reference Mark II-Serie EINZELRÖHRE"
   },
@@ -1276,7 +1277,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1297,7 +1298,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3B PSVANE HIFI-Series, Gold-Pin"
   },
@@ -1308,7 +1309,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -1329,7 +1330,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane WR2A3 Xtreme Classic Series, ein PAAR"
   },
@@ -1340,7 +1341,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1361,7 +1362,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "KR Audio 2A3-HP High Performance - Paar (2 gematchte Röhren)"
   },
@@ -1372,7 +1373,7 @@
   "tube_id": "kr-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1393,7 +1394,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "KR Audio 2A3 - Paar (2 gematchte Röhren)"
   },
@@ -1404,7 +1405,7 @@
   "tube_id": "kr-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1425,7 +1426,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "KR Audio 2A3-SQ Special Quality High Performance - Paar"
   },
@@ -1436,7 +1437,7 @@
   "tube_id": "kr-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1457,7 +1458,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane 2A3-T-Mark II Gematchtes Paar"
   },
@@ -1468,7 +1469,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1489,7 +1490,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane ACME 2A3, ein PAAR im exklusiven Präsentkarton"
   },
@@ -1500,7 +1501,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1521,7 +1522,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane WE275 Replica (entspricht 2A3), ein PAAR"
   },
@@ -1532,7 +1533,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1553,7 +1554,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Kundenbewertungen für \"6C45Pi (R)\""
   },
@@ -1564,7 +1565,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1585,7 +1586,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Produktinformationen \"5U4G PSVANE HIFI-Series\""
   },
@@ -1596,7 +1597,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -1617,7 +1618,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G-SV TAD PREMIUM SELECTED"
   },
@@ -1628,7 +1629,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1649,7 +1650,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB SYLVANIA NOS-NIB, USA"
   },
@@ -1660,7 +1661,7 @@
   "tube_id": "nos-sylvania-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1681,7 +1682,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB TAD PREMIUM SELECTED mit geradem Glaskolben"
   },
@@ -1692,7 +1693,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -1713,7 +1714,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JJ 5U4GB JJ Electronic"
   },
@@ -1724,7 +1725,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -1745,7 +1746,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "TAD 5U4G REDBASE PREMIUM SELECTED"
   },
@@ -1756,7 +1757,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1777,7 +1778,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Produktinformationen \"KR Audio 274B\""
   },
@@ -1788,7 +1789,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "nicht mehr lieferbar"
   }
@@ -1809,7 +1810,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "KR Audio 274B - Paar (2 gematchte Röhren)"
   },
@@ -1820,7 +1821,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1841,7 +1842,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane 274B-T-MKII Psvane Reference Mark 2 T-series"
   },
@@ -1852,7 +1853,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1873,7 +1874,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Produktinformationen \"Psvane ACME 274B\""
   },
@@ -1884,7 +1885,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -1905,7 +1906,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Kundenbewertungen für \"Shuguang 274B\""
   },
@@ -1916,7 +1917,7 @@
   "tube_id": "shuguang-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -1937,7 +1938,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "FedEx International Economy, Weltweit 3-6 Werktage; USA in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "WE274B Psvane WE-Replica Serie"
   },
@@ -1948,7 +1949,7 @@
   "tube_id": "psvane-we274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -1969,7 +1970,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B-D Linlai Titanium tube"
   },
@@ -1980,7 +1981,7 @@
   "tube_id": "linlai-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2001,7 +2002,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B EML Meshplate Rectifier High-End Gleichrichter Röhre"
   },
@@ -2012,7 +2013,7 @@
   "tube_id": "eml-274b-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2033,7 +2034,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B HiFi series PSVANE tube Gleichrichterröhre"
   },
@@ -2044,7 +2045,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2065,7 +2066,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Linlai black Plate tube 2-Wege Röhrengleichrichter"
   },
@@ -2076,7 +2077,7 @@
   "tube_id": "linlai-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2097,7 +2098,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B/n Fullmusic Coke Bottle Mesh Plate Rectifier tube"
   },
@@ -2108,7 +2109,7 @@
   "tube_id": "sophia-274b-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2129,7 +2130,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B/n TJ/Fullmusic Globeshape Mesh Plate Rectifier tube"
   },
@@ -2140,7 +2141,7 @@
   "tube_id": "sophia-274b-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2161,7 +2162,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B/n/+ TJ/Fullmusic High Power Version"
   },
@@ -2172,7 +2173,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2193,7 +2194,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Shuguang tube-Octal base Gleichrichterröhre"
   },
@@ -2204,7 +2205,7 @@
   "tube_id": "shuguang-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2225,7 +2226,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-40 JJ matched Quartet factory matched Quad tubes"
   },
@@ -2236,7 +2237,7 @@
   "tube_id": "jj-2a3-40",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2257,7 +2258,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-40 JJ matched tube Pair Ser.No.:        Röhren"
   },
@@ -2268,7 +2269,7 @@
   "tube_id": "jj-2a3-40",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "no-anchor"
   }
@@ -2289,7 +2290,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-40JJ Power tube Triode Ser.No.:"
   },
@@ -2300,7 +2301,7 @@
   "tube_id": "jj-2a3-40",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2321,7 +2322,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-B PSVANE HiFi series tube"
   },
@@ -2332,7 +2333,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2353,7 +2354,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-B PSVANE Pair HiFi tubes Röhren factory matched Paar"
   },
@@ -2364,7 +2365,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2385,7 +2386,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3/C TJ Fullmusic Carbon factory selected matched tubes"
   },
@@ -2396,7 +2397,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2417,7 +2418,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-D Tit. Linlai Dream series factory matched Pair"
   },
@@ -2428,7 +2429,7 @@
   "tube_id": "linlai-elite-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2449,7 +2450,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 EML EmissionLabs Trioden factory matched tube pair S/N:"
   },
@@ -2460,7 +2461,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2481,7 +2482,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Kron KR-2A3 Triode tubes factory matched Pair Röhren"
   },
@@ -2492,7 +2493,7 @@
   "tube_id": "kr-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2513,7 +2514,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Mesh EML tube Emiss. Labs factory matched tube pair S/N:"
   },
@@ -2524,7 +2525,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2545,7 +2546,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3/n TJ/Fullmusic DOME tubes Röhren factory matched pair"
   },
@@ -2556,7 +2557,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2577,7 +2578,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3/n TJ/Fullmusic tube 2A3 Globe Shape Röhre"
   },
@@ -2588,7 +2589,7 @@
   "tube_id": "eml-2a3-mesh-globe",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2609,7 +2610,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3/n TJ Fullmusic tube Dome shoulder Shape Meshplate"
   },
@@ -2620,7 +2621,7 @@
   "tube_id": "sophia-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2641,7 +2642,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-S EML EmissionLabs factory matched tube pair S/N:"
   },
@@ -2652,7 +2653,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2673,7 +2674,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-SE TJ Fullmusic tube Triode with Globeshape Röhre"
   },
@@ -2684,7 +2685,7 @@
   "tube_id": "eml-2a3-mesh-globe",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2705,7 +2706,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 Sovtek Monoplate tubes Röhren BTB matched pair"
   },
@@ -2716,7 +2717,7 @@
   "tube_id": "sovtek-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2737,7 +2738,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 SQ Kron KR-2A3SQ Triode factory matched Pair"
   },
@@ -2748,7 +2749,7 @@
   "tube_id": "kr-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2769,7 +2770,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3-T Naturalsound Linlaitubes factory matched 2A3 pair"
   },
@@ -2780,7 +2781,7 @@
   "tube_id": "linlai-elite-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2801,7 +2802,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3B Pair Shuguang Carbon tube Röhren factory matched Paar"
   },
@@ -2812,7 +2813,7 @@
   "tube_id": "shuguang-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2833,7 +2834,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3B Shuguang Carbonplate tube Monoplate 2A3 Shuguang Triode"
   },
@@ -2844,7 +2845,7 @@
   "tube_id": "shuguang-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2865,7 +2866,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3EH Electro Harmonix Gold factory matched pair tubes"
   },
@@ -2876,7 +2877,7 @@
   "tube_id": "eh-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2897,7 +2898,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3Z PSVANE Treasure tube factory matched Pair"
   },
@@ -2908,7 +2909,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -2929,7 +2930,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3Z PSVANE Treasure tube"
   },
@@ -2940,7 +2941,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2961,7 +2962,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G = 5Z3S black plate Svetlana winged =C="
   },
@@ -2972,7 +2973,7 @@
   "tube_id": "nos-svetlana-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -2993,7 +2994,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G(A/B) NOS (=VU71 =U52) 2-way rectifier tube"
   },
@@ -3004,7 +3005,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3025,7 +3026,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G EML Meshplate rectifier High-End Gleichrichter Röhre"
   },
@@ -3036,7 +3037,7 @@
   "tube_id": "eml-5u4g-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3057,7 +3058,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G KRON KR-Audio rectifier Update 2025 Version"
   },
@@ -3068,7 +3069,7 @@
   "tube_id": "kr-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -3089,7 +3090,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G Linlai rectifier tube Coke Bottle shoulder Shape"
   },
@@ -3100,7 +3101,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3121,7 +3122,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G PSVANE HiFi series tube Coke Bottle shoulder Shape"
   },
@@ -3132,7 +3133,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3153,7 +3154,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G S4GB rectifier tube handselected for Guitar&Basses"
   },
@@ -3164,7 +3165,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3185,7 +3186,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G Shuguang Coke Bottle 2-way rectifier tube"
   },
@@ -3196,7 +3197,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3217,7 +3218,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G Svetlana SED (=5Z3S) winged =C= rectifier tube"
   },
@@ -3228,7 +3229,7 @@
   "tube_id": "nos-svetlana-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3249,7 +3250,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB EHX 2-way rectifier tube Electro Harmonix Röhre"
   },
@@ -3260,7 +3261,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3281,7 +3282,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB JJ Red Label rectifier stronger Version than 5U4G"
   },
@@ -3292,7 +3293,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3313,7 +3314,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB NOS straight glass"
   },
@@ -3324,7 +3325,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3345,7 +3346,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "6C45Pi (6S45P-E) Power Triode"
   },
@@ -3356,7 +3357,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3377,7 +3378,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "6C45Pi EH Gold Pair Harmonix Röhren BTB matched Paar"
   },
@@ -3388,7 +3389,7 @@
   "tube_id": "eh-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -3409,7 +3410,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "6C45Pi EH Goldpin Powertriode use Standardversion instaed"
   },
@@ -3420,7 +3421,7 @@
   "tube_id": "eh-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "keine preisangabe"
   }
@@ -3441,7 +3442,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "E-274B Linlai E-Series tube Global Elite Flagship rectifie"
   },
@@ -3452,7 +3453,7 @@
   "tube_id": "linlai-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3473,7 +3474,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "WE274B Linlai rectifier tube High-End Röhrengleichrichter"
   },
@@ -3484,7 +3485,7 @@
   "tube_id": "linlai-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3505,7 +3506,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "WE274B PSVANE rectifier tube"
   },
@@ -3516,7 +3517,7 @@
   "tube_id": "psvane-we274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3537,7 +3538,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "WE2A3 WR2A3 PSVANE tube High End 2A3 close to RCA tube"
   },
@@ -3548,7 +3549,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3569,7 +3570,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "schneller Versand, weltweit; Vereinigte Staaten von Amerika in Lieferlaender-Liste",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "ZX274B Linlai Audio Recifier High-End Röhren Gleichrichter"
   },
@@ -3580,7 +3581,7 @@
   "tube_id": "linlai-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in den warenkorb"
   }
@@ -3601,7 +3602,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 2A3B PSVANE NEW BOXED VALVE TUBE"
   },
@@ -3612,7 +3613,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3635,7 +3636,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 2A3C GOLDEN DRAGON PREMIUM MATCHED PAIR NEW"
   },
@@ -3646,7 +3647,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3669,7 +3670,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-07",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 2A3C SHUGUANG CERAMIC GOLD PIN NEW BOXED"
   },
@@ -3678,11 +3679,13 @@
   "source_task": "listings-eu-uk",
   "usd_est": 158.82,
   "tube_id": "shuguang-2a3",
-  "stale": true,
+  "stale": false,
   "check": {
-   "at": "2026-11-08",
-   "status": "snippet-missing",
-   "stock_source": "no-anchor"
+   "at": "2026-11-09",
+   "status": "ok",
+   "stock_source": "langrex",
+   "extractor": "langrex",
+   "note": "product summary: price 120.0, stock '12 in stock'"
   }
  },
  {
@@ -3701,7 +3704,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 GOLDEN DRAGON MATCHED PAIR NEW VALVE TUBE"
   },
@@ -3712,7 +3715,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3735,7 +3738,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3 PREMIUM GOLDEN DRAGON MATCHED PAIR NEW VALVE"
   },
@@ -3746,7 +3749,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3769,7 +3772,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B FULL MUSIC GLOBE SHAPE MATCHED PAIR VALVE"
   },
@@ -3780,7 +3783,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3803,7 +3806,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B FULL MUSIC SHOULDERED PAIR NEW BOXED VALVE"
   },
@@ -3814,7 +3817,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3837,7 +3840,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G U52 GEC MOV BASE NOS BOXED VALVE"
   },
@@ -3848,7 +3851,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3871,7 +3874,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G U52 OSRAM BLACK PLATE NOS BOXED VALVE"
   },
@@ -3882,7 +3885,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3905,7 +3908,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide Order under GBP100 - GBP12.00, over GBP100 - GBP15.00, Tracked and insured Royal Mail service",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "U52 5U4G OSRAM MOV ROUND BASE NOS BOXED"
   },
@@ -3916,7 +3919,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "langrex",
    "extractor": "langrex",
@@ -3939,7 +3942,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB-ELECTRO HARMONIX AKA MESA 5U4GB MESA SELECT TYPE"
   },
@@ -3950,7 +3953,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -3971,7 +3974,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB-GROOVE TUBES SUPER PREMIUM"
   },
@@ -3982,7 +3985,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4003,7 +4006,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JJ Tesla / 5U4GB-JJ TESLA"
   },
@@ -4014,7 +4017,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4035,7 +4038,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4GB-PHILIPS JAN BLACK PLATE"
   },
@@ -4046,7 +4049,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4067,7 +4070,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Marconi / 5U4GB/U52-MARCONI BLACK PLATE"
   },
@@ -4078,7 +4081,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4099,7 +4102,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Harma Cryo  / 5U4GB-HARMA RETRO CRYO"
   },
@@ -4110,7 +4113,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4131,7 +4134,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JJ Tesla Cryo  / 5U4GB-JJ TESLA CRYO"
   },
@@ -4142,7 +4145,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4163,7 +4166,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "The Sovtek 6C45PI is a single triode preamp"
   },
@@ -4174,7 +4177,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4195,7 +4198,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "Export Sales section acknowledges international orders; ships via Royal Mail or UPS; no explicit USA mention",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Sovtek / 6C45PI-E-SOVTEK REFLECTOR"
   },
@@ -4206,7 +4209,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4227,7 +4230,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Sovtek 2A3 Valve | HIFICollective"
   },
@@ -4238,7 +4241,7 @@
   "tube_id": "sovtek-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4259,7 +4262,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Electro Harmonix 2A3 Gold Pin Valve"
   },
@@ -4270,7 +4273,7 @@
   "tube_id": "eh-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4291,7 +4294,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JJ Electronic 2A3 - 40W Valve"
   },
@@ -4302,7 +4305,7 @@
   "tube_id": "jj-2a3-40",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4323,7 +4326,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 2A3-T, Premium Grade Valve, matched"
   },
@@ -4334,7 +4337,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4355,7 +4358,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane Hi-Fi Series 2A3-B Valve, matched pair"
   },
@@ -4366,7 +4369,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4387,7 +4390,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane WR2A3 Valve, matched pair"
   },
@@ -4398,7 +4401,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4419,7 +4422,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Genalex Gold Lion PX2A3 Valve, Matched Pair"
   },
@@ -4430,7 +4433,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4451,7 +4454,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Russian 6C45P Valve | HIFICollective"
   },
@@ -4462,7 +4465,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4483,7 +4486,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Sovtek 6C45Pi Valve | HIFICollective"
   },
@@ -4494,7 +4497,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4515,7 +4518,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Mesa Boogie 5U4G Valve"
   },
@@ -4526,7 +4529,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "out of stock"
   }
@@ -4547,7 +4550,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G Russian Valve | HIFICollective"
   },
@@ -4558,7 +4561,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4579,7 +4582,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Electro Harmonix 5U4GB Valve"
   },
@@ -4590,7 +4593,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "out of stock"
   }
@@ -4611,7 +4614,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Mesa Boogie 5U4GB Valve"
   },
@@ -4622,7 +4625,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "out of stock"
   }
@@ -4643,7 +4646,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JJ Electronic 5U4GB Valve"
   },
@@ -4654,7 +4657,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4675,7 +4678,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane Hi-Fi Series 5U4G Valve, single valve"
   },
@@ -4686,7 +4689,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4707,7 +4710,7 @@
   "order_path": "none",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 274B Valve, Premium Grade, single"
   },
@@ -4718,7 +4721,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4739,7 +4742,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane MK2 T-Series 274B Valve, Premium Grade, matched"
   },
@@ -4750,7 +4753,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -4771,7 +4774,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane WE274B Western Electric Replica Valve, matched pair"
   },
@@ -4782,7 +4785,7 @@
   "tube_id": "psvane-we274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4803,7 +4806,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "International courier services (FedEx International Connect Plus); Rest of the World 7-21 working days; non-UK import VAT/duty may apply",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane ACME 274B Valve, matched pair"
   },
@@ -4814,7 +4817,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -4835,7 +4838,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "EML 2A3-Mesh (Matched Pair)"
   },
@@ -4846,7 +4849,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -4870,7 +4873,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "EML 2A3-Mesh-Globe (Matched Pair)"
   },
@@ -4881,7 +4884,7 @@
   "tube_id": "eml-2a3-mesh-globe",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -4904,7 +4907,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "EML 2A3-S (Matched Pair)"
   },
@@ -4915,7 +4918,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -4939,7 +4942,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Quad matching for 2A3 Versions"
   },
@@ -4950,7 +4953,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -4973,7 +4976,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "EML 300B25 Mesh (Matched Pair) 2A3"
   },
@@ -4984,7 +4987,7 @@
   "tube_id": "eml-2a3-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -5008,7 +5011,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "EML 274B -Mesh (One tube)"
   },
@@ -5019,7 +5022,7 @@
   "tube_id": "eml-274b-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -5043,7 +5046,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "EML 5U4G-Mesh (One tube)"
   },
@@ -5054,7 +5057,7 @@
   "tube_id": "eml-5u4g-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -5078,7 +5081,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "2A3. Sylvania NOS. NOS"
   },
@@ -5089,7 +5092,7 @@
   "tube_id": "nos-sylvania-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -5112,7 +5115,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G / GZ31.=C= Logo.Svetlana NOS"
   },
@@ -5123,7 +5126,7 @@
   "tube_id": "nos-svetlana-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -5146,7 +5149,7 @@
   "order_path": "email",
   "ships_to_us": "yes",
   "ships_to_us_note": "Worldwide sales: JAC Music; order form lists USA as shipment country",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "5U4G / GZ31.Other Logo. NOS"
   },
@@ -5157,7 +5160,7 @@
   "tube_id": "nos-svetlana-5u4g",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "jacmusic",
    "extractor": "jacmusic",
@@ -5180,7 +5183,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Electro-Harmonix 2A3 EH Gold Grid Power Vacuum Tube"
   },
@@ -5191,7 +5194,7 @@
   "tube_id": "eh-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -5212,7 +5215,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN-CRC RCA 2A3 Power Vacuum Tube"
   },
@@ -5223,7 +5226,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "add to cart"
   }
@@ -5255,7 +5258,7 @@
   "tube_id": "shuguang-2a3",
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "snippet-missing",
    "stock_source": "no-anchor"
   }
@@ -5287,7 +5290,7 @@
   "tube_id": "shuguang-2a3",
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "snippet-missing",
    "stock_source": "no-anchor"
   }
@@ -5319,7 +5322,7 @@
   "tube_id": "sovtek-2a3",
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "snippet-missing",
    "stock_source": "no-anchor"
   }
@@ -5340,7 +5343,7 @@
   "order_path": "email",
   "ships_to_us": "unknown",
   "ships_to_us_note": "export price excl. VAT",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "ER274B Filament Voltage 5 V Filament Current 2 A Peak Inverse Voltage 1500 V"
   },
@@ -5351,7 +5354,7 @@
   "tube_id": "elrog-er274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -5372,7 +5375,7 @@
   "order_path": "email",
   "ships_to_us": "unknown",
   "ships_to_us_note": "export price excl. VAT",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "ER5U4G Filament Voltage 5 V Filament Current 3 A Peak Inverse Voltage 1550 V"
   },
@@ -5383,7 +5386,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -5404,7 +5407,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Tube New Sovtek 2A3"
   },
@@ -5415,7 +5418,7 @@
   "tube_id": "sovtek-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "button has been removed",
    "price_seen": 159.95
@@ -5437,7 +5440,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "USPS (Trackable) USA/INTN'L: Delivery is 5-10 business days to most major USA Cities",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "TAKATSUKI TA-2A3 Triode Vacuum Tubes"
   },
@@ -5448,7 +5451,7 @@
   "tube_id": "takatsuki-ta-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5469,7 +5472,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Electro Harmonix 2A3 Gold Grid"
   },
@@ -5480,7 +5483,7 @@
   "tube_id": "eh-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "button has been removed",
    "price_seen": 184.95
@@ -5502,7 +5505,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "TAKATSUKI TA-274B Rectifier Vacuum Tubes"
   },
@@ -5513,7 +5516,7 @@
   "tube_id": "takatsuki-ta-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "button has been removed"
   }
@@ -5534,7 +5537,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Electro Harmonix 5U4GB / 5U4GT"
   },
@@ -5545,7 +5548,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "button has been removed",
    "price_seen": 27.95
@@ -5567,7 +5570,7 @@
   "order_path": "cart",
   "ships_to_us": "no",
   "ships_to_us_note": "dealer removes the cart button for US visitors (territory restriction)",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Tube New Sovtek 6C45Pi-E"
   },
@@ -5578,7 +5581,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "button has been removed",
    "price_seen": 56.95
@@ -5600,7 +5603,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Genalex Gold Lion PX-2A3 Vacuum Tube"
   },
@@ -5611,7 +5614,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5632,7 +5635,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Electro-Harmonix 2A3 Gold Grid Vacuum Tube"
   },
@@ -5643,7 +5646,7 @@
   "tube_id": "eh-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5664,7 +5667,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Sovtek 2A3 Triode Vacuum Tube"
   },
@@ -5675,7 +5678,7 @@
   "tube_id": "sovtek-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5696,7 +5699,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Sovtek 6C45Pi Vacuum Tube"
   },
@@ -5707,7 +5710,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5728,7 +5731,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Pair (2) Sovtek 6C45Pi Vacuum Tubes"
   },
@@ -5739,7 +5742,7 @@
   "tube_id": "sovtek-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5760,7 +5763,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Electro-Harmonix 5U4GB Vacuum Tube"
   },
@@ -5771,7 +5774,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5792,7 +5795,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New JJ 5U4GB Rectifier Vacuum Tube"
   },
@@ -5803,7 +5806,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5824,7 +5827,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Pair (2) Genalex Gold Lion PX-2A3 Vacuum Tubes"
   },
@@ -5835,7 +5838,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5856,7 +5859,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Pair (2) Sovtek 2A3 Triode Vacuum Tubes"
   },
@@ -5867,7 +5870,7 @@
   "tube_id": "sovtek-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5888,7 +5891,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Pair (2) Electro-Harmonix 5U4GB Vacuum Tubes"
   },
@@ -5899,7 +5902,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5920,7 +5923,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Pair (2) JJ 5U4GB Rectifier Vacuum Tubes"
   },
@@ -5931,7 +5934,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5952,7 +5955,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Quad (4) Electro-Harmonix 5U4GB Vacuum Tubes"
   },
@@ -5963,7 +5966,7 @@
   "tube_id": "eh-5u4gb",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -5984,7 +5987,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "shipped in the USA",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "New Matched Quad (4) JJ 5U4GB Rectifier Vacuum Tubes"
   },
@@ -5995,7 +5998,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "bigcommerce-instock"
   }
@@ -6016,7 +6019,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "The classic black bi-plate unit"
   },
@@ -6027,7 +6030,7 @@
   "tube_id": "nos-rca-2a3-bi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "vintagetubeservices",
    "extractor": "vintagetubeservices",
@@ -6051,7 +6054,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Fully date coded mirror matched pair"
   },
@@ -6062,7 +6065,7 @@
   "tube_id": "nos-rca-2a3-bi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "vintagetubeservices",
    "extractor": "vintagetubeservices",
@@ -6086,7 +6089,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Here come the series string tubes"
   },
@@ -6097,7 +6100,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "vintagetubeservices",
    "extractor": "vintagetubeservices",
@@ -6121,7 +6124,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Tall bottle. The re-engineered straight sided"
   },
@@ -6132,7 +6135,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "vintagetubeservices",
    "extractor": "vintagetubeservices",
@@ -6156,7 +6159,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "1950's New Old Stock, all matched the same"
   },
@@ -6167,7 +6170,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "vintagetubeservices",
    "extractor": "vintagetubeservices",
@@ -6191,7 +6194,7 @@
   "order_path": "phone",
   "ships_to_us": "yes",
   "ships_to_us_note": "orders should be shipped within 4 days",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "GE 1950's - 1960's H.V. Test 10 $64.00"
   },
@@ -6202,7 +6205,7 @@
   "tube_id": null,
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "vintagetubeservices",
    "extractor": "vintagetubeservices",
@@ -6226,7 +6229,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "TA-2A3 Takatsuki Tube (In Pair)"
   },
@@ -6237,7 +6240,7 @@
   "tube_id": "takatsuki-ta-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6258,7 +6261,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Takatsuki TA-2A3 Tube (In Quad)"
   },
@@ -6269,7 +6272,7 @@
   "tube_id": "takatsuki-ta-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6290,7 +6293,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "TA-274B Takatsuki Tube (In Each)"
   },
@@ -6301,7 +6304,7 @@
   "tube_id": "takatsuki-ta-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6322,7 +6325,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "TA-274B Takatsuki Tube (In Pair)"
   },
@@ -6333,7 +6336,7 @@
   "tube_id": "takatsuki-ta-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "in stock"
   }
@@ -6354,7 +6357,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Sophia Mesh Plate Tube (In Each)"
   },
@@ -6365,7 +6368,7 @@
   "tube_id": "sophia-274b-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6386,7 +6389,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Sophia Mesh Plate Tube (In Pair)"
   },
@@ -6397,7 +6400,7 @@
   "tube_id": "sophia-274b-mesh",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6418,7 +6421,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Sophia Aqua III Tube (In Each)"
   },
@@ -6429,7 +6432,7 @@
   "tube_id": "sophia-aqua-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6450,7 +6453,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "274B Sophia Aqua III Blue Glass Tube"
   },
@@ -6461,7 +6464,7 @@
   "tube_id": "sophia-aqua-274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6482,7 +6485,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Pair)"
   },
@@ -6493,7 +6496,7 @@
   "tube_id": "eh-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6514,7 +6517,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "6C45Pi Electro Harmonix Gold-pin Tube (In Quad)"
   },
@@ -6525,7 +6528,7 @@
   "tube_id": "eh-6c45pi",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6546,7 +6549,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "JAN RCA 2A3 Tube (New Old Stock in Quad)"
   },
@@ -6557,7 +6560,7 @@
   "tube_id": "nos-rca-2a3-single",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6578,7 +6581,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane WE274B Tube from $320.00"
   },
@@ -6589,7 +6592,7 @@
   "tube_id": "psvane-we274b",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6610,7 +6613,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane ACME 2A3 Tube (In Pair)"
   },
@@ -6621,7 +6624,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6642,7 +6645,7 @@
   "order_path": "cart",
   "ships_to_us": "yes",
   "ships_to_us_note": "Free shipping within CONUS",
-  "fetched_at": "2026-11-08",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Psvane ACME 2A3 Tube (In Quad)"
   },
@@ -6653,7 +6656,7 @@
   "tube_id": "psvane-2a3",
   "stale": false,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "ok",
    "stock_source": "none"
   }
@@ -6685,7 +6688,7 @@
   "tube_id": "sophia-aqua-274b",
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "error",
    "note": "HTTP Error 429: Too Many Requests"
   }
@@ -6717,7 +6720,7 @@
   "tube_id": "sophia-274b-mesh",
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "error",
    "note": "HTTP Error 429: Too Many Requests"
   }
@@ -6749,7 +6752,7 @@
   "tube_id": null,
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "error",
    "note": "HTTP Error 429: Too Many Requests"
   }
@@ -6770,7 +6773,7 @@
   "order_path": "cart",
   "ships_to_us": "unknown",
   "ships_to_us_note": "",
-  "fetched_at": "2026-11-04",
+  "fetched_at": "2026-11-09",
   "evidence": {
    "snippet": "Sophia Electric Blue Glass 2A3 Tubes"
   },
@@ -6779,11 +6782,11 @@
   "source_task": "listings-woo-sophia",
   "usd_est": 399.99,
   "tube_id": "sophia-2a3-mesh",
-  "stale": true,
+  "stale": false,
   "check": {
-   "at": "2026-11-08",
-   "status": "error",
-   "note": "HTTP Error 429: Too Many Requests"
+   "at": "2026-11-09",
+   "status": "ok",
+   "stock_source": "add to cart"
   }
  },
  {
@@ -6813,7 +6816,7 @@
   "tube_id": null,
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "error",
    "note": "HTTP Error 429: Too Many Requests"
   }
@@ -6845,7 +6848,7 @@
   "tube_id": "sophia-aqua-274b",
   "stale": true,
   "check": {
-   "at": "2026-11-08",
+   "at": "2026-11-09",
    "status": "error",
    "note": "HTTP Error 429: Too Many Requests"
   }
